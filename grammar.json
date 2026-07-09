@@ -22,5 +22,2526 @@
     "a": "in",
     "choices": ["at", "on", "in", "by"],
     "explain": "【考點：固定片語】多益核心商務片語：『in advance』代表『提前、預先』。全句意為：所有與會者都被要求提前註冊，以確保在主禮堂有座位。故選 (C)。"
+  },
+  {
+    "id": "g004",
+    "cat": "詞性判斷-副詞",
+    "q": "The newly appointed manager _______ accepted the award on behalf of the entire marketing department.",
+    "a": "graciously",
+    "choices": ["gracious", "graciously", "graciousness", "grace"],
+    "explain": "【考點：副詞修飾動詞】空格後為動詞 accepted（接受）。句子的主詞是 manager，此處需要填入一個『副詞（-ly）』來修飾後面的動詞，表達『優雅地、客氣地』接受獎項。故選 (B)。"
+  },
+  {
+    "id": "g005",
+    "cat": "詞性判斷-名詞",
+    "q": "All employees must obtain written _______ from their direct supervisor before ordering new office equipment.",
+    "a": "approval",
+    "choices": ["approve", "approved", "approval", "approvingly"],
+    "explain": "【考點：及物動詞後的受詞】obtain（獲得）為及物動詞，其後需要接一個『名詞』作為受詞。written 在此為形容詞修飾該名詞。注意 approval 雖然字尾是 -al，但它是名詞（批准/許可），而非形容詞。故選 (C)。"
+  },
+  {
+    "id": "g006",
+    "cat": "動詞時態-未來式",
+    "q": "The tech support team _______ the corporate servers this coming weekend, so internal networks will be temporarily offline.",
+    "a": "will upgrade",
+    "choices": ["upgraded", "upgrades", "will upgrade", "have upgraded"],
+    "explain": "【考點：未來時間副詞】句中出現關鍵時間副詞 『this coming weekend』（即將到來的週末），且後半句使用了未來式 will be，明確指示動作尚未發生，必須使用未來式。故選 (C)。"
+  },
+  {
+    "id": "g007",
+    "cat": "主被動語態",
+    "q": "The final itinerary for the upcoming business conference _______ to all international delegates yesterday afternoon.",
+    "a": "was emailed",
+    "choices": ["emailed", "was emailed", "is emailing", "will email"],
+    "explain": "【考點：被動語態 + 過去時間】主詞是行程表（itinerary），它自己不會發信，而是『被發送』給代表們，因此需要被動語態（be + P.P.）。再看到時間副詞 yesterday afternoon（昨天下午）得知為過去式。故選 (B)。"
+  },
+  {
+    "id": "g008",
+    "cat": "主謂一致(單複數)",
+    "q": "The cost of upgrading the manufacturing facilities _______ significantly over the past three fiscal quarters.",
+    "a": "has risen",
+    "choices": ["have risen", "has risen", "rising", "are rising"],
+    "explain": "【考點：核心主詞單複數判斷】不要被空格前複數的 facilities 騙了！這句話真正的核心主詞是前面的 『The cost』（單數），中間的 of upgrading... 只是修飾語。主詞為單數，因此助動詞必須用單數的 has。故選 (B)。"
+  },
+  {
+    "id": "g009",
+    "cat": "常考介系詞",
+    "q": "_______ the severe weather conditions and flight delays, Mr. Tanaka managed to arrive on time for the contract signing.",
+    "a": "Despite",
+    "choices": ["Although", "Despite", "However", "Because"],
+    "explain": "【考點：介系詞 vs 連接詞】空格後接的是一個名詞片語（the severe weather...），沒有主詞和動詞，因此空格必須填入『介系詞』。Although 是連接詞後面要接句子；Despite 是介系詞（儘管），符合語意與語法。故選 (B)。"
+  },
+  {
+    "id": "g010",
+    "cat": "常考連接詞",
+    "q": "_______ the product demo video was highly informative, it failed to attract a significant number of pre-orders.",
+    "a": "While",
+    "choices": ["While", "In spite of", "Therefore", "During"],
+    "explain": "【考點：讓步連接詞】空格後是一個完整的句子（the product demo video was...），空格處需要填入『連接詞』。While 除了當『當...時候』，在多益更常考『雖然、儘管（＝Although）』的讓步用法，帶出前後對比的語意。故選 (A)。"
+  },
+  {
+    "id": "g011",
+    "cat": "代名詞所有格",
+    "q": "The board members expressed _______ deep gratitude to the departing CEO for his exceptional leadership.",
+    "a": "their",
+    "choices": ["them", "their", "themselves", "theirs"],
+    "explain": "【考點：所有格修飾名詞】空格後為名詞片語 deep gratitude（深切的感激）。修飾名詞前面必須使用『所有格代名詞』。主詞為複數的 board members，對應的所有格為 their（他們的）。故選 (B)。"
+  },
+  {
+    "id": "g012",
+    "cat": "反身代名詞",
+    "q": "Experienced graphic designers usually prefer to customize the software templates _______ rather than using the defaults.",
+    "a": "themselves",
+    "choices": ["them", "their", "themselves", "they"],
+    "explain": "【考點：反身代名詞強調用法】當主詞自己做出某個動作（不需要別人幫忙）時，句尾會使用反身代名詞來加強語氣。這裡指設計師們偏好『他們自己』去客製化範本。故選 (C)。"
+  },
+  {
+    "id": "g013",
+    "cat": "詞性判斷-形容詞",
+    "q": "The legal department issued a statement emphasizing that all customer data must remain strictly _______.",
+    "a": "confidential",
+    "choices": ["confidential", "confidentially", "confidentiality", "confidence"],
+    "explain": "【考點：連綴動詞後的形容詞補語】remain（保持）在此作為連綴動詞，後面必須接『形容詞』作為主詞補語。strictly 是副詞，用來修飾該形容詞。confidential 代表『保密的』。故選 (A)。"
+  },
+  {
+    "id": "g014",
+    "cat": "關係代名詞",
+    "q": "The company is looking for an experienced accountant _______ can manage international tax auditing processes.",
+    "a": "who",
+    "choices": ["who", "which", "whom", "whose"],
+    "explain": "【考點：關係代名詞主格】空格前先行詞為人（an experienced accountant），空格後直接出現動詞 can manage，代表此處缺乏一個兼具連接詞與主詞功能的『主格關係代名詞』，故選 (A) who。"
+  },
+  {
+    "id": "g015",
+    "cat": "多益常考分詞形容詞",
+    "q": "The HR director presented a _______ training program designed to improve the customer service team's communication skills.",
+    "a": "revised",
+    "choices": ["revise", "revising", "revised", "revision"],
+    "explain": "【考點：分詞作形容詞】空格需要填入一個形容詞來修飾後面的 training program（培訓計畫）。計畫本身不會主動去修訂，而是『被修訂、修改過』的計畫，因此要用過去分詞（V-ed）轉形容詞。故選 (C)。"
+  },
+  {
+    "id": "g016",
+    "cat": "情緒分詞",
+    "q": "The marketing team was extremely _______ by the overwhelming response to their new social media campaign.",
+    "a": "excited",
+    "choices": ["excite", "exciting", "excited", "excitement"],
+    "explain": "【考點：情緒分詞 V-ed 飾人】多益鐵律：形容『人的心理感覺』要用 V-ed（感到...的）；形容『事物的特質』要用 V-ing（令人...的）。這裡主詞是人（The marketing team），表達他們感到很興奮，故選 (C)。"
+  },
+  {
+    "id": "g017",
+    "cat": "固定片語(不定詞)",
+    "q": "Due to unexpected budget cuts, the department head was reluctant _______ the temporary contract workers.",
+    "a": "to hire",
+    "choices": ["hire", "hiring", "to hire", "hired"],
+    "explain": "【考點：形容詞搭配不定詞片語】多益極高頻商務形容詞片語：『be reluctant to + 原型動詞』，代表『不情願做某事、對某事感到勉強』。故選 (C)。"
+  },
+  {
+    "id": "g018",
+    "cat": "名詞子句引導詞",
+    "q": "The research lab will determine _______ the new compound is safe for mass production by the end of the quarter.",
+    "a": "whether",
+    "choices": ["whether", "that", "what", "which"],
+    "explain": "【考點：名詞子句引導詞-是否】determine（判定/決定）是及物動詞，後面需要一個名詞子句當受詞。根據後半句的 is safe for...（是否安全），語意上代表不確定的情況，使用 『whether... (or not)』表達『是否』最符合句意。故選 (A)。"
+  },
+  {
+    "id": "g019",
+    "cat": "動詞時態-現在完成式",
+    "q": "Mr. Harrison _______ as the chief financial officer of Apex Enterprises since the company relocated its headquarters to Chicago.",
+    "a": "has served",
+    "choices": ["serves", "served", "has served", "is serving"],
+    "explain": "【考點：since 引導的完成式時態】句中出現關鍵字 『since（自從）』引導過去式子句（relocated）。在英文語法中，主要子句必須使用『現在完成式（have/has + P.P.）』，表達從過去某個時間點持續到現在的狀態。故選 (C)。"
+  },
+  {
+    "id": "g020",
+    "cat": "動詞時態-過去完成式",
+    "q": "By the time the tech support team arrived to fix the network, the venue coordinator _______ already rescheduled the presentation.",
+    "a": "had",
+    "choices": ["has", "had", "was", "did"],
+    "explain": "【考點：By the time 過去完成式】『By the time + 過去式動詞（arrived）』，代表『到了...的時候（過去某時）』。而在那個過去時間點之前就已經完成的動作，必須使用『過去完成式（had + P.P.）』。故選 (B)。"
+  },
+  {
+    "id": "g021",
+    "cat": "要求動詞與虛擬式",
+    "q": "The committee strongly recommends that Mr. Vance _______ the financial report before the annual shareholders' meeting.",
+    "a": "review",
+    "choices": ["review", "reviews", "reviewed", "is reviewing"],
+    "explain": "【考點：建議/要求動詞後的意志子句】在表示建議（recommend, suggest, advise）或命令要求（insist, demand）的動詞後面，that 子句中的動詞必須使用『原型動詞』，因為中間省略了助動詞 should。千萬不要被單數主詞 Mr. Vance 騙去選 reviews！故選 (A)。"
+  },
+  {
+    "id": "g022",
+    "cat": "使役動詞用法",
+    "q": "The regional director will have his executive assistant _______ the newly revised safety guidelines to all branch offices.",
+    "a": "distribute",
+    "choices": ["distribute", "distributes", "distributed", "to distribute"],
+    "explain": "【考點：使役動詞 have + 人 + 原型動詞】這裡的 have 是使役動詞（叫某人做某事），後接主動施做的『人（his executive assistant）』時，後面必須接『原型動詞』。故選 (A)。"
+  },
+  {
+    "id": "g023",
+    "cat": "使役動詞-被動",
+    "q": "The facility manager decided to have the malfunctioning air conditioning system _______ by an external technician.",
+    "a": "repaired",
+    "choices": ["repair", "repairing", "repaired", "to repair"],
+    "explain": "【考點：使役動詞 have + 物 + P.P.】同樣是使役動詞 have，但後面接的是『物（air conditioning system）』。空調系統不會自己修理，它是『被修理』，因此受詞補語必須使用過去分詞（P.P.）。故選 (C)。"
+  },
+  {
+    "id": "g024",
+    "cat": "比較級與修飾副詞",
+    "q": "The update to our inventory tracking software made the delivery process _______ faster than it used to be.",
+    "a": "significantly",
+    "choices": ["significantly", "more", "very", "too"],
+    "explain": "【考點：修飾比較級的副詞】空格後面是比較級形容詞 faster。注意 (C) very 和 (D) too 不能用來修飾比較級；而 faster 本身已經是比較級，前面不能再加 more。只有 significantly（顯著地、大大地）可以作為程度副詞來修飾比較級。故選 (A)。"
+  },
+  {
+    "id": "g025",
+    "cat": "最高級用法",
+    "q": "Of all the entries submitted to the architectural design competition, Ms. Lin's blueprint was by far the _______.",
+    "a": "more innovative",
+    "choices": ["innovative", "more innovative", "most innovative", "innovatively"],
+    "explain": "【考點：最高級判斷】句首出現 『Of all the entries（在所有參賽作品之中）』，明確暗示要在三個或三個以上的事物中做比較，加上後面有定冠詞 the 還有最高級強化的修飾語 by far，因此必須填入最高級。故選 (C)。"
+  },
+  {
+    "id": "g026",
+    "cat": "平行結構(對等連詞)",
+    "q": "The new marketing campaign is designed to be both cost-effective _______ highly engaging for the target audience.",
+    "a": "or",
+    "choices": ["and", "or", "but", "also"],
+    "explain": "【考點：相關對等連詞固定搭配】多益必考對等連詞配對：『both A and B（兩者皆...）』。空格前出現了 both，後面自然要尋找 and 來與之呼應，形成平行結構。故選 (A)。"
+  },
+  {
+    "id": "g027",
+    "cat": "進階介系詞",
+    "q": "The board of directors approved the merger _______ opposition from several major institutional investors.",
+    "a": "notwithstanding",
+    "choices": ["notwithstanding", "although", "whereas", "in case"],
+    "explain": "【考點：高級介系詞辨析】空格後接的是名詞 opposition（反對），所以空格處必須填入介系詞。although 與 whereas 是連接詞（後接句子）；in case 也是連接詞片語。notwithstanding 是多益高階單字，意思是『儘管、雖然（= despite / in spite of）』，作介系詞使用。故選 (A)。"
+  },
+  {
+    "id": "g028",
+    "cat": "複合連接詞",
+    "q": "The factory will resume operations on Monday _______ the safety inspector issues the final clearance certificate before Friday.",
+    "a": "provided that",
+    "choices": ["provided that", "as if", "in order to", "because of"],
+    "explain": "【考點：條件連接詞】空格後面是一個完整的句子，且語意上帶有條件限制。『provided that』是多益商務英文常考的複合連接詞，意思是『只要...、在...的條件下（= as long as / if）』。(C) 和 (D) 後面只能接名詞或動名詞，不符語法。故選 (A)。"
+  },
+  {
+    "id": "g029",
+    "cat": "副詞位置與修飾",
+    "q": "The software engineer _______ checked the database source code for any potential security vulnerabilities.",
+    "a": "thoroughly",
+    "choices": ["thorough", "thoroughly", "thoroughness", "more thorough"],
+    "explain": "【考點：副詞修飾動詞（夾在主詞與動詞間）】這句話的主詞是 engineer，動詞是 checked。空格夾在主詞與動詞之間，是用來修飾後方動詞 checked（檢查）的行為方式。此位置最適合放入『副詞』，thoroughly 代表『徹底地、周密地』。故選 (B)。"
+  },
+  {
+    "id": "g030",
+    "cat": "限定詞與代名詞",
+    "q": "The client requested that _______ of the original blueprints be modified before the final contract is signed.",
+    "a": "each",
+    "choices": ["each", "every", "everywhere", "anyone"],
+    "explain": "【考點：代名詞與限定詞用法】空格後面接的是 『of the original blueprints（複數名詞片語）』。注意 (B) every 是形容詞（限定詞），不能直接接 of（必須說 every one of...）；而 each 則兼具代名詞身份，可以直接寫 『each of + 複數名詞』，代表『底下的每一個』。故選 (A)。"
+  },
+  {
+    "id": "g031",
+    "cat": "常考分詞片語",
+    "q": "Any customer questions _______ the newly implemented refund policy should be directed to the customer relations hotline.",
+    "a": "concerning",
+    "choices": ["concern", "concerned", "concerning", "concerns"],
+    "explain": "【考點：分詞轉介系詞用法】這裡的 concerning 已經轉化為介系詞功能，意思是『關於（= about / regarding）』，用來引導後面的名詞片語 refund policy 並修飾前面的主詞 questions。這題是多益Part 5極高頻的固定慣用語。故選 (C)。"
+  },
+  {
+    "id": "g032",
+    "cat": "不定代名詞與主謂一致",
+    "q": "Neither of the proposed marketing strategies _______ deemed suitable by the executive committee during yesterday's review.",
+    "a": "was",
+    "choices": ["was", "were", "are", "have been"],
+    "explain": "【考點：Neither of + 複數名詞的主謂一致】『Neither of + 複數名詞』結構中，核心主詞是單數的 Neither（兩者皆非）。因此，後方的動詞必須採用『單數動詞』。結合結尾的時間副詞 yesterday，可知要用過去單數動詞 was。故選 (A)。"
+  },
+  {
+    "id": "g033",
+    "cat": "名詞字尾陷阱",
+    "q": "The primary objective of the workshop is to foster greater _______ among team members from different departments.",
+    "a": "collaboration",
+    "choices": ["collaborate", "collaborative", "collaboration", "collaboratively"],
+    "explain": "【考點：及物動詞/形容詞後的名詞受詞】foster（培養、促進）是一個及物動詞，greater（更大的）是形容詞，因此空格處必須填入一個『名詞』來當作 foster 的受詞。字尾 -tion 是標準的名詞字尾（collaboration 合作）。故選 (C)。"
+  },
+  {
+    "id": "g034",
+    "cat": "[陣營A]詞性-副詞修飾動詞",
+    "q": "The laboratory technician _______ calibrated the delicate measuring instruments before the experiment.",
+    "a": "carefully",
+    "choices": ["careful", "carefully", "carefulness", "care"],
+    "explain": "【副詞轟炸 1/4】空格後為動詞 calibrated（校正）。主詞與動詞之間，需要填入『副詞（-ly）』來修飾後面的動詞。故選 (B)。"
+  },
+  {
+    "id": "g035",
+    "cat": "[陣營A]詞性-副詞修飾動詞",
+    "q": "The event coordinator _______ inspected the banquet hall to ensure all decorations were in place.",
+    "a": "thoroughly",
+    "choices": ["thorough", "thoroughly", "thoroughness", "more thorough"],
+    "explain": "【副詞轟炸 2/4】結構完全一樣！空格後為動詞 inspected（檢查），主詞與動詞之間，填入『副詞 thoroughly（徹底地）』來修飾動詞。故選 (B)。"
+  },
+  {
+    "id": "g036",
+    "cat": "[陣營A]詞性-副詞修飾動詞",
+    "q": "Mr. Gomez _______ responded to the client's urgent inquiry regarding the delayed shipment.",
+    "a": "promptly",
+    "choices": ["prompt", "promptly", "promptness", "prompted"],
+    "explain": "【副詞轟炸 3/4】複製貼上的公式！空格後為動詞 responded（回應），夾在主詞與動詞之間的位置，唯一選擇就是『副詞 promptly（迅速地）』。故選 (B)。"
+  },
+  {
+    "id": "g037",
+    "cat": "[陣營A]詞性-副詞修飾動詞",
+    "q": "The security guards _______ monitor the main entrance of the research facility 24 hours a day.",
+    "a": "continuously",
+    "choices": ["continuous", "continuously", "continuity", "continual"],
+    "explain": "【副詞轟炸 4/4】最後一擊！空格後為動詞 monitor（監控），主動詞前面的空格，毫無疑問填入『副詞 continuously（持續地）』。秒殺成功！故選 (B)。"
+  },
+  {
+    "id": "g038",
+    "cat": "[陣營B]詞性-名詞字尾陷阱",
+    "q": "The human resources manager has extended an _______ to the top three candidates for a second interview.",
+    "a": "invitation",
+    "choices": ["invite", "inviting", "invitation", "invited"],
+    "explain": "【名詞轟炸 1/4】不定冠詞 an 後面必須接『名詞』。字尾 -tion 是標準的名詞特徵（invitation 邀請）。故選 (C)。"
+  },
+  {
+    "id": "g039",
+    "cat": "[陣營B]詞性-名詞字尾陷阱",
+    "q": "The engineering team is currently working on a _______ to reduce water consumption in the factory.",
+    "a": "solution",
+    "choices": ["solve", "soluble", "solution", "solved"],
+    "explain": "【名詞轟炸 2/4】同樣公式，冠詞 a 後面需要一個『名詞』當受詞。字尾 -tion 為名詞（solution 解決方案）。故選 (C)。"
+  },
+  {
+    "id": "g040",
+    "cat": "[陣營B]詞性-名詞字尾陷阱",
+    "q": "The marketing supervisor requested a detailed _______ of the latest consumer survey results.",
+    "a": "description",
+    "choices": ["describe", "descriptive", "describing", "description"],
+    "explain": "【名詞轟炸 3/4】又是冠詞 a 後面接名詞！形容詞 detailed（詳細的）用來修飾該名詞。選名詞字尾 -tion（description 描述）。故選 (D)。"
+  },
+  {
+    "id": "g041",
+    "cat": "[陣營B]詞性-名詞字尾陷阱",
+    "q": "The board members finally reached an _______ after three hours of intense discussion.",
+    "a": "agreement",
+    "choices": ["agree", "agreeable", "agreement", "agreeably"],
+    "explain": "【名詞轟炸 4/4】冠詞 an 後面接名詞。除了 -tion，多益另一個超高頻名詞字尾是 『-ment』（agreement 協議/共識）。故選 (C)。"
+  },
+  {
+    "id": "g042",
+    "cat": "[陣營C]時態-現在完成式關鍵字",
+    "q": "The online clothing retailer _______ its sales revenue by twenty percent since last year.",
+    "a": "has increased",
+    "choices": ["increases", "increased", "has increased", "is increasing"],
+    "explain": "【完成式轟炸 1/4】看到黃金關鍵字 『since（自從）』引導過去時間點（last year），前方主要子句必用『現在完成式（have/has + P.P.）』。主詞單數用 has。故選 (C)。"
+  },
+  {
+    "id": "g043",
+    "cat": "[陣營C]時態-現在完成式關鍵字",
+    "q": "Dr. Patel _______ at the community health clinic since he graduated from medical school.",
+    "a": "has volunteered",
+    "choices": ["volunteers", "volunteered", "has volunteered", "is volunteering"],
+    "explain": "【完成式轟炸 2/4】題目變長，公式不變！後半句出現 『since + 過去式子句』，主要子句雷打不動使用『現在完成式』。故選 (C)。"
+  },
+  {
+    "id": "g044",
+    "cat": "[陣營C]時態-現在完成式關鍵字",
+    "q": "The customer relations department _______ over five hundred product inquiries so far this week.",
+    "a": "has handled",
+    "choices": ["handles", "handled", "has handled", "handling"],
+    "explain": "【完成式轟炸 3/4】多益完成式另一個大魔王關鍵字：『so far（到目前為止）』。只要看到它，直接秒選『現在完成式』。故選 (C)。"
+  },
+  {
+    "id": "g045",
+    "cat": "[陣營C]時態-現在完成式關鍵字",
+    "q": "Over the past three decades, Apex Corporation _______ a leader in the renewable energy market.",
+    "a": "has become",
+    "choices": ["becomes", "became", "has become", "becoming"],
+    "explain": "【完成式轟炸 4/4】完成式第三個關鍵字：『Over/In the past + 時間（在過去這段時間以來）』。表達從過去持續到現在，一律用『現在完成式』。故選 (C)。"
+  },
+  {
+    "id": "g046",
+    "cat": "[陣營D]主被動語態辨析",
+    "q": "The annual budget proposal _______ by the executive board members next Tuesday.",
+    "a": "will be reviewed",
+    "choices": ["will review", "will be reviewed", "reviews", "is reviewing"],
+    "explain": "【主被動轟炸 1/4】主詞是預算案（proposal），它不能自己審查，而是『被審查』。加上時間是 next Tuesday（下週二）提示未來式，故選未來被動式（will be + P.P.）。選 (B)。"
+  },
+  {
+    "id": "g047",
+    "cat": "[陣營D]主被動語態辨析",
+    "q": "The quarterly sales performance reports _______ to all regional offices every month.",
+    "a": "are distributed",
+    "choices": ["distribute", "are distributing", "are distributed", "distributed"],
+    "explain": "【主被動轟炸 2/4】主詞是報告（reports），報告是被分發（be + P.P.）。時間提示詞 every month 代表常態事實，用現在被動式。故選 (C)。"
+  },
+  {
+    "id": "g048",
+    "cat": "[陣營D]主被動語態辨析",
+    "q": "The security system at the warehouse _______ by an independent safety firm last night.",
+    "a": "was inspected",
+    "choices": ["inspected", "was inspected", "is inspecting", "will inspect"],
+    "explain": "【主被動轟炸 3/4】主詞是安全系統，它『被檢查』。看句尾時間副詞 last night（昨晚）提示過去時間，故選過去被動式（was/were + P.P.）。選 (B)。"
+  },
+  {
+    "id": "g049",
+    "cat": "[陣營D]主被動語態辨析",
+    "q": "All staff members are reminded that the confidential documents must _______ before leaving the office.",
+    "a": "be shredded",
+    "choices": ["shred", "shredding", "be shredded", "to shred"],
+    "explain": "【主被動轟炸 4/4】助動詞後面考被動！空格前有助動詞 must（必須），後面接 confidential documents（機密文件）。文件必須『被碎紙銷毀』，助動詞後接原型 be + P.P.。故選 (C)。"
+  },
+  {
+    "id": "g050",
+    "cat": "[陣營E]介系詞vs連接詞(雖然/儘管)",
+    "q": "_______ the high price of the tickets, the business leadership seminar was completely sold out.",
+    "a": "Despite",
+    "choices": ["Although", "Despite", "However", "Even though"],
+    "explain": "【介連辨析 1/4】空格後是名詞片語 high price...（沒有動詞），必須選『介系詞』。(A) 和 (D) 是連接詞。Despite（儘管）是介系詞，符合語法。故選 (B)。"
+  },
+  {
+    "id": "g051",
+    "cat": "[陣營E]介系詞vs連接詞(雖然/儘管)",
+    "q": "_______ the tickets were very expensive, the business leadership seminar was completely sold out.",
+    "a": "Although",
+    "choices": ["Although", "Despite", "In spite of", "However"],
+    "explain": "【介連辨析 2/4】跟上一題語意完全一樣，但空格後變成了完整的句子（tickets were... 有主詞動詞）！此時必須選『連接詞』。Although（雖然）是連接詞，故選 (A)。"
+  },
+  {
+    "id": "g052",
+    "cat": "[陣營E]介系詞vs連接詞(因為)",
+    "q": "The outdoor corporate luncheon was moved indoors _______ the heavy rainstorm.",
+    "a": "because of",
+    "choices": ["because", "because of", "since", "as"],
+    "explain": "【介連辨析 3/4】異曲同工！空格後接的是名詞片語 heavy rainstorm，需要『介系詞片語』。because 後面要接句子；because of 才是介系詞。故選 (B)。"
+  },
+  {
+    "id": "g053",
+    "cat": "[陣營E]介系詞vs連接詞(因為)",
+    "q": "The outdoor corporate luncheon was moved indoors _______ it was raining heavily.",
+    "a": "because",
+    "choices": ["because", "because of", "due to", "thanks to"],
+    "explain": "【介連辨析 4/4】最後一關！空格後變成了完整句子（it was raining），所以要選『連接詞』。(B), (C), (D) 全都是介系詞片語，只有 because 是連接詞。秒殺！故選 (A)。"
+  },
+  {
+    "id": "g054",
+    "cat": "[陣營F]代名詞-所有格修飾名詞",
+    "q": "The committee members will present _______ quarterly budget proposal at the general assembly tomorrow.",
+    "a": "their",
+    "choices": ["them", "their", "themselves", "theirs"],
+    "explain": "【所有格轟炸 1/4】空格後為名詞片語 quarterly budget proposal（季度預算案）。修飾名詞前面必須填入『所有格代名詞』。主詞為複數的 members，故選 (B) their（他們的）。"
+  },
+  {
+    "id": "g055",
+    "cat": "[陣營F]代名詞-所有格修飾名詞",
+    "q": "Ms. Davis asked the legal team to review _______ employment contract before signing it.",
+    "a": "her",
+    "choices": ["she", "her", "herself", "hers"],
+    "explain": "【所有格轟炸 2/4】空格後為名詞片語 employment contract（僱傭合約）。空格處需要『所有格』來修飾名詞。主詞是單數女性 Ms. Davis，故選 (B) her（她的）。"
+  },
+  {
+    "id": "g056",
+    "cat": "[陣營F]代名詞-所有格修飾名詞",
+    "q": "Apex Electronics recently updated _______ privacy policy regarding consumer data collection.",
+    "a": "its",
+    "choices": ["it", "its", "itself", "it's"],
+    "explain": "【所有格轟炸 3/4】空格後為名詞片語 privacy policy（隱私政策）。主詞是單數無生命的公司名 Apex Electronics，對應的所有格為 『its（它的）』。注意 (D) it's 是 it is 的縮寫，不符語法。故選 (B)。"
+  },
+  {
+    "id": "g057",
+    "cat": "[陣營F]代名詞-所有格修飾名詞",
+    "q": "Every employee is responsible for keeping _______ workstation clean and organized.",
+    "a": "his or her",
+    "choices": ["him", "his or her", "himself", "they"],
+    "explain": "【所有格轟炸 4/4】空格後為名詞 workstation（工作站）。前方主詞為單數的 Every employee，在英文規範中，單數所有格會用 『his or her（他或她的）』來代稱。故選 (B)。"
+  },
+  {
+    "id": "g058",
+    "cat": "[陣營G]主謂一致-核心主詞單複數",
+    "q": "The layout of the new corporate offices _______ designed to maximize natural light and collaboration.",
+    "a": "is",
+    "choices": ["is", "are", "be", "been"],
+    "explain": "【單複數轟炸 1/4】不要被空格前的複數 offices 騙了！這句話真正的核心主詞是前面的單數名詞 『The layout（格局/設計）』，中間的 of the new... 只是修飾語。主詞為單數，動詞選 (A) is。"
+  },
+  {
+    "id": "g059",
+    "cat": "[陣營G]主謂一致-核心主詞單複數",
+    "q": "The shipment of replacement parts _______ expected to arrive at the warehouse by Friday afternoon.",
+    "a": "is",
+    "choices": ["is", "are", "have", "been"],
+    "explain": "【單複數轟炸 2/4】一模一樣的陷阱！真正的核心主詞是單數的 『The shipment（貨物）』，後面的 of replacement parts 是修飾語。單數主詞搭配單數動詞，故選 (A) is。"
+  },
+  {
+    "id": "g060",
+    "cat": "[陣營G]主謂一致-核心主詞單複數",
+    "q": "The main focus of the upcoming training seminars _______ on improving customer retention rates.",
+    "a": "is",
+    "choices": ["is", "are", "were", "be"],
+    "explain": "【單複數轟炸 3/4】複製貼上的公式。核心主詞是單數的 『The main focus（主要焦點）』，而不是複數的 seminars。因此必須選單數動詞。故選 (A) is。"
+  },
+  {
+    "id": "g061",
+    "cat": "[陣營G]主謂一致-核心主詞單複數",
+    "q": "The feedback from our international clients _______ highly positive regarding the new software update.",
+    "a": "has been",
+    "choices": ["have been", "has been", "are", "were"],
+    "explain": "【單複數轟炸 4/4】核心主詞是 『The feedback（回饋）』。注意 feedback 在英文中是不可數名詞，視為單數。所以助動詞必須選單數的 has been，不能選複數的 have been 或 are/were。故選 (B)。"
+  },
+  {
+    "id": "g062",
+    "cat": "[陣營H]詞性-形容詞修飾名詞",
+    "q": "The company offers a _______ salary and excellent benefits to attract qualified candidates.",
+    "a": "competitive",
+    "choices": ["compete", "competitively", "competitive", "competition"],
+    "explain": "【形容詞轟炸 1/4】空格後為名詞 salary（薪水），前面有冠詞 a，所以空格處必須填入『形容詞』來修飾名詞。字尾 -itive 是常見的形容詞字尾（competitive 有競爭力的）。故選 (C)。"
+  },
+  {
+    "id": "g063",
+    "cat": "[陣營H]詞性-形容詞修飾名詞",
+    "q": "The marketing team created an _______ advertising campaign that significantly boosted sales.",
+    "a": "effective",
+    "choices": ["effect", "effectively", "effective", "effectiveness"],
+    "explain": "【形容詞轟炸 2/4】同樣結構。空格後為名詞片語 advertising campaign（廣告活動），空格處填入『形容詞』修飾它。字尾 -ive 為形容詞（effective 有效的）。故選 (C)。"
+  },
+  {
+    "id": "g064",
+    "cat": "[陣營H]詞性-形容詞修飾名詞",
+    "q": "The product development team needs to find a _______ source of raw materials before next month.",
+    "a": "reliable",
+    "choices": ["rely", "reliably", "reliable", "reliability"],
+    "explain": "【形容詞轟炸 3/4】冠詞 a 和名詞 source（來源）之間，填入『形容詞』。字尾 -able 是常見的形容詞字尾，代表『可...的』（reliable 可靠的）。故選 (C)。"
+  },
+  {
+    "id": "g065",
+    "cat": "[陣營H]詞性-形容詞修飾名詞",
+    "q": "The HR director implemented a _______ training program for all newly hired customer service agents.",
+    "a": "comprehensive",
+    "choices": ["comprehend", "comprehensively", "comprehensive", "comprehension"],
+    "explain": "【形容詞轟炸 4/4】最後一擊。修飾後面的名詞 training program，需要填入『形容詞』。字尾 -ive 結尾的 comprehensive 代表『全面的、廣泛的』。故選 (C)。"
+  },
+  {
+    "id": "g066",
+    "cat": "[陣營I]常考多益單字片語-不定詞搭配",
+    "q": "The hotel staff is always ready _______ guests with their luggage and travel arrangements.",
+    "a": "to assist",
+    "choices": ["assist", "assisting", "to assist", "assisted"],
+    "explain": "【不定詞片語 1/4】多益超高頻固定形容詞句型：『be ready to + 原型動詞』，代表『準備好做某事』。故選 (C)。"
+  },
+  {
+    "id": "g067",
+    "cat": "[陣營I]常考多益單字片語-不定詞搭配",
+    "q": "The executive board is scheduled _______ the annual budget proposal at ten o'clock tomorrow morning.",
+    "a": "to discuss",
+    "choices": ["discuss", "discussing", "to discuss", "discussed"],
+    "explain": "【不定詞片語 2/4】商務英文必考時程片語：『be scheduled to + 原型動詞』，意思是『預定、排定要去做某事』。故選 (C)。"
+  },
+  {
+    "id": "g068",
+    "cat": "[陣營I]常考多益單字片語-不定詞搭配",
+    "q": "All department managers are eligible _______ the corporate wellness program benefits.",
+    "a": "to receive",
+    "choices": ["receive", "receiving", "to receive", "received"],
+    "explain": "【不定詞片語 3/4】多益人資福利題必考片語：『be eligible to + 原型動詞』，代表『有資格、符合條件做某事』。注意如果是接名詞則用 for (be eligible for sth)。這裡後面是動詞短語，故選 (C)。"
+  },
+  {
+    "id": "g069",
+    "cat": "[陣營I]常考多益單字片語-不定詞搭配",
+    "q": "Due to confidentiality agreements, Mr. Tanaka was unable _______ any details about the merger.",
+    "a": "to disclose",
+    "choices": ["disclose", "disclosing", "to disclose", "disclosed"],
+    "explain": "【不定詞片語 4/4】最基礎但也最愛考的片語：『be unable to + 原型動詞』（無法做某事）。disclose 代表透露、公開。故選 (C)。"
+  },
+  {
+    "id": "g070",
+    "cat": "[陣營J]關係代名詞-人vs物",
+    "q": "The company hired a security firm _______ specializes in protecting corporate databases from cyberattacks.",
+    "a": "which",
+    "choices": ["who", "which", "whom", "whose"],
+    "explain": "// 關代轟炸 1/4\n【考點：先行詞為物】空格前的先行詞是 a security firm（安全公司，屬於事物/組織），空格後直接接動詞 specializes，因此需要一個代表物的關係代名詞主格。故選 (B) which。"
+  },
+  {
+    "id": "g071",
+    "cat": "[陣營J]關係代名詞-人vs物",
+    "q": "The IT department is fixing the laser printer _______ broke down during the morning presentation.",
+    "a": "which",
+    "choices": ["who", "which", "whom", "whose"],
+    "explain": "// 關代轟炸 2/4\n【考點：先行詞為物】先行詞是 laser printer（雷射印表機，無生命物體），空格後面接動詞 broke down，需要物的主格關係代名詞。故選 (B) which。"
+  },
+  {
+    "id": "g072",
+    "cat": "[陣營J]關係代名詞-人vs物",
+    "q": "The newly promoted director is interviewing the applicants _______ applied for the marketing position.",
+    "a": "who",
+    "choices": ["who", "which", "whom", "whose"],
+    "explain": "// 關代轟炸 3/4\n【考點：先行詞為人】換成人的關代了！先行詞是 the applicants（求職者們，屬於人），空格後面是動詞 applied，需要人的主格關係代名詞。故選 (A) who。"
+  },
+  {
+    "id": "g073",
+    "cat": "[陣營J]關係代名詞-人vs物",
+    "q": "We need to find a professional translator _______ can translate these technical manuals into Japanese.",
+    "a": "who",
+    "choices": ["who", "which", "whom", "whose"],
+    "explain": "// 關代轟炸 4/4\n【考點：先行詞為人】先行詞是 a professional translator（專業翻譯人員，人），空格後是動詞 can translate，毫無懸念選擇代表人的主格關代。故選 (A) who。"
+  },
+  {
+    "id": "g074",
+    "cat": "[陣營K]分詞形容詞-修飾物品被動",
+    "q": "The facility manager review the _______ safety reports submitted by the inspection team.",
+    "a": "updated",
+    "choices": ["update", "updating", "updated", "updates"],
+    "explain": "【分詞修飾 1/5】空格需要填入形容詞修飾 reports（報告）。報告本身不會主動去更新，而是『被更新的』，因此要用過去分詞（V-ed）轉形容詞。故選 (C)。"
+  },
+  {
+    "id": "g075",
+    "cat": "[陣營K]分詞形容詞-修飾物品被動",
+    "q": "Please return the _______ contract to the human resources department by five o'clock.",
+    "a": "signed",
+    "choices": ["sign", "signing", "signed", "signature"],
+    "explain": "【分詞修飾 2/5】空格修飾 contract（合約）。合約不會自己簽名，而是『被簽署的』，採用過去分詞（V-ed）作為形容詞修飾。故選 (C)。"
+  },
+  {
+    "id": "g076",
+    "cat": "[陣營K]分詞形容詞-修飾物品被動",
+    "q": "The laboratory technician carefully replaced the _______ glass tubes in the testing kit.",
+    "a": "damaged",
+    "choices": ["damage", "damaging", "damaged", "damages"],
+    "explain": "【分詞修飾 3/5】空格修飾 glass tubes（玻璃管）。玻璃管是『被損壞的』，使用過去分詞當形容詞最符合語意。故選 (C)。"
+  },
+  {
+    "id": "g077",
+    "cat": "[陣營K]分詞形容詞-修飾物品被動",
+    "q": "The accounting office sent a _______ copy of the annual financial statement to the board.",
+    "a": "revised",
+    "choices": ["revise", "revising", "revised", "revision"],
+    "explain": "【分詞修飾 4/5】空格修飾 copy（副本/文件）。副本本身是被修訂、修改的，因此選過去分詞轉形容詞的 revised（修訂過的）。故選 (C)。"
+  },
+  {
+    "id": "g078",
+    "cat": "[陣營K]分詞形容詞-修飾物品被動",
+    "q": "Customers can purchase _______ items at a massive discount during our year-end sale.",
+    "a": "selected",
+    "choices": ["select", "selecting", "selected", "selection"],
+    "explain": "【分詞修飾 5/5】空格修飾 items（商品）。商品是『被挑選出來的』特價品，固定說法為 selected items（精選商品）。秒殺！故選 (C)。"
+  },
+  {
+    "id": "g079",
+    "cat": "[陣營L]動詞時態-未來時間提示",
+    "q": "The marketing director _______ the new branding strategy at the company-wide meeting next month.",
+    "a": "will unveil",
+    "choices": ["unveiled", "unveils", "will unveil", "has unveiled"],
+    "explain": "【未來式轟炸 1/5】看到句尾關鍵字 『next month（下個月）』，得知動作尚未發生，毫不猶豫直接選未來式（will + 原型動詞）。故選 (C)。"
+  },
+  {
+    "id": "g080",
+    "cat": "[陣營L]動詞時態-未來時間提示",
+    "q": "We _______ the data migration process this coming weekend to minimize network downtime.",
+    "a": "will complete",
+    "choices": ["completed", "completes", "will complete", "have completed"],
+    "explain": "【未來式轟炸 2/5】看到關鍵時間副詞 『this coming weekend（即將到來的週末）』，提示為未來時間點，選未來式。故選 (C)。"
+  },
+  {
+    "id": "g081",
+    "cat": "[陣營L]動詞時態-未來時間提示",
+    "q": "The procurement team _______ the newly purchased office furniture tomorrow afternoon.",
+    "a": "will assemble",
+    "choices": ["assembled", "assembles", "will assemble", "assembling"],
+    "explain": "【未來式轟炸 3/5】關鍵字 『tomorrow afternoon（明天下午）』，百分之百是未來式。故選 (C)。"
+  },
+  {
+    "id": "g082",
+    "cat": "[陣營L]動詞時態-未來時間提示",
+    "q": "Management _______ the official announcement regarding the corporate merger in a few days.",
+    "a": "will issue",
+    "choices": ["issued", "issues", "will issue", "is issuing"],
+    "explain": "【未來式轟炸 4/5】時間副詞為 『in a few days（幾天之內/幾天后）』，在英文中代表從現在算起的未來時間，選未來式。故選 (C)。"
+  },
+  {
+    "id": "g083",
+    "cat": "[陣營L]動詞時態-未來時間提示",
+    "q": "Dr. Aris _______ the keynote speech at the medical technology convention shortly.",
+    "a": "will deliver",
+    "choices": ["delivered", "delivers", "will deliver", "has delivered"],
+    "explain": "【未來式轟炸 5/5】最後一題！時間副詞為多益超常考的 『shortly（即將、不久）』，等同於 soon，是用來搭配未來式的黃金關鍵字。故選 (C)。"
+  },
+  {
+    "id": "g084",
+    "cat": "[陣營M]代名詞-反身代名詞強調理用法",
+    "q": "The chief executive officer _______ presented the long-service awards to the loyal employees.",
+    "a": "himself",
+    "choices": ["he", "him", "himself", "his"],
+    "explain": "【反身代名詞 1/5】主詞是 CEO，動詞是 presented。夾在主詞與動詞之間用來『強調主詞本人親自做某事』的代名詞，一律用反身代名詞。故選 (C)。"
+  },
+  {
+    "id": "g085",
+    "cat": "[陣營M]代名詞-反身代名詞強調理用法",
+    "q": "Ms. Reynolds _______ drafted the entire proposal without receiving any external assistance.",
+    "a": "herself",
+    "choices": ["she", "her", "herself", "hers"],
+    "explain": "【反身代名詞 2/5】同樣結構。主詞是女性 Ms. Reynolds，空格夾在主詞與動詞 drafted 之間，表示她『自己親自』草擬了整份企劃，選女性反身代名詞。故選 (C)。"
+  },
+  {
+    "id": "g086",
+    "cat": "[陣營M]代名詞-反身代名詞強調理用法",
+    "q": "The committee members _______ will review all the design entries before making a decision.",
+    "a": "themselves",
+    "choices": ["them", "their", "themselves", "theirs"],
+    "explain": "【反身代名詞 3/5】主詞是複數的 committee members，夾在主詞與未來式動詞 will review 之間，用來強調『委員們他們自己本人』要審查。選複數反身代名詞。故選 (C)。"
+  },
+  {
+    "id": "g087",
+    "cat": "[陣營M]代名詞-反身代名詞強調理用法",
+    "q": "The automated system _______ will shut down the machinery if an internal error is detected.",
+    "a": "itself",
+    "choices": ["it", "its", "itself", "it's"],
+    "explain": "【反身代名詞 4/5】主詞是單數無生命/組織的 The automated system（自動化系統）。強調該系統『本身』會自動關機，使用無生命單數反身代名詞 itself。故選 (C)。"
+  },
+  {
+    "id": "g088",
+    "cat": "[陣營M]代名詞-反身代名詞強調理用法",
+    "q": "I _______ verified the shipping information on the invoice to make sure there were no mistakes.",
+    "a": "myself",
+    "choices": ["me", "my", "myself", "mine"],
+    "explain": "【反身代名詞 5/5】主詞是第一人稱單數 I。夾在 I 與動詞 verified 之間，加強語氣表達『我本人親自確認過』。秒殺選 (C) myself。"
+  },
+  {
+    "id": "g089",
+    "cat": "[陣營N]詞性-動詞後的名詞受詞",
+    "q": "The workshop is designed to improve _______ between the management team and the employees.",
+    "a": "communication",
+    "choices": ["communicate", "communicative", "communication", "communicatively"],
+    "explain": "【名詞受詞 1/5】及物動詞片語 improve（改善）後面缺乏一個『名詞』作為受詞。字尾 -tion 為名詞字尾（communication 溝通）。故選 (C)。"
+  },
+  {
+    "id": "g090",
+    "cat": "[陣營N]詞性-動詞後的名詞受詞",
+    "q": "The corporate policy requires all employees to maintain _______ regarding client information.",
+    "a": "confidentiality",
+    "choices": ["confidential", "confidentially", "confidentiality", "confide"],
+    "explain": "【名詞受詞 2/5】及物動詞 maintain（保持/維護）後面需要一個『名詞』當受詞。字尾 -ity 是標準名詞字尾（confidentiality 保密性）。故選 (C)。"
+  },
+  {
+    "id": "g091",
+    "cat": "[陣營N]詞性-動詞後的名詞受詞",
+    "q": "The legal department must complete a thorough _______ of the contract before it can be signed.",
+    "a": "examination",
+    "choices": ["examine", "examined", "examination", "examiner"],
+    "explain": "【名詞受詞 3/5】冠詞 a 和形容詞 thorough（徹底的）後面，必須接一個『名詞』來接受修飾並作為動詞 complete 的受詞。選 -tion 結尾的名詞。故選 (C)。"
+  },
+  {
+    "id": "g092",
+    "cat": "[陣營N]詞性-動詞後的名詞受詞",
+    "q": "The travel agency offers full _______ for cancelled flights under specific conditions.",
+    "a": "reimbursement",
+    "choices": ["reimburse", "reimbursed", "reimbursement", "reimbursable"],
+    "explain": "【名詞受詞 4/5】及物動詞 offers（提供）後面需要名詞當受詞，形容詞 full（全額的）用來修飾該名詞。字尾 -ment 為名詞字尾（reimbursement 退款/報銷）。故選 (C)。"
+  },
+  {
+    "id": "g093",
+    "cat": "[陣營N]詞性-動詞後的名詞受詞",
+    "q": "The online banking security update provides enhanced _______ for all online financial transactions.",
+    "a": "protection",
+    "choices": ["protect", "protective", "protection", "protectively"],
+    "explain": "【名詞受詞 5/5】及物動詞 provides（提供）後面接名詞受詞，此處由過去分詞轉形容詞的 enhanced（增強的）進行修飾。選 -tion 名詞（protection 保護）。故選 (C)。"
+  },
+  {
+    "id": "g094",
+    "cat": "[陣營O]介系詞片語-時間表達",
+    "q": "The IT team managed to restore the network servers _______ two hours of the initial crash.",
+    "a": "within",
+    "choices": ["within", "during", "while", "for"],
+    "explain": "【時間介系詞 1/5】多益核心時間介系詞：『within + 一段時間』，表示『在...時間範圍之內』。此處指在伺服器崩潰的『兩小時之內』成功修復。故選 (A)。"
+  },
+  {
+    "id": "g095",
+    "cat": "[陣營O]介系詞片語-時間表達",
+    "q": "All expense reports must be submitted to the accounting office _______ the end of the month.",
+    "a": "by",
+    "choices": ["by", "until", "on", "for"],
+    "explain": "【時間介系詞 2/5】大熱門考點：by vs until。兩者都翻成『直到』，但 『by』代表『截止時間（動作在時間前完成一次就好）』；until 代表『狀態持續到某時』。提交報告是一次性動作，要用代表截止日期的 by。故選 (A)。"
+  },
+  {
+    "id": "g096",
+    "cat": "[陣營O]介系詞片語-時間表達",
+    "q": "The security guards will remain stationed at the main warehouse gates _______ the factory resumes operations.",
+    "a": "until",
+    "choices": ["until", "by", "during", "at"],
+    "explain": "【時間介系詞 3/5】接續上一題公式！動詞是 remain（保持/留下），這是一個『持續性的狀態』，因此要使用代表狀態持續的 『until（直到...為止）』。故選 (A)。"
+  },
+  {
+    "id": "g097",
+    "cat": "[陣營O]介系詞片語-時間表達",
+    "q": "Mr. Chang has been working as a lead consultant for our firm _______ the past five years.",
+    "a": "for",
+    "choices": ["for", "since", "during", "in"],
+    "explain": "【時間介系詞 4/5】空格後接的是一段具體的時間長度 『the past five years（過去這五年）』。在完成式中，表達持續了『一段時間長度』，固定搭配介系詞 for。注意 since 後面只能接過去的『時間點』。故選 (A)。"
+  },
+  {
+    "id": "g098",
+    "cat": "[陣経O]介系詞片語-時間表達",
+    "q": "The corporate headquarters will be closed _______ the national holiday next Monday.",
+    "a": "during",
+    "choices": ["during", "while", "within", "for"],
+    "explain": "【時間介系詞 5/5】空格後是一個特定的時間事件名詞 『the national holiday（國定假日）』。在英文中，表達『在某特定事件/期間之中』，要使用介系詞 during。注意 while 也是『當...時』但它是連接詞後面必須接句子。故選 (A)。"
+  },
+  {
+    "id": "g099",
+    "cat": "[陣營P]詞性-連綴動詞與形容詞補語",
+    "q": "The new safety protocols implemented in the factory proved highly _______ in reducing workplace accidents.",
+    "a": "effective",
+    "choices": ["effect", "effectively", "effective", "effectiveness"],
+    "explain": "【連綴形容詞 1/5】proved（證明是...）在此做連綴動詞使用，後面必須接『形容詞』作為主詞補語。highly 是副詞，用來修飾該形容詞。選形容詞字尾 -ive。故選 (C)。"
+  },
+  {
+    "id": "g100",
+    "cat": "[陣營P]詞性-連綴動詞與形容詞補語",
+    "q": "The legal department warned that all student records must remain completely _______.",
+    "a": "confidential",
+    "choices": ["confidential", "confidentially", "confidentiality", "confidence"],
+    "explain": "【連綴形容詞 2/5】remain（保持）是經典的連綴動詞，後面必接『形容詞』當補語。completely 是副詞修飾形容詞。選代表保密的形容詞 confidential。故選 (A)。"
+  },
+  {
+    "id": "g101",
+    "cat": "[陣營P]詞性-連綴動詞與形容詞補語",
+    "q": "After reviewing the updated statistics, the board became _______ about the company's Q4 performance.",
+    "a": "optimistic",
+    "choices": ["optimism", "optimistically", "optimistic", "optimize"],
+    "explain": "【連綴形容詞 3/5】became（變得...）是連綴動詞，後方一定要接『形容詞』來形容主詞（the board）的狀態。字尾 -istic 是標準形容詞字尾（optimistic 樂觀的）。故選 (C)。"
+  },
+  {
+    "id": "g102",
+    "cat": "[陣營P]詞性-連綴動詞與形容詞補語",
+    "q": "Although the initial negotiation seemed _______, the two companies eventually signed the contract.",
+    "a": "difficult",
+    "choices": ["difficulty", "difficult", "difficultly", "difficulties"],
+    "explain": "【連綴形容詞 4/5】seemed（似乎、看起來...）是連綴動詞，後方雷打不動必須接『形容詞』。選形容詞 difficult（困難的）。故選 (B)。"
+  },
+  {
+    "id": "g103",
+    "cat": "[陣營P]詞性-連綴動詞與形容詞補語",
+    "q": "The customer relations director wants to ensure that all store guests leave _______ with their shopping experience.",
+    "a": "satisfied",
+    "choices": ["satisfy", "satisfying", "satisfied", "satisfaction"],
+    "explain": "【連綴形容詞 5/5】最後大收尾！leave 在此做為不完全不及物動詞（類似連綴動詞用法），後面需要接『形容詞（分詞）』來修飾主詞 store guests 的狀態。客人是『感到滿意的』，形容人的心理感覺用 V-ed（satisfied）。故選 (C)。"
+  },
+  {
+    "id": "g104",
+    "cat": "[陣營Q]分詞形容詞-修飾人類心理感受",
+    "q": "The store manager was very _______ to see such a high customer turnout at the grand opening.",
+    "a": "pleased",
+    "choices": ["please", "pleasing", "pleased", "pleasure"],
+    "explain": "【心理分詞 1/5】主詞是人類（The store manager），表達人『感到高興的/滿意的』心理感受，必須選過去分詞（V-ed）轉形容詞。故選 (C)。"
+  },
+  {
+    "id": "g105",
+    "cat": "[陣營Q]分詞形容詞-修飾人類心理感受",
+    "q": "The marketing team was _______ to hear that their campaign won the advertising award.",
+    "a": "excited",
+    "choices": ["excite", "exciting", "excited", "excitement"],
+    "explain": "【心理分詞 2/5】主詞是人組成的團隊（The marketing team）。形容人『感到興奮的』，雷打不動使用過去分詞 V-ed。故選 (C)。"
+  },
+  {
+    "id": "g106",
+    "cat": "[陣營Q]分詞形容詞-修飾人類心理感受",
+    "q": "Several shareholders expressed that they were _______ with the company's Q2 financial performance.",
+    "a": "disappointed",
+    "choices": ["disappoint", "disappointing", "disappointed", "disappointment"],
+    "explain": "【心理分詞 3/5】主詞是人（they / shareholders）。形容人對某事『感到失望的』，同樣要選過去分詞 V-ed 的 disappointed。故選 (C)。"
+  },
+  {
+    "id": "g107",
+    "cat": "[陣營Q]分詞形容詞-修飾人類心理感受",
+    "q": "The event organizers were _______ by the sudden change in the convention schedule.",
+    "a": "confused",
+    "choices": ["confuse", "confusing", "confused", "confusion"],
+    "explain": "【心理分詞 4/5】主詞是主辦方人員（The event organizers）。形容人被行程調整搞得『感到困惑的』，選過去分詞 V-ed。故選 (C)。"
+  },
+  {
+    "id": "g108",
+    "cat": "[陣營Q]分詞形容詞-修飾人類心理感受",
+    "q": "Ms. Chang was _______ to learn that her business trip to Tokyo had been fully funded.",
+    "a": "interested",
+    "choices": ["interest", "interesting", "interested", "interests"],
+    "explain": "【心理分詞 5/5】最後一題！主詞是 Ms. Chang（人）。形容人對某事『感到有興趣的/關心的』，固定搭配 interested。秒殺！故選 (C)。"
+  },
+  {
+    "id": "g109",
+    "cat": "[陣營R]動詞時態-過去時間提示",
+    "q": "The human resources department _______ the new employee handbook to all staff members yesterday.",
+    "a": "distributed",
+    "choices": ["distributes", "distributed", "will distribute", "has distributed"],
+    "explain": "【過去式 1/5】看到句尾關鍵字 『yesterday（昨天）』，動作完全屬於過去發生的事實，直接秒選『過去式動詞（V-ed）』。故選 (B)。"
+  },
+  {
+    "id": "g110",
+    "cat": "[陣營R]動詞時態-過去時間提示",
+    "q": "The logistics company _______ the delayed cargo to the manufacturing plant last night.",
+    "a": "delivered",
+    "choices": ["delivers", "delivering", "delivered", "will deliver"],
+    "explain": "【過去式 2/5】關鍵時間提示詞為 『last night（昨晚）』，毫無疑問屬於過去時間，選過去式動詞。故選 (C)。"
+  },
+  {
+    "id": "g111",
+    "cat": "[陣營R]動詞時態-過去時間提示",
+    "q": "Mr. Kapoor _______ his position as regional director two weeks ago to pursue a new career.",
+    "a": "resigned",
+    "choices": ["resigns", "resigned", "will resign", "has resigned"],
+    "explain": "【過去式 3/5】時間副詞出現了多益常客 『two weeks ago（兩週前）』。只要看到 『... ago（以前）』，就是過去式的標準訊號。故選 (B)。"
+  },
+  {
+    "id": "g112",
+    "cat": "[陣營R]動詞時態-過去時間提示",
+    "q": "The tech startup _______ its initial public offering in the second quarter of 2024.",
+    "a": "launched",
+    "choices": ["launches", "launched", "will launch", "is launching"],
+    "explain": "【過去式 4/5】時間提示為 『in the second quarter of 2024（2024年第二季）』。因為現在是 2026 年，過去的年份和時間屬於已發生的事實，必須用過去式。故選 (B)。"
+  },
+  {
+    "id": "g113",
+    "cat": "[陣營R]動詞時態-過去時間提示",
+    "q": "The legal consultants _______ the terms of the merger agreement during the previous session.",
+    "a": "finalized",
+    "choices": ["finalize", "finalizing", "finalized", "will finalize"],
+    "explain": "【過去式 5/5】看清關鍵字！句尾的 『previous（先前的）』代表過去的時間點，直接鎖定過去式動詞。故選 (C)。"
+  },
+  {
+    "id": "g114",
+    "cat": "[陣營S]詞性-形容詞修飾複數名詞",
+    "q": "The factory introduced several _______ methods to improve its production efficiency.",
+    "a": "innovative",
+    "choices": ["innovate", "innovatively", "innovative", "innovation"],
+    "explain": "【形容詞 1/5】限定詞 several（幾個）後面接了複數名詞 methods（方法），空格夾在中間，必然是填入『形容詞』來修飾方法。字尾 -ive 為形容詞。故選 (C)。"
+  },
+  {
+    "id": "g115",
+    "cat": "[陣營S]詞性-形容詞修飾複數名詞",
+    "q": "The consultant provided numerous _______ suggestions during the corporate restructuring process.",
+    "a": "valuable",
+    "choices": ["value", "valuably", "valuable", "valuation"],
+    "explain": "【形容詞 2/5】同樣公式！限定詞 numerous（許多的）與複數名詞 suggestions（建議）之間，需要填入『形容詞』。字尾 -able 為形容詞。故選 (C)。"
+  },
+  {
+    "id": "g116",
+    "cat": "[陣營S]詞性-形容詞修飾複數名詞",
+    "q": "The real estate developer has multiple _______ projects currently underway in the downtown area.",
+    "a": "commercial",
+    "choices": ["commerce", "commercially", "commercial", "commercialize"],
+    "explain": "【形容詞 3/5】限定詞 multiple（多個）與複數名詞 projects（專案）之間，填入『形容詞』修飾。字尾 -cial / -al 是標準的形容詞字尾（commercial 商業的）。故選 (C)。"
+  },
+  {
+    "id": "g117",
+    "cat": "[陣營S]詞性-形容詞修飾複數名詞",
+    "q": "The hotel chain implemented various _______ strategies to attract eco-conscious travelers.",
+    "a": "environmental",
+    "choices": ["environment", "environmentally", "environmental", "environmentalism"],
+    "explain": "【形容詞 4/5】限定詞 various（各種不同的）與複數名詞 strategies（策略）之間，需要填入『形容詞』。字尾 -al 為形容詞（environmental 環境的）。故選 (C)。"
+  },
+  {
+    "id": "g118",
+    "cat": "[陣營S]詞性-形容詞修飾複數名詞",
+    "q": "The marketing audit revealed several _______ errors in the consumer database records.",
+    "a": "technical",
+    "choices": ["technique", "technically", "technical", "technician"],
+    "explain": "【形容詞 5/5】最後一關。修飾後面的複數名詞 errors（錯誤），前面有 several。選形容詞字尾 -al 的 technical（技術上的）。秒殺！故選 (C)。"
+  },
+  {
+    "id": "g119",
+    "cat": "[陣營T]助動詞與情態動詞後接原型",
+    "q": "All store managers must _______ the new inventory system before the peak holiday season.",
+    "a": "implement",
+    "choices": ["implement", "implements", "implemented", "implementing"],
+    "explain": "【原型動詞 1/5】空格前方出現情態助動詞 must（必須）。在英文語法中，助動詞後面雷打不動，一定要接『原型動詞』。故選 (A)。"
+  },
+  {
+    "id": "g120",
+    "cat": "[陣營T]助動詞與情態動詞後接原型",
+    "q": "The supervisor should _______ the safety inspection checklist every Friday morning.",
+    "a": "review",
+    "choices": ["review", "reviews", "reviewed", "reviewing"],
+    "explain": "【原型動詞 2/5】同樣結構。前方為情態助動詞 should（應該），後面毫無疑問直接選『原型動詞』，千萬不要被單數主詞 supervisor 騙去選加 s 的選項。故選 (A)。"
+  },
+  {
+    "id": "g121",
+    "cat": "[陣營T]助動詞與情態動詞後接原型",
+    "q": "The automated backup system will _______ all corporate files at midnight every day.",
+    "a": "archive",
+    "choices": ["archive", "archives", "archived", "archiving"],
+    "explain": "【原型動詞 3/5】未來式助動詞 will 之後，必須接『原型動詞』。archive 意思是存檔、封存。故選 (A)。"
+  },
+  {
+    "id": "g122",
+    "cat": "[陣營T]助動詞與情態動詞後接原型",
+    "q": "The accounting firm can _______ your tax returns electronically within three business days.",
+    "a": "process",
+    "choices": ["process", "processes", "processed", "processing"],
+    "explain": "【原型動詞 4/5】情態助動詞 can（能夠）之後，必須搭配『原型動詞』。process 在此作為及物動詞，意思是處理。故選 (A)。"
+  },
+  {
+    "id": "g123",
+    "cat": "[陣營T]助動詞與情態動詞後接原型",
+    "q": "The marketing department may _______ the launching event if the product is not ready.",
+    "a": "postpone",
+    "choices": ["postpone", "postpones", "postponed", "postponing"],
+    "explain": "【原型動詞 5/5】情態助動詞 may（可能/可以）之後，必然接『原型動詞』。postpone 意思是延期。恭喜通關這組秒殺題！故選 (A)。"
+  },
+  {
+    "id": "g124",
+    "cat": "[陣營U]不定代名詞修飾單數動詞",
+    "q": "Everyone on the research and development team _______ a background in chemical engineering.",
+    "a": "has",
+    "choices": ["have", "has", "having", "are having"],
+    "explain": "【不定代名詞 1/5】多益核心考點：主謂一致。主詞是 『Everyone（每個人）』，在英文中屬於單數不定代名詞，後方必須搭配『單數動詞』。故選 (B) has。"
+  },
+  {
+    "id": "g125",
+    "cat": "[陣營U]不定代名詞修飾單數動詞",
+    "q": "Each of the potential suppliers _______ required to submit a comprehensive business portfolio.",
+    "a": "is",
+    "choices": ["is", "are", "be", "been"],
+    "explain": "【不定代名詞 2/5】核心主詞是 『Each（每一個）』，而不是後面的複數名詞 suppliers！Each 永遠視為單數主詞，因此動詞必須選單數的 (A) is。"
+  },
+  {
+    "id": "g126",
+    "cat": "[陣營U]不定代名詞修飾單數動詞",
+    "q": "Someone from the IT support department _______ to fix the network issues shortly.",
+    "a": "is coming",
+    "choices": ["is coming", "are coming", "come", "coming"],
+    "explain": "【不定代名詞 3/5】主詞是 『Someone（某個人）』，屬於單數不定代名詞。後方動詞必須使用單數形式，故選 (A) is coming。"
+  },
+  {
+    "id": "g127",
+    "cat": "[陣營U]不定代名詞修飾單數動詞",
+    "q": "Anything discussed during this high-level executive meeting _______ strictly confidential.",
+    "a": "remains",
+    "choices": ["remain", "remains", "remaining", "remained"],
+    "explain": "【不定代名詞 4/5】主詞是 『Anything（任何事）』，為單數不定代名詞。敘述常態事实使用現在式，動詞要加 s。故選 (B) remains。"
+  },
+  {
+    "id": "g128",
+    "cat": "[陣營U]不定代名詞修飾單數動詞",
+    "q": "Nobody in the accounting office _______ the password to the legacy financial software.",
+    "a": "knows",
+    "choices": ["know", "knows", "knowing", "known"],
+    "explain": "【不定代名詞 5/5】主詞是 『Nobody（無人）』，同樣是單數不定代名詞。搭配現在式單數動詞，字尾加 s。故選 (B) knows。"
+  },
+  {
+    "id": "g129",
+    "cat": "[陣營V]相關對等連詞固定搭配",
+    "q": "The candidate must possess excellent skills in either public speaking _______ graphic design.",
+    "a": "or",
+    "choices": ["and", "or", "nor", "but"],
+    "explain": "【對等連詞 1/5】看到前面的關鍵字 『either』，直接聯想多益核心黃金配對：『either A or B（二者擇一）』。空格處必填 or。故選 (B)。"
+  },
+  {
+    "id": "g130",
+    "cat": "[陣營V]相關對等連詞固定搭配",
+    "q": "Neither the operations supervisor _______ the factory workers expected the power outage.",
+    "a": "nor",
+    "choices": ["or", "nor", "and", "but"],
+    "explain": "【對等連詞 2/5】看到前方出現關鍵字 『Neither』，直接反射黃金配對：『neither A nor B（兩者皆非）』。空格處必填 nor。故選 (B)。"
+  },
+  {
+    "id": "g131",
+    "cat": "[陣營V]相關對等連詞固定搭配",
+    "q": "The new security software is not only highly effective _______ surprisingly affordable.",
+    "a": "but also",
+    "choices": ["but also", "and", "as well", "instead"],
+    "explain": "【對等連詞 3/5】前方出現 『not only』，直接反射多益極高頻配對：『not only A but also B（不僅...而且...）』。故選 (A)。"
+  },
+  {
+    "id": "g132",
+    "cat": "[陣營V]相關對等連詞固定搭配",
+    "q": "The board decided to invest in both renewable energy projects _______ infrastructure updates.",
+    "a": "and",
+    "choices": ["or", "and", "also", "with"],
+    "explain": "【對等連詞 4/5】前方出現關鍵字 『both』，直接反射固定搭配：『both A and B（兩者皆...）』。故選 (B)。"
+  },
+  {
+    "id": "g133",
+    "cat": "[陣營V]相關對等連詞固定搭配",
+    "q": "Whether the client accepts our proposed budget _______ requests a revision remains to be seen.",
+    "a": "or",
+    "choices": ["and", "or", "but", "nor"],
+    "explain": "【對等連詞 5/5】最後的對等連詞大收尾！前方看到關鍵字 『Whether』，直接反射固定配對：『whether A or B（無論是 A 還是 B）』。故選 (B)。"
+  },
+  {
+    "id": "g134",
+    "cat": "[陣營W]詞性-副詞修飾形容詞",
+    "q": "The laboratory tests proved that the newly developed vaccine is _______ effective against the virus.",
+    "a": "highly",
+    "choices": ["high", "highly", "height", "heighten"],
+    "explain": "【副詞修飾形容詞 1/5】空格後為形容詞 effective（有效的）。在語法結構中，修飾形容詞唯一的選擇就是『副詞（-ly）』。故選 (B) highly（高度地）。"
+  },
+  {
+    "id": "g135",
+    "cat": "[陣營W]詞性-副詞修飾形容詞",
+    "q": "The marketing supervisor requested a _______ detailed report regarding the consumer survey results.",
+    "a": "completely",
+    "choices": ["complete", "completely", "completeness", "completion"],
+    "explain": "【副詞修飾形容詞 2/5】空格後為過去分詞轉形容詞的 detailed（詳細的）。修飾形容詞需要填入『副詞』。故選 (B) completely（完全地）。"
+  },
+  {
+    "id": "g136",
+    "cat": "[陣營W]詞性-副詞修飾形容詞",
+    "q": "The real estate company specializes in purchasing houses that are _______ damaged by natural disasters.",
+    "a": "severely",
+    "choices": ["severe", "severely", "severity", "severeness"],
+    "explain": "【副詞修飾形容詞 3/5】空格後為形容詞（過去分詞）damaged（受損的）。夾在 be 動詞與形容詞之間，百分之百填入『副詞』。故選 (B) severely（嚴重地）。"
+  },
+  {
+    "id": "g137",
+    "cat": "[陣營W]詞性-副詞修飾形容詞",
+    "q": "The financial advisor warned that investing in tech startups is _______ risky for individual investors.",
+    "a": "extremely",
+    "choices": ["extreme", "extremely", "extremity", "extremes"],
+    "explain": "【副詞修飾形容詞 4/5】空格後為形容詞 risky（危險的）。修飾形容詞非副詞莫屬，直接鎖定 -ly 字尾。故選 (B) extremely（極度地）。"
+  },
+  {
+    "id": "g138",
+    "cat": "[陣營W]詞性-副詞修飾形容詞",
+    "q": "The new logistics software made the package tracking system _______ efficient for our clients.",
+    "a": "remarkably",
+    "choices": ["remarkable", "remarkably", "remarkableness", "remarked"],
+    "explain": "【副詞修飾形容詞 5/5】最後一題！受詞補語結構中，efficient（有效率的）是形容詞，前方空格填入『副詞』來修飾它。秒殺選 (B) remarkably（顯著地/非常）。"
+  },
+  {
+    "id": "g139",
+    "cat": "[陣營X]比較級與最高級基本型",
+    "q": "The new automated packaging machine runs _______ than the older model we used last year.",
+    "a": "faster",
+    "choices": ["fast", "faster", "fastest", "fastness"],
+    "explain": "【比較級轟炸 1/5】看到空格後方出現靈魂關鍵字 『than（比）』，前方絕對是搭配『比較級』單字。fast 的比較級為 faster。故選 (B)。"
+  },
+  {
+    "id": "g140",
+    "cat": "[陣營X]比較級與最高級基本型",
+    "q": "The marketing department's secondary proposal was _______ than the initial one.",
+    "a": "more creative",
+    "choices": ["creative", "more creative", "most creative", "creatively"],
+    "explain": "【比較級轟炸 2/5】看到關鍵字 『than』，鎖定比較級。多音節形容詞 creative（有創意的）的比較級要在前面加上 『more』。故選 (B)。"
+  },
+  {
+    "id": "g141",
+    "cat": "[陣營X]比較級與最高級基本型",
+    "q": "Of the three advertising campaigns launched this year, the second one was the _______.",
+    "a": "most successful",
+    "choices": ["successful", "more successful", "most successful", "successfully"],
+    "explain": "【最高級轟炸 3/5】注意關鍵提示！句首寫到 『Of the three...（在三個之中）』，數量大於或等於三個，且空格前有定冠詞 『the』，這屬於『最高級』的標準戰場。故選 (C)。"
+  },
+  {
+    "id": "g142",
+    "cat": "[陣營X]比較級與最高級基本型",
+    "q": "The maintenance team suggested choosing a _______ durable material for the warehouse roof.",
+    "a": "more",
+    "choices": ["much", "more", "most", "many"],
+    "explain": "【比較級轟炸 4/5】雖然句中沒有出現 than，但從文意來看，是在原本的材質與新材質之間作比較（選擇一個『更』耐用的材質）。durable 前方搭配比較級副詞 more。故選 (B)。"
+  },
+  {
+    "id": "g143",
+    "cat": "[陣營X]比較級與最高級基本型",
+    "q": "Mr. Vance is widely considered to be the _______ qualified candidate for the senior executive position.",
+    "a": "most",
+    "choices": ["more", "most", "much", "almost"],
+    "explain": "【最高級轟炸 5/5】空格前出現了定冠詞 『the』，且後面修飾 qualified（有資格的）形容詞，代表他是『最』符合資格的人選（全公司或所有求職者中第一名）。選最高級的 most。故選 (B)。"
+  },
+  {
+    "id": "g144",
+    "cat": "[陣營Y]動詞時態-現在簡單式(事實/常態)",
+    "q": "The direct train to the international airport _______ from platform four every thirty minutes.",
+    "a": "departs",
+    "choices": ["depart", "departs", "departed", "will depart"],
+    "explain": "【現在式 1/5】看到句尾時間副詞 『every thirty minutes（每30分鐘）』，這代表一種『常態事實、固定時刻表』。描述常態事实一律用現在簡單式。主詞為單數的 train，動詞加 s。故選 (B)。"
+  },
+  {
+    "id": "g145",
+    "cat": "[陣營Y]動詞時態-現在簡單式(事實/常態)",
+    "q": "Our company policy _______ that all employees attend the safety workshop annually.",
+    "a": "requires",
+    "choices": ["require", "requires", "required", "will require"],
+    "explain": "【現在式 2/5】公司政策的規定屬於『既定事實與常態條款』，要用現在簡單式。主詞 Our company policy 為單數，現在式動詞字尾加 s。故選 (B)。"
+  },
+  {
+    "id": "g146",
+    "cat": "[陣營Y]動詞時態-現在簡單式(事實/常態)",
+    "q": "The legal department typically _______ all corporate contracts within five business days.",
+    "a": "reviews",
+    "choices": ["review", "reviews", "reviewed", "will review"],
+    "explain": "【現在式 3/5】句中出現了極高頻頻率副詞 『typically（典型地/通常）』。看到通常、總是、常常，就是現在簡單式的訊號。主詞單數用 reviews。故選 (B)。"
+  },
+  {
+    "id": "g147",
+    "cat": "[陣營Y]動詞時態-現在簡單式(事實/常態)",
+    "q": "Apex Laboratories _______ high-quality chemical compounds for medical research facilities.",
+    "a": "manufactures",
+    "choices": ["manufacture", "manufactures", "manufactured", "will manufacture"],
+    "explain": "【現在式 4/5】這句話是在陳述這家實驗室的『常態營業業務/事實』。主詞為單數公司名稱，動詞使用現在簡單式單數型，字尾加 s。故選 (B)。"
+  },
+  {
+    "id": "g148",
+    "cat": "[陣營Y]動詞時態-現在簡單式(事實/常態)",
+    "q": "Most major banks in the country _______ closed on national holidays.",
+    "a": "are",
+    "choices": ["is", "are", "was", "were"],
+    "explain": "【現在式 5/5】銀行在國定假日休息是普遍常識（事實），用現在簡單式。主詞是複數的 Most major banks，對應的現在式 be 動詞為 are。秒殺通關！故選 (B)。"
+  },
+  {
+    "id": "g149",
+    "cat": "[陣營Z]常考多益單字片語-動名詞(V-ing)搭配",
+    "q": "The production team recommended _______ the launch of the product until the bugs are fixed.",
+    "a": "postponing",
+    "choices": ["postpone", "to postpone", "postponing", "postponed"],
+    "explain": "【動名詞片語 1/5】多益核心及物動詞考點：『recommend（推薦/建議）』後面的受詞如果是動詞，必須搭配『動名詞（V-ing）』。故選 (C)。"
+  },
+  {
+    "id": "g150",
+    "cat": "[陣營Z]常考多益單字片語-動名詞(V-ing)搭配",
+    "q": "The chief financial officer strongly suggested _______ the travel budget for the upcoming quarter.",
+    "a": "reducing",
+    "choices": ["reduce", "to reduce", "reducing", "reduced"],
+    "explain": "【動名詞片語 2/5】魔王級高頻動詞：『suggest（建議）』。切記！suggest 後方如果直接抓動詞當受詞，百分之百要用『動名詞 V-ing』，絕對不能接不定詞 to V。故選 (C)。"
+  },
+  {
+    "id": "g151",
+    "cat": "[陣營Z]常考多益單字片語-動名詞(V-ing)搭配",
+    "q": "To avoid _______ database files, please close all applications before running the update.",
+    "a": "corrupting",
+    "choices": ["corrupt", "to corrupt", "corrupting", "corrupted"],
+    "explain": "【動名詞片語 3/5】商務英文與多益 IT 題必背字：『avoid（避免）』。其後方固定搭配『動名詞 V-ing』作為受詞。corrupt 在此代表破壞、損壞。故選 (C)。"
+  },
+  {
+    "id": "g152",
+    "cat": "[陣營Z]常考多益單字片語-動名詞(V-ing)搭配",
+    "q": "The customer relations representatives have finished _______ all the consumer complaints.",
+    "a": "processing",
+    "choices": ["process", "to process", "processing", "processed"],
+    "explain": "【動名詞片語 4/5】基礎國中學過但多益超愛考的動詞：『finish（完成）』。後方受詞固定搭配『動名詞 V-ing』。故選 (C)。"
+  },
+  {
+    "id": "g153",
+    "cat": "[陣營Z]常考多益單字片語-動名詞(V-ing)搭配",
+    "q": "Management is considering _______ a new branch in downtown Seattle next spring.",
+    "a": "opening",
+    "choices": ["open", "to open", "opening", "opened"],
+    "explain": "【動名詞片語 5/5】策略大熱門單字：『consider（考慮）』。後面同樣雷打不動，一定要接『動名詞 V-ing』。把它跟 recommend, suggest, avoid 歸在同一套 V-ing 豪華套餐中記憶！故選 (C)。"
+  },
+  {
+    "id": "g154",
+    "cat": "[陣營AA]分詞句型-主動轉現在分詞(V-ing)",
+    "q": "_______ that the delivery would be delayed, the vendor immediately contacted the store manager.",
+    "a": "Knowing",
+    "choices": ["Know", "Known", "Knowing", "To know"],
+    "explain": "【分詞構句 1/5】多益進階核心考點。前後兩句主詞相同（皆為 the vendor 廠商）。廠商『主動知道』出貨會延遲，省略主詞後，動詞轉為現在分詞 『V-ing』。故選 (C)。"
+  },
+  {
+    "id": "g155",
+    "cat": "[陣營AA]分詞句型-主動轉現在分詞(V-ing)",
+    "q": "_______ a high level of expertise in programming, Ms. Liang was assigned to the cybersecurity unit.",
+    "a": "Possessing",
+    "choices": ["Possess", "Possessed", "Possessing", "Possession"],
+    "explain": "【分詞構句 2/5】主句主詞是 Ms. Liang（梁女士）。她『主動具備（possess）』高超的程式能力。主動關係省略主詞後，句首動詞一律改用現在分詞 『V-ing』。故選 (C)。"
+  },
+  {
+    "id": "g156",
+    "cat": "[陣營AA]分詞句型-主動轉現在分詞(V-ing)",
+    "q": "_______ the potential risks of the project, the board decided to proceed with extreme caution.",
+    "a": "Recognizing",
+    "choices": ["Recognize", "Recognized", "Recognizing", "Recognition"],
+    "explain": "【分詞構句 3/5】主詞是 the board（董事會）。董事會『主動識別出/意識到（recognize）』專案的隱藏風險，主動關係省略主詞，句首選現在分詞 『V-ing』。故選 (C)。"
+  },
+  {
+    "id": "g157",
+    "cat": "[陣營AA]分詞句型-主動轉現在分詞(V-ing)",
+    "q": "_______ to increase online engagement, the social media team uploaded interactive videos.",
+    "a": "Hoping",
+    "choices": ["Hope", "Hoped", "Hoping", "Hopeful"],
+    "explain": "// 分詞構句 4/5\n【主動關係】主詞是 the social media team（社群媒體團隊）。團隊『主動希望（hope）』能增加網路互動，主動省略主詞轉現在分詞 『Hoping』。故選 (C)。"
+  },
+  {
+    "id": "g158",
+    "cat": "[陣營AA]分詞句型-主動轉現在分詞(V-ing)",
+    "q": "_______ the annual sales target early, the department members celebrated at a local restaurant.",
+    "a": "Achieving",
+    "choices": ["Achieve", "Achieved", "Achieving", "Achievement"],
+    "explain": "// 分詞構句 5/5\n【主動關係】主詞是 department members（部門成員）。成員們『主動達成（achieve）』了年度銷售目標，主動省略主詞轉現在分詞 『Achieving』。秒殺！故選 (C)。"
+  },
+  {
+    "id": "g159",
+    "cat": "[陣營AB]冠詞與形容詞的最高級位置",
+    "q": "Our marketing campaign achieved the _______ conversion rate in the history of the company.",
+    "a": "highest",
+    "choices": ["high", "higher", "highest", "highly"],
+    "explain": "【最高級與冠詞 1/5】看見空格前的關鍵字 定冠詞 『the』，且後面加上名詞片語 conversion rate（轉化率），再加上範圍暗示 in the history...（歷史上），這是不折不扣的最高級用法。選 (C) highest。"
+  },
+  {
+    "id": "g160",
+    "cat": "[陣營AB]冠詞與形容詞的最高級位置",
+    "q": "The relocation to the new tech hub was the _______ decision management ever made.",
+    "a": "wisest",
+    "choices": ["wise", "wiser", "wisest", "wisely"],
+    "explain": "【最高級與冠詞 2/5】定冠詞 『the』 出現在空格前，後面接名詞 decision。句尾還有 ever made（有史以來做過）推波助瀾，答案必選形容詞最高級字尾 -est。故選 (C)。"
+  },
+  {
+    "id": "g161",
+    "cat": "[陣營AB]冠詞與形容詞的最高級位置",
+    "q": "The financial services firm offers the _______ interest rates available in the banking sector.",
+    "a": "lowest",
+    "choices": ["low", "lower", "lowest", "lowly"],
+    "explain": "【最高級與冠詞 3/5】空格前方有定冠詞 『the』，修飾後面的複數名詞片語 interest rates（利率），代表是整個銀行界裡『最』低的利率。選最高級。故選 (C)。"
+  },
+  {
+    "id": "g162",
+    "cat": "[陣營AB]冠詞與形容詞的最高級位置",
+    "q": "This brand new conveyor belt system is the _______ technological asset in our factory.",
+    "a": "most advanced",
+    "choices": ["advanced", "more advanced", "most advanced", "advancement"],
+    "explain": "【最高級與冠詞 4/5】空格前有定冠詞 『the』。多音節形容詞 advanced（先進的）之最高級，必須在前方加上 『most』。故選 (C)。"
+  },
+  {
+    "id": "g163",
+    "cat": "[陣營AB]冠詞與形容詞的最高級位置",
+    "q": "The safety officer received an award for developing the _______ comprehensive evacuation plan.",
+    "a": "most",
+    "choices": ["more", "most", "much", "almost"],
+    "explain": "【最高級與冠詞 5/5】最後大收尾！空格在定冠詞 『the』 與多音節形容詞 comprehensive（全面的）之間。毫無疑問填入最高級的標配副詞 most。秒殺成功！故選 (B)。"
+  },
+  {
+    "id": "g164",
+    "cat": "[陣營AC]動詞語態-被動語態基本型",
+    "q": "The newly leased office building _______ by a professional maintenance crew every weekend.",
+    "a": "is cleaned",
+    "choices": ["cleans", "is cleaning", "is cleaned", "has cleaned"],
+    "explain": "【被動語態 1/5】主詞是 office building（辦公大樓）。大樓本身不會主動去打掃，而是『被打掃』。結構必須是 be 動詞 + 過去分詞（p.p.）。故選 (C)。"
+  },
+  {
+    "id": "g165",
+    "cat": "[陣營AC]動詞語態-被動語態基本型",
+    "q": "The final financial report _______ to the board of directors early tomorrow morning.",
+    "a": "will be submitted",
+    "choices": ["submits", "will submit", "will be submitted", "submitting"],
+    "explain": "【被動語態 2/5】主詞是 report（報告），報告必須『被提交』；且看到時間字 tomorrow morning 提示未來式。因此結合未來式與被動語態（will be + p.p.）。故選 (C)。"
+  },
+  {
+    "id": "g166",
+    "cat": "[陣營AC]動詞語態-被動語態基本型",
+    "q": "All medical laboratory results _______ confidential under federal privacy guidelines.",
+    "a": "are kept",
+    "choices": ["keep", "are keeping", "are kept", "have kept"],
+    "explain": "【被動語態 3/5】主詞是複數的 laboratory results（實驗室結果）。結果不會自己保持秘密，而是『被保持』機密。主詞是複數，選被動語態的 are kept。故選 (C)。"
+  },
+  {
+    "id": "g167",
+    "cat": "[陣營AC]動詞語態-被動語態基本型",
+    "q": "The corporate gala dinner _______ at the Grand Hyatt Hotel next Saturday.",
+    "a": "will be held",
+    "choices": ["holds", "is holding", "will be held", "held"],
+    "explain": "【被動語態 4/5】主詞是 gala dinner（晚宴）。晚宴要『被舉辦』，搭配 next Saturday 的未來時間提示，選未來被動式 will be held。故選 (C)。"
+  },
+  {
+    "id": "g168",
+    "cat": "[陣營AC]動詞語態-被動語態基本型",
+    "q": "Several security weaknesses in the software _______ by the technical team last night.",
+    "a": "were discovered",
+    "choices": ["discovered", "were discovered", "are discovering", "discover"],
+    "explain": "【被動語態 5/5】主詞是複數的 weaknesses（漏洞/弱點）。漏洞是『被發現』的，加上後面有關鍵字 by（被...）與 last night（昨晚，過去式時間）。選過去被動式 were discovered。故選 (B)。"
+  },
+  {
+    "id": "g169",
+    "cat": "[陣營AD]數量形容詞與名詞單複數搭配",
+    "q": "The human resources manager received _______ applications for the administrative position.",
+    "a": "many",
+    "choices": ["much", "many", "every", "each"],
+    "explain": "【數量修飾 1/5】空格後方的 applications（應徵信/申請書）是『可數複數名詞』。選項中只有 many 可以修飾可數複數。much 修飾不可數，every/each 修飾單數。故選 (B)。"
+  },
+  {
+    "id": "g170",
+    "cat": "[陣營AD]數量形容詞與名詞單複數搭配",
+    "q": "The factory relocation project will require a great deal of _______ to complete on time.",
+    "a": "effort",
+    "choices": ["effort", "efforts", "job", "tasks"],
+    "explain": "【數量修飾 2/5】多益核心片語：『a great deal of（大量的）』。這個片語雷打不動，後方只能接『不可數名詞』。選項中只有 effort（努力，在此作不可數）符合。故選 (A)。"
+  },
+  {
+    "id": "g171",
+    "cat": "[陣營AD]數量形容詞與名詞單複數搭配",
+    "q": "The accounting office does not have _______ information regarding the missing invoice.",
+    "a": "much",
+    "choices": ["many", "much", "few", "several"],
+    "explain": "【數量修飾 3/5】空格後方的 information（資訊）是多益最經典的『不可數名詞』！many, few, several 後面都只能接可數複數名詞，只有 much 可以修飾不可數。故選 (B)。"
+  },
+  {
+    "id": "g172",
+    "cat": "[陣營AD]數量形容詞與名詞單複數搭配",
+    "q": "The safety inspector pointed out _______ code violations during the facility walkthrough.",
+    "a": "several",
+    "choices": ["much", "every", "several", "an"],
+    "explain": "【數量修飾 4/5】空格後方是複數可數名詞 violations（違反規定）。much 修飾不可數，every/an 修飾單數，只有 several（幾個）修飾可數複數。故選 (C)。"
+  },
+  {
+    "id": "g173",
+    "cat": "[陣營AD]數量形容詞與名詞單複數搭配",
+    "q": "The supervisor mentioned that _______ feedback from clients is highly valued by the team.",
+    "a": "every",
+    "choices": ["every", "many", "few", "all"],
+    "explain": "【數量修飾 5/5】注意！空格後方的 feedback（回饋意見）也是多益超常考的『不可數名詞』。every 接單數，many/few 接複數，只有 all（所有）可以相容修飾不可數名詞。故選 (D)。"
+  },
+  {
+    "id": "g174",
+    "cat": "[陣營AE]分詞形容詞-修飾物品主動/進行狀態",
+    "q": "The airline compensation policy only applies to passengers on _______ flights.",
+    "a": "delayed",
+    "choices": ["delay", "delaying", "delayed", "delays"],
+    "explain": "【分詞修飾進階 1/5】flights（航班）是被延誤的（被動狀態），因此使用過去分詞當形容詞，固定用法為 delayed flights。故選 (C)。"
+  },
+  {
+    "id": "g175",
+    "cat": "[陣營AE]分詞形容詞-修飾物品主動/進行狀態",
+    "q": "The engineering team is currently fixing the water leakage from the _______ pipe.",
+    "a": "broken",
+    "choices": ["break", "breaking", "broken", "breaks"],
+    "explain": "【分詞修飾進階 2/5】pipe（水管）是被弄斷、破裂的，屬於被動/已完成的損壞狀態，使用過去分詞（p.p.）當形容詞。故選 (C) broken。"
+  },
+  {
+    "id": "g176",
+    "cat": "[陣營AE]分詞形容詞-修飾物品主動/進行狀態",
+    "q": "Investors are very cautious due to the rapidly _______ costs of raw materials.",
+    "a": "rising",
+    "choices": ["rise", "rising", "risen", "raises"],
+    "explain": "【分詞修飾進階 3/5】關鍵字來了！costs（成本）自己正在『主動上漲』（這是不及物動詞的特性）。表達『正在上升中的』成本，要使用現在分詞 V-ing。故選 (B) rising。"
+  },
+  {
+    "id": "g177",
+    "cat": "[陣營AE]分詞形容詞-修飾物品主動/進行狀態",
+    "q": "The hotel provides free bottled water and a list of _______ restaurants to all guests.",
+    "a": "recommended",
+    "choices": ["recommend", "recommending", "recommended", "recommendation"],
+    "explain": "【分詞修飾進階 4/5】restaurants（餐廳）是被別人（主辦方或大眾）『所推薦的』。表達被動概念，使用過去分詞。故選 (C) recommended。"
+  },
+  {
+    "id": "g178",
+    "cat": "[陣營AE]分詞形容詞-修飾物品主動/進行狀態",
+    "q": "The economic analyst warned that the _______ trends in inflation could harm small businesses.",
+    "a": "existing",
+    "choices": ["exist", "existing", "existed", "existence"],
+    "explain": "【分詞修飾進階 5/5】超級大陷阱題！trends（趨勢）是『主動存在』的（exist 是純不及物動詞，完全沒有被動態）。因此表達『現存的、當前的』趨勢，雷打不動只能用 V-ing。選 (B) existing。"
+  },
+  {
+    "id": "g179",
+    "cat": "[陣營AF]詞性-形容詞修飾單數名詞",
+    "q": "The legal department issued a _______ warning about sharing corporate data on social media.",
+    "a": "strict",
+    "choices": ["strict", "strictly", "strictness", "stricter"],
+    "explain": "【形容詞單數 1/5】冠詞 a 與單數名詞 warning（警告）之間，必須塞入一個『形容詞』。選項中 (A) strict 為標準形容詞。故選 (A)。"
+  },
+  {
+    "id": "g180",
+    "cat": "[陣營AF]詞性-形容詞修飾單數名詞",
+    "q": "The marketing manager proposed a _______ solution to handle the customer relations crisis.",
+    "a": "creative",
+    "choices": ["create", "creatively", "creative", "creativity"],
+    "explain": "【形容詞單數 2/5】同樣公式，冠詞 a 與單數名詞 solution（解決方案）之間，填入形容詞。字尾 -ive 為形容詞。故選 (C)。"
+  },
+  {
+    "id": "g181",
+    "cat": "[陣營AF]詞性-形容詞修飾單數名詞",
+    "q": "The board requires a _______ evaluation of the potential merger before next month.",
+    "a": "comprehensive",
+    "choices": ["comprehend", "comprehensively", "comprehensive", "comprehension"],
+    "explain": "【形容詞單數 3/5】冠詞 a 與名詞 evaluation（評估）之間，填入形容詞。字尾 -ive 為形容詞（comprehensive 全面的）。故選 (C)。"
+  },
+  {
+    "id": "g182",
+    "cat": "[陣營AF]詞性-形容詞修飾單數名詞",
+    "q": "The tech firm signed a _______ agreement with the software engineering vendor.",
+    "a": "formal",
+    "choices": ["form", "formally", "formal", "formality"],
+    "explain": "【形容詞單數 4/5】冠詞 a 與單數名詞 agreement（合約/協議）之間，填入形容詞。字尾 -al 為形容詞（formal 正式的）。故選 (C)。"
+  },
+  {
+    "id": "g183",
+    "cat": "[陣營AF]詞性-形容詞修飾單數名詞",
+    "q": "The accounting error caused a _______ delay in processing the monthly payroll.",
+    "a": "significant",
+    "choices": ["signify", "significantly", "significant", "significance"],
+    "explain": "【形容詞單數 5/5】最後一關！冠詞 a 與名詞 delay（延誤，在此為名詞）之間，填入形容詞。字尾 -ant 為形容詞（significant 重大的）。故選 (C)。"
+  },
+  {
+    "id": "g184",
+    "cat": "[陣營AG]副詞位置-修飾完整句子(句首加逗號)",
+    "q": "_______, the laboratory technician managed to save the test results before the computer crashed.",
+    "a": "Fortunately",
+    "choices": ["Fortunate", "Fortunately", "Fortune", "Fortunateness"],
+    "explain": "【句首副詞 1/5】空格位於完全獨立的句子最前端，且後面緊跟著一個『逗號』。這種結構代表該單字要用來修飾『後面整句話』，在英文中必填副詞（-ly）。故選 (B)。"
+  },
+  {
+    "id": "g185",
+    "cat": "[陣營AG]副詞位置-修飾完整句子(句首加逗號)",
+    "q": "_______, the flight to London was delayed for three hours due to severe winter weather.",
+    "a": "Regrettably",
+    "choices": ["Regretful", "Regrettably", "Regret", "Regretfulness"],
+    "explain": "【句首副詞 2/5】句首空格 + 逗號 + 完整句子。需要填入一個修飾全句語氣的副詞（Regrettably 令人遺憾地）。故選 (B)。"
+  },
+  {
+    "id": "g186",
+    "cat": "[陣營AG]副詞位置-修飾完整句子(句首加逗號)",
+    "q": "_______, the new safety guidelines have significantly reduced minor injuries in the workshop.",
+    "a": "Apparently",
+    "choices": ["Apparent", "Apparently", "Apparel", "Appearance"],
+    "explain": "【句首副詞 3/5】結構雷同。空格在句首且有逗號隔開，直接鎖定 -ly 副詞（Apparently 顯然地）。秒殺！故選 (B)。"
+  },
+  {
+    "id": "g187",
+    "cat": "[陣營AG]副詞位置-修飾完整句子(句首加逗號)",
+    "q": "_______, the board approved the corporate budget without requesting any major adjustments.",
+    "a": "Surprisingly",
+    "choices": ["Surprise", "Surprising", "Surprisingly", "Surprised"],
+    "explain": "【句首副詞 4/5】句首空格，後方有逗號與完整主謂結構。選副詞 Surprisingly（令人驚訝地）來修飾董事會通過預算這整件事。故選 (C)。"
+  },
+  {
+    "id": "g188",
+    "cat": "[陣營AG]副詞位置-修飾完整句子(句首加逗號)",
+    "q": "_______, the legal advisors resolved the dispute before it escalated into a lawsuit.",
+    "a": "Ultimately",
+    "choices": ["Ultimate", "Ultimately", "Ultimatum", "Finalize"],
+    "explain": "【句首副詞 5/5】大收尾！看見句首空格跟逗號的組合，完全不用猶豫，直接找 -ly 結尾的副詞（Ultimately 最終/最後）。收下分數！故選 (B)。"
+  },
+  {
+    "id": "g189",
+    "cat": "[陣營AH]常考多益單字片語-不定詞(to V)搭配",
+    "q": "The logistics company decided _______ a new fleet of electric delivery trucks next year.",
+    "a": "to purchase",
+    "choices": ["purchase", "purchasing", "to purchase", "purchased"],
+    "explain": "【不定詞片語 1/5】對抗上一批的 V-ing 陣營，這次是不定詞套餐！及物動詞 『decide（決定）』後面如果要接另一個動作當受詞，固定搭配『不定詞（to + 原型動詞）』。故選 (C)。"
+  },
+  {
+    "id": "g190",
+    "cat": "[陣營AH]常考多益單字片語-不定詞(to V)搭配",
+    "q": "The technical support team failed _______ the software glitch before the online store opened.",
+    "a": "to resolve",
+    "choices": ["resolve", "resolving", "to resolve", "resolved"],
+    "explain": "【不定詞片語 2/5】核心及物動詞：『fail（未能做某事/失敗）』。其後方受詞固定搭配『不定詞 to V』。故選 (C)。"
+  },
+  {
+    "id": "g191",
+    "cat": "[陣營AH]常考多益單字片語-不定詞(to V)搭配",
+    "q": "The project supervisor refused _______ the deadline despite the request from the vendor.",
+    "a": "to extend",
+    "choices": ["extend", "extending", "extended", "to extend"],
+    "explain": "【不定詞片語 3/5】商務常見動詞：『refused（拒絕）』。後面同樣雷打不動，受詞只能搭配『不定詞 to V』。故選 (D)。"
+  },
+  {
+    "id": "g192",
+    "cat": "[陣營AH]常考多益單字片語-不定詞(to V)搭配",
+    "q": "The committee managed _______ enough funds to sponsor the local cultural exhibition.",
+    "a": "to raise",
+    "choices": ["raise", "raising", "to raise", "raised"],
+    "explain": "【不定詞片語 4/5】多益核心動詞片語：『manage（設法做到.../成功做到...）』。它的經典老搭檔就是『不定詞 to V』。故選 (C)。"
+  },
+  {
+    "id": "g193",
+    "cat": "[陣營AH]常考多益單字片語-不定詞(to V)搭配",
+    "q": "The regional director expects all facility branches _______ the updated safety standards.",
+    "a": "to meet",
+    "choices": ["meet", "meeting", "met", "to meet"],
+    "explain": "【不定詞片語 5/5】大收尾字！動詞是 『expect（期待/要求）』，經典句型為 expect + 受詞 + 『to V（受詞補語）』。意思是期待某人去做到某事。故選 (D)。"
+  },
+  {
+    "id": "g194",
+    "cat": "[陣營AI]連接詞與介系詞的抉擇-因果關係",
+    "q": "The shipment of electronics was delayed _______ severe weather conditions at the major shipping port.",
+    "a": "because of",
+    "choices": ["because", "because of", "although", "despite"],
+    "explain": "【因果辨析 1/5】空格後方為名詞片語 severe weather conditions（惡劣天氣狀況），沒有完整的動詞。因此空格處必須填入『介系詞（片語）』。because 後面要接句子，because of 後面接名詞。故選 (B)。"
+  },
+  {
+    "id": "g195",
+    "cat": "[陣營AI]連接詞與介系詞的抉擇-因果關係",
+    "q": "The store manager had to extend the promotional event _______ customer demand was exceptionally high.",
+    "a": "because",
+    "choices": ["because", "because of", "due to", "owing to"],
+    "explain": "【因果辨析 2/5】空格後方出現了完整的句子（主詞 customer demand + 動詞 was），因此這裡必須填入『連接詞』。選項中只有 (A) because 是連接詞，其餘三者皆為介系詞片語。故選 (A)。"
+  },
+  {
+    "id": "g196",
+    "cat": "[陣營AI]連接詞與介系詞的抉擇-因果關係",
+    "q": "The technical support team resolved the server glitch quickly _______ their extensive training.",
+    "a": "thanks to",
+    "choices": ["because", "thanks to", "since", "as"],
+    "explain": "【因果辨析 3/5】空格後方是名詞片語 their extensive training（他們豐富的訓練），無動詞。空格需要介系詞。thanks to（多虧於/由於）是介系詞片語，其餘三者皆為引導句子的連接詞。故選 (B)。"
+  },
+  {
+    "id": "g197",
+    "cat": "[陣營AI]連接詞與介系詞的抉擇-因果關係",
+    "q": "_______ the automated software update caused a critical error, the system administrators rolled back the database.",
+    "a": "Since",
+    "choices": ["Since", "Because of", "Due to", "On account of"],
+    "explain": "【因果辨析 4/5】空格後面是完整句子（主詞 update + 動詞 caused）。需要填入『連接詞』來引導原因。Since 在這裡當作連接詞，意思是『因為/既然』。其餘三個選項都是介系詞片語。故選 (A)。"
+  },
+  {
+    "id": "g198",
+    "cat": "[陣營AI]連接詞與介系詞的抉擇-因果關係",
+    "q": "The marketing department canceled the outdoor promotional campaign _______ the sudden torrential rain.",
+    "a": "due to",
+    "choices": ["because", "since", "due to", "as"],
+    "explain": "【因果辨析 5/5】最後一關。後面是名詞片語 the sudden torrential rain（突如其來的暴雨）。選介系詞片語 due to（由於）。其餘皆為連接詞。秒殺！故選 (C)。"
+  },
+  {
+    "id": "g199",
+    "cat": "[陣營AJ]分詞形容詞-修飾事物帶給人的主觀感受",
+    "q": "The keynote speaker gave a very _______ lecture on the future of artificial intelligence in corporate management.",
+    "a": "interesting",
+    "choices": ["interest", "interesting", "interested", "interests"],
+    "explain": "【事物分詞 1/5】對抗之前的心理分詞！這次修飾的主體是事物（lecture 演講）。事物『令人感到有趣的』，要使用現在分詞（V-ing）轉形容詞。故選 (B)。"
+  },
+  {
+    "id": "g200",
+    "cat": "[陣營AJ]分詞形容詞-修飾事物帶給人的主觀感受",
+    "q": "The human resources generalist found the sudden decline in job applications to be highly _______.",
+    "a": "disappointing",
+    "choices": ["disappoint", "disappointed", "disappointing", "disappointment"],
+    "explain": "【事物分詞 2/5】注意受詞補語結構。這句話是說：他發現『這起主體（decline 下降）』非常『令人失望』。事物主體帶來的主觀感受，用 V-ing 形式。故選 (C)。"
+  },
+  {
+    "id": "g201",
+    "cat": "[陣營AJ]分詞形容詞-修飾事物帶給人的主觀感受",
+    "q": "The financial audit revealed some _______ discrepancies in the inventory valuation records.",
+    "a": "confusing",
+    "choices": ["confuse", "confused", "confusing", "confusion"],
+    "explain": "【事物分詞 3/5】修飾後面的名詞 discrepancies（不一致/差異）。這些會計帳目上的差異『令人感到困惑』，事物用 V-ing。故選 (C)。"
+  },
+  {
+    "id": "g202",
+    "cat": "[陣營AJ]分詞形容詞-修飾事物帶給人的主觀感受",
+    "q": "Working on the cross-departmental product launch was a truly _______ experience for the new intern.",
+    "a": "exciting",
+    "choices": ["excite", "excited", "exciting", "excitement"],
+    "explain": "【事物分詞 4/5】修飾後面的名詞 experience（經驗）。這是一段『令人興奮的』經驗，事物特質用 V-ing。故選 (C)。"
+  },
+  {
+    "id": "g203",
+    "cat": "[陣營AJ]分詞形容詞-修飾事物帶給人的主觀感受",
+    "q": "The customer review stated that the instructions for assembling the office desk were _______.",
+    "a": "frustrating",
+    "choices": ["frustrate", "frustrated", "frustrating", "frustration"],
+    "explain": "【事物分詞 5/5】主詞是 instructions（說明書/指示）。說明書是事物，它『令人感到挫折』。眼睛閉著選 V-ing 的 frustrating。秒殺！故選 (C)。"
+  },
+  {
+    "id": "g204",
+    "cat": "[陣營AK]代名詞-反身代名詞當受詞(主詞受詞同人)",
+    "q": "Mr. Gomez prepared the entire presentation _______ because his administrative assistant was on leave.",
+    "a": "himself",
+    "choices": ["he", "him", "his", "himself"],
+    "explain": "【反身代名詞 1/5】主詞是 Mr. Gomez，他『自己』準備了整份簡報。當主詞和做出該動作的行為者是同一個人，且用來強調「親自/獨立完成」時，使用反身代名詞。故選 (D)。"
+  },
+  {
+    "id": "g205",
+    "cat": "[陣營AK]代名詞-反身代名詞當受詞(主詞受詞同人)",
+    "q": "The newly appointed CEO introduced _______ to the regional managers at the annual gala.",
+    "a": "himself",
+    "choices": ["he", "him", "his", "himself"],
+    "explain": "【反身代名詞 2/5】主詞是 The newly appointed CEO（執行長），動詞是 introduced（介紹）。執行長介紹的對象就是「他自己」，主受詞同人，必選反身代名詞。故選 (D)。"
+  },
+  {
+    "id": "g206",
+    "cat": "[陣營AK]代名詞-反身代名詞當受詞(主詞受詞同人)",
+    "q": "The members of the research team taught _______ how to operate the advanced laboratory equipment.",
+    "a": "themselves",
+    "choices": ["they", "them", "their", "themselves"],
+    "explain": "【反身代名詞 3/5】主詞是複數的 The members（成員們），動詞是 taught（教導）。成員們教導的對象就是「他們自己」（自學），主受詞同人且為複數，選 themselves。故選 (D)。"
+  },
+  {
+    "id": "g207",
+    "cat": "[陣營AK]代名詞-反身代名詞當受詞(主詞受詞同人)",
+    "q": "Ms. Tanaka designed the corporate logo _______, without hiring any external graphic design agency.",
+    "a": "herself",
+    "choices": ["she", "her", "hers", "herself"],
+    "explain": "【反身代名詞 4/5】主詞是 Ms. Tanaka（女性）。她「親自」設計了商標，用來加強語氣、表達獨立完成，空格填入對應女性的反身代名詞 herself。故選 (D)。"
+  },
+  {
+    "id": "g208",
+    "cat": "[陣營AK]代名詞-反身代名詞當受詞(主詞受詞同人)",
+    "q": "The automated security system updates _______ every midnight to ensure the database remains secure.",
+    "a": "itself",
+    "choices": ["it", "its", "itself", "they"],
+    "explain": "【反身代名詞 5/5】最後大收尾。主詞是單數的物/系統（The automated security system），動詞是 updates（更新）。系統更新的對象是「它自己」，選單數非人稱的反身代名詞 itself。故選 (C)。"
+  },
+  {
+    "id": "g209",
+    "cat": "[陣營AL]副詞位置-修飾主動詞(動詞前方)",
+    "q": "The board of directors _______ approved the proposed budget during the morning session.",
+    "a": "unanimously",
+    "choices": ["unanimous", "unanimously", "unanimousness", "unanimity"],
+    "explain": "【修飾動詞 1/5】多益超高頻商務字！空格位於主詞（The board...）與過去式動詞（approved）之間。夾在主動詞前方的空格，必然是填入『副詞』。故選 (B) unanimously（一致地）。"
+  },
+  {
+    "id": "g210",
+    "cat": "[陣營AL]副詞位置-修飾主動詞(動詞前方)",
+    "q": "The software engineering team _______ resolved the security issue before any data was leaked.",
+    "a": "successfully",
+    "choices": ["success", "successful", "successfully", "succeed"],
+    "explain": "【修飾動詞 2/5】空格夾在主詞與動詞 resolved 之間。毫無疑問選副詞（-ly）來修飾這個動作。故選 (C) successfully（成功地）。"
+  },
+  {
+    "id": "g211",
+    "cat": "[陣營AL]副詞位置-修飾主動詞(動詞前方)",
+    "q": "The property developer _______ altered the building plans to comply with the new safety codes.",
+    "a": "subsequently",
+    "choices": ["subsequent", "subsequently", "subsequence", "subsequency"],
+    "explain": "【修飾動詞 3/5】空格位於動詞 altered（修改）的前方，用來修飾動詞發生的時機，填入副詞。故選 (B) subsequently（隨後/接著）。"
+  },
+  {
+    "id": "g212",
+    "cat": "[陣營AL]副詞位置-修飾主動詞(動詞前方)",
+    "q": "The marketing department _______ monitors consumer trends on various social media networks.",
+    "a": "regularly",
+    "choices": ["regular", "regularly", "regularity", "regularize"],
+    "explain": "【修飾動詞 4/5】空格夾在主詞與現在式動詞 monitors（監控）之間。修飾動詞頻率，必選副詞結尾 -ly。故選 (B) regularly（定期地/規律地）。"
+  },
+  {
+    "id": "g213",
+    "cat": "[陣營AL]副詞位置-修飾主動詞(動詞前方)",
+    "q": "The factory plant supervisor _______ checked the temperature readings of the chemical tank.",
+    "a": "carefully",
+    "choices": ["careful", "carefully", "carefulness", "care"],
+    "explain": "【修飾動詞 5/5】最後一題！夾在主詞與過去式動詞 checked 中間，填入副詞。秒殺選 (B) carefully（小心謹慎地）。拿分！"
+  },
+  {
+    "id": "g214",
+    "cat": "[陣營AM]比較級進階-修飾比較級的程度副詞",
+    "q": "The new operating system runs _______ faster than the version released two years ago.",
+    "a": "much",
+    "choices": ["much", "very", "more", "most"],
+    "explain": "【修飾比較級 1/5】多益超常考陷阱！空格後面是比較級形容詞/副詞 faster。切記：『very 不能修飾比較級』！要表達『快得多』，必須使用 much, far, a lot, significantly 等字。故選 (A)。"
+  },
+  {
+    "id": "g215",
+    "cat": "[陣營AM]比較級進階-修飾比較級的程度副詞",
+    "q": "The second marketing strategy proved to be _______ more effective than the initial plan.",
+    "a": "significantly",
+    "choices": ["significand", "significant", "significantly", "significance"],
+    "explain": "【修飾比較級 2/5】空格後方是比較級結構 more effective。用來修飾比較級程度的必須是副詞。故選 (C) significantly（顯著地更有效）。"
+  },
+  {
+    "id": "g216",
+    "cat": "[陣營AM]比較級進階-修飾比較級的程度副詞",
+    "q": "The raw materials from the new supplier are _______ cheaper than those from our previous vendor.",
+    "a": "substantially",
+    "choices": ["substantial", "substantially", "substance", "substantiality"],
+    "explain": "【修飾比較級 3/5】空格後方為比較級 cheaper。填入可以修飾比較級的程度副詞（substantially 大幅地/便宜得多）。故選 (B)。"
+  },
+  {
+    "id": "g217",
+    "cat": "[陣營AM]比較級進階-修飾比較級的程度副詞",
+    "q": "The logistics team noted that the new route is _______ shorter than the highway path.",
+    "a": "slightly",
+    "choices": ["slight", "slightly", "slightest", "slightness"],
+    "explain": "【修飾比較級 4/5】空格後方為比較級 shorter。選項中只有副詞 slightly（稍微/稍微短一點點）可以放進來修飾比較級。故選 (B)。"
+  },
+  {
+    "id": "g218",
+    "cat": "[陣營AM]比較級進階-修飾比較級的程度副詞",
+    "q": "The legal fees for the corporate merger were _______ higher than the finance department expected.",
+    "a": "far",
+    "choices": ["far", "very", "more", "so"],
+    "explain": "【修飾比較級 5/5】大收尾！空格後是比較級 higher。記住，very 和 so 不能直接修飾比較級（higher 前面也不能再加 more 重複比較）。只有 far（遠比...）是合法的比較級修飾詞。故選 (A)。"
+  },
+  {
+    "id": "g219",
+    "cat": "[陣營AN]限定詞與名詞字尾判斷-單數可數名詞",
+    "q": "Every _______ in the accounting office must attend the software training session next week.",
+    "a": "accountant",
+    "choices": ["account", "accountant", "accountants", "accounting"],
+    "explain": "【名詞字尾 1/5】限定詞 Every（每個）後面雷打不動，一定要搭配『單數可數名詞』，且從語意（參加訓練）來看，必須是指「人」。字尾 -ant 常用於指人的名詞。故選 (B) accountant（會計師）。"
+  },
+  {
+    "id": "g220",
+    "cat": "[陣營AN]限定詞與名詞字尾判斷-單數可數名詞",
+    "q": "The laboratory hired an experienced _______ to oversee the new clinical trials.",
+    "a": "biologist",
+    "choices": ["biology", "biologist", "biologists", "biologically"],
+    "explain": "【名詞字尾 2/5】冠詞 an 與形容詞 experienced（有經驗的）後方，必須填入一個『單數可數名詞』。由文意（監督臨床試驗）可知是指人，-ist 為指人的名詞字尾。故選 (B) biologist（生物學家）。"
+  },
+  {
+    "id": "g221",
+    "cat": "[陣營AN]限定詞與名詞字尾判斷-單數可數名詞",
+    "q": "Each _______ is required to present a valid photo ID upon entering the corporate facility.",
+    "a": "visitor",
+    "choices": ["visit", "visitor", "visitors", "visiting"],
+    "explain": "【名詞字尾 3/5】限定詞 Each（每一個）後方固定搭配『單數可數名詞』。選項中只有 visitor 是單數名詞。故選 (B) visitor（訪客）。"
+  },
+  {
+    "id": "g222",
+    "cat": "[陣營AN]限定詞與名詞字尾判斷-單數可數名詞",
+    "q": "A qualified _______ will inspect the factory's ventilation system early tomorrow morning.",
+    "a": "technician",
+    "choices": ["technique", "technician", "technicians", "technical"],
+    "explain": "【名詞字尾 4/5】冠詞 A 提示後方要接『單數可數名詞』。qualified（有資格的）修飾人，字尾 -cian 代表專家/技術人員。故選 (B) technician（技術員）。"
+  },
+  {
+    "id": "g223",
+    "cat": "[陣營AN]限定詞與名詞字尾判斷-單數可數名詞",
+    "q": "Every _______ who wishes to submit a proposal must do so through the online vendor portal.",
+    "a": "contractor",
+    "choices": ["contract", "contractor", "contractors", "contractual"],
+    "explain": "【名詞字尾 5/5】大收尾！Every 後面接『單數可數名詞』，後方還有關係代名詞 who 提示主體是人。選擇單數指人的名詞 contractor（承包商）。分數穩穩拿走！故選 (B)。"
+  },
+  {
+    "id": "g224",
+    "cat": "[陣營AO]動詞語態-主動與被動的抉擇",
+    "q": "The shift supervisor _______ the updated safety protocols to the factory workers yesterday afternoon.",
+    "a": "explained",
+    "choices": ["explains", "explained", "was explained", "explaining"],
+    "explain": "【主被動辨析 1/5】主詞是人（The shift supervisor）。後面有清楚的受詞（the updated safety protocols 協定），代表主詞『主動做出』解釋的動作。搭配 yesterday 過去時間，選主動過去式。故選 (B)。"
+  },
+  {
+    "id": "g225",
+    "cat": "[陣營AO]動詞語態-主動與被動的抉擇",
+    "q": "The updated safety protocols _______ to the factory workers by the shift supervisor yesterday afternoon.",
+    "a": "were explained",
+    "choices": ["explained", "were explained", "are explaining", "explain"],
+    "explain": "【主被動辨析 2/5】對比上一題！這次主詞變成了物（The updated safety protocols 協定）。協定不可能自己解釋，而是『被解釋』。加上後面有 by + 人，且為過去時間，選過去被動式。故選 (B)。"
+  },
+  {
+    "id": "g226",
+    "cat": "[陣營AO]動詞語態-主動與被動的抉擇",
+    "q": "The research and development department _______ a new patent for the bio-tech device last week.",
+    "a": "secured",
+    "choices": ["secured", "was secured", "secures", "securing"],
+    "explain": "【主被動辨析 3/5】主詞是研發部門（人組成的機構），後方有受詞 a new patent（新專利）。部門『主動取得了』專利，結合時間字 last week，選主動過去式。故選 (A)。"
+  },
+  {
+    "id": "g227",
+    "cat": "[陣營AO]動詞語態-主動與被動的抉擇",
+    "q": "A new patent for the bio-tech device _______ by the research and development department last week.",
+    "a": "was secured",
+    "choices": ["secured", "was secured", "will secure", "is securing"],
+    "explain": "【主被動辨析 4/5】公式互換！主詞變成 A new patent（新專利），專利是『被取得』的。搭配過去時間與單數主詞，鎖定過去被動式（was + p.p.）。故選 (B)。"
+  },
+  {
+    "id": "g228",
+    "cat": "[陣營AO]動詞語態-主動與被動的抉擇",
+    "q": "The regional director _______ the annual business performance awards at the convention tonight.",
+    "a": "will present",
+    "choices": ["presents", "will present", "will be presented", "presented"],
+    "explain": "【主被動辨析 5/5】大收尾！主詞是區總監（人），後方有受詞 awards（獎項）。總監『主動頒發』獎項，搭配 tonight 的未來時間提示，選未來主動式 will present。秒殺！故選 (B)。"
+  },
+  {
+    "id": "g229",
+    "cat": "[陣營AP]常考多益單字片語-形容詞與介系詞固定搭配",
+    "q": "The laboratory technician is _______ for maintaining the calibration records of the equipment.",
+    "a": "responsible",
+    "choices": ["responsible", "responsibility", "responsibly", "responsive"],
+    "explain": "【形容詞+介系詞 1/5】多益常客黃金搭配：『be responsible for（對...負責/掌管...）』。空格後出現了關鍵介系詞 for，前方直接秒選形容詞 responsible。故選 (A)。"
+  },
+  {
+    "id": "g230",
+    "cat": "[陣營AP]常考多益單字片語-形容詞與介系詞固定搭配",
+    "q": "The newly released software is fully _______ with the existing operating systems.",
+    "a": "compatible",
+    "choices": ["compatible", "compatibility", "compatibly", "compact"],
+    "explain": "【形容詞+介系詞 2/5】IT與商務通訊大熱門單字：『be compatible with（與...相容）』。空格後看見介系詞 with，直接連鎖反應選形容詞 compatible。故選 (A)。"
+  },
+  {
+    "id": "g231",
+    "cat": "[陣營AP]常考多益單字片語-形容詞與介系詞固定搭配",
+    "q": "Our corporate legal consultants are highly _______ in international trade regulations.",
+    "a": "experienced",
+    "choices": ["experience", "experienced", "experiencing", "experiential"],
+    "explain": "【形容詞+介系詞 3/5】商務職涯描述高頻詞：『be experienced in（在...方面很有經驗）』。空格後方看到介系詞 in，前方填入分詞轉形容詞的 experienced。故選 (B)。"
+  },
+  {
+    "id": "g232",
+    "cat": "[陣營AP]常考多益單字片語-形容詞與介系詞固定搭配",
+    "q": "The marketing supervisor was not _______ of the sudden budget adjustments until this morning.",
+    "a": "aware",
+    "choices": ["aware", "awareness", "awarely", "awaken"],
+    "explain": "【形容詞+介系詞 4/5】多益核心短語：『be aware of（意識到/察覺到）』。空格後緊跟著靈魂介系詞 of，前方毫不猶豫直接補上形容詞 aware。故選 (A)。"
+  },
+  {
+    "id": "g233",
+    "cat": "[陣營AP]常考多益單字片語-形容詞與介系詞固定搭配",
+    "q": "The product development team's strategy is _______ to the one we implemented last year.",
+    "a": "similar",
+    "choices": ["similar", "similarity", "similarly", "simultaneous"],
+    "explain": "【形容詞+介系詞 5/5】最後一關！看到空格後面的介系詞 to，配合文意「與...相似」，直接鎖定黃金搭配：『be similar to』。分數輕鬆拿下！故選 (A)。"
+  },
+  {
+    "id": "g234",
+    "cat": "[陣營AQ]詞性-副詞修飾形容詞(進階變化型)",
+    "q": "The real estate market in the metropolitan area has become _______ competitive this quarter.",
+    "a": "increasingly",
+    "choices": ["increase", "increased", "increasingly", "increasing"],
+    "explain": "【副詞修飾形容詞進階 1/5】空格後方是形容詞 competitive（有競爭力的）。雖然前面是連繫動詞 become，但空格是拿來修飾後面的形容詞，因此一樣要選『副詞（-ly）』。故選 (C) increasingly（日趨/越來越）。"
+  },
+  {
+    "id": "g235",
+    "cat": "[陣營AQ]詞性-副詞修飾形容詞(進階變化型)",
+    "q": "The financial analysts found that the tech company's stock price is _______ volatile.",
+    "a": "highly",
+    "choices": ["high", "highly", "height", "heighten"],
+    "explain": "【副詞修飾形容詞進階 2/5】空格後方 volatile（波動劇烈的）是標準形容詞。修飾形容詞必填副詞，直接鎖定高度地、非常。故選 (B) highly。"
+  },
+  {
+    "id": "g236",
+    "cat": "[陣營AQ]詞性-副詞修飾形容詞(進階變化型)",
+    "q": "The operations manager noted that the old machinery is _______ inefficient compared to the new model.",
+    "a": "profoundly",
+    "choices": ["profound", "profoundly", "profundity", "profoundness"],
+    "explain": "【副詞修飾形容詞進階 3/5】空格後方是形容詞 inefficient（無效率的）。夾在 be 動詞與形容詞中間，毫無懸念直接派『副詞』出場修飾。故選 (B) profoundly（深刻地/極度地）。"
+  },
+  {
+    "id": "g237",
+    "cat": "[陣營AQ]詞性-副詞修飾形容詞(進階變化型)",
+    "q": "The customer service department guidelines are _______ structural in handling consumer refunds.",
+    "a": "strictly",
+    "choices": ["strict", "strictly", "strictness", "stricter"],
+    "explain": "【副詞修飾形容詞進階 4/5】空格後方的 structural（結構上的/程序上的）是形容詞。修飾形容詞一律用副詞，選字尾 -ly 的 strictly（嚴格地）。故選 (B)。"
+  },
+  {
+    "id": "g238",
+    "cat": "[陣營AQ]詞性-副詞修飾形容詞(進階變化型)",
+    "q": "The new law firm office is located in a _______ populated business district downtown.",
+    "a": "densely",
+    "choices": ["dense", "densely", "density", "denseness"],
+    "explain": "【副詞修飾形容詞進階 5/5】大收尾！空格後方是過去分詞轉形容詞的 populated（居住的/人口...的）。修飾形容詞需要副詞，選 densely（稠密地）。組合起來就是常見的 densely populated（人口稠密的）。故選 (B)。"
+  },
+  {
+    "id": "g239",
+    "cat": "[陣營AR]動詞時態-未來時間提示",
+    "q": "The board of directors _______ the annual budget proposal during the meeting next Monday.",
+    "a": "will review",
+    "choices": ["reviews", "reviewed", "will review", "has reviewed"],
+    "explain": "【未來式 1/5】看到句尾關鍵時間提示 『next Monday（下週一）』，動作尚未發生，屬於未來時間，直接秒選『未來式動詞（will + 原型動詞）』。故選 (C)。"
+  },
+  {
+    "id": "g240",
+    "cat": "[陣營AR]動詞時態-未來時間提示",
+    "q": "The marketing department _______ the new advertising campaign online early tomorrow morning.",
+    "a": "will launch",
+    "choices": ["launches", "launched", "will launch", "launching"],
+    "explain": "【未來式 2/5】看清關鍵時間字 『tomorrow morning（明天早上）』。這是不折不扣的未來時間訊號，鎖定未來式 will launch。故選 (C)。"
+  },
+  {
+    "id": "g241",
+    "cat": "[陣營AR]動詞時態-未來時間提示",
+    "q": "The software vendor _______ the patch to fix the database bugs within the next two days.",
+    "a": "will release",
+    "choices": ["releases", "released", "will release", "has released"],
+    "explain": "【未來式 3/5】出現了多益愛考的時間副詞片語 『within the next...（在接下來的...之內）』。看到 next 提示，答案必朝未來式鎖定。故選 (C)。"
+  },
+  {
+    "id": "g242",
+    "cat": "[陣營AR]動詞時態-未來時間提示",
+    "q": "Mr. Davies _______ from his position as chief technical officer at the end of this month.",
+    "a": "will retire",
+    "choices": ["retires", "retired", "will retire", "retiring"],
+    "explain": "【未來式 4/5】時間提示詞為 『at the end of this month（這個月底）』。相對於現在，月底是尚未發生的未來時間，必須使用未來式動詞。故選 (C)。"
+  },
+  {
+    "id": "g243",
+    "cat": "[陣營AR]動詞時態-未來時間提示",
+    "q": "The legal consultants _______ the contract terms once the client clarifies the conditions.",
+    "a": "will finalize",
+    "choices": ["finalize", "finalized", "will finalize", "finalizing"],
+    "explain": "【未來式 5/5】最後一題！雖然後半句是用現在式（once the client clarifies...），但這是多益最經典的『時狀副詞子句（用現在式代替未來式）』結構。主句代表未來要做的動作，依然要用未來式。故選 (C)。"
+  },
+  {
+    "id": "g244",
+    "cat": "[陣營AS]詞性-形容詞修飾不可數名詞",
+    "q": "The project coordinator displayed _______ patience while training the temporary employees.",
+    "a": "immense",
+    "choices": ["immense", "immensely", "immensity", "immenseness"],
+    "explain": "【形容詞修飾名詞 1/5】空格後方的 patience（耐心）是『不可數名詞』。要在前方修飾名詞，不論可數不可數，答案一律都要選『形容詞』。故選 (A) immense（巨大的/極大的）。"
+  },
+  {
+    "id": "g245",
+    "cat": "[陣營AS]詞性-形容詞修飾不可數名詞",
+    "q": "The corporate merger provides _______ potential for expansion into European markets.",
+    "a": "significant",
+    "choices": ["signify", "significantly", "significant", "significance"],
+    "explain": "【形容詞修飾名詞 2/5】後方的 potential（潛力）在此作為不可數名詞。空格夾在及物動詞 provides 與名詞之間，必然是填入『形容詞』。字尾 -ant 為形容詞。故選 (C) significant（重大的）。"
+  },
+  {
+    "id": "g246",
+    "cat": "[陣營AS]词性-形容詞修飾不可數名詞",
+    "q": "The tech startup required _______ capital to complete the second phase of product testing.",
+    "a": "additional",
+    "choices": ["add", "additionally", "additional", "addition"],
+    "explain": "【形容詞修飾名詞 3/5】空格後方是不可數名詞 capital（資金）。需要填入形容詞來修飾。字尾 -al 為標準形容詞字尾。故選 (C) additional（額外的）。"
+  },
+  {
+    "id": "g247",
+    "cat": "[陣營AS]詞性-形容詞修飾不可數名詞",
+    "q": "The legal advisors handled the breach of contract with _______ professionalism.",
+    "a": "absolute",
+    "choices": ["absolute", "absolutely", "absoluteness", "absolve"],
+    "explain": "【形容詞修飾名詞 4/5】空格後方為不可數名詞 professionalism（專業精神）。修飾名詞非形容詞莫屬，選 (A) absolute（絕對的）。秒殺！"
+  },
+  {
+    "id": "g248",
+    "cat": "[陣營AS]詞性-形容詞修飾不可數名詞",
+    "q": "The environmental audit confirmed that the facility has _______ water for manufacturing operations.",
+    "a": "sufficient",
+    "choices": ["suffice", "sufficiently", "sufficient", "sufficiency"],
+    "explain": "【形容詞修飾名詞 5/5】最後大收尾。修飾後方的不可數名詞 water（水），前面填入形容詞。字尾 -cient / -ent 為形容詞字尾。選 (C) sufficient（充足的）。順利通關！"
+  },
+  {
+    "id": "g249",
+    "cat": "[陣營AT]相關對等連詞固定搭配-進階主謂一致",
+    "q": "Either the logistics manager or the warehouse supervisors _______ responsible for the inventory error.",
+    "a": "are",
+    "choices": ["is", "are", "be", "being"],
+    "explain": "【進階連詞主謂 1/5】多益核心大考點！當看到 『Either A or B』 當主詞時，動詞的單複數要『配合最靠近的 B』。這裡最靠近動詞的是複數的 supervisors，因此動詞要選複數的 are。故選 (B)。"
+  },
+  {
+    "id": "g250",
+    "cat": "[陣營AT]相關對等連詞固定搭配-進階主謂一致",
+    "q": "Neither the team members nor the project supervisor _______ willing to change the launching date.",
+    "a": "is",
+    "choices": ["is", "are", "be", "been"],
+    "explain": "【進階連詞主謂 2/5】同理公式。看到 『Neither A nor B』 當主詞，動詞單複數同樣『向 B 看齊』。B 是單數的 supervisor，因此要選單數動詞 is。千萬別被前面的複數 members 騙了！故選 (A)。"
+  },
+  {
+    "id": "g251",
+    "cat": "[陣營AT]相關對等連詞固定搭配-進階主謂一致",
+    "q": "Not only the accounting interns but also the chief auditor _______ the new financial software daily.",
+    "a": "uses",
+    "choices": ["use", "uses", "using", "useful"],
+    "explain": "【進階連詞主謂 3/5】繼續轟炸！『Not only A but also B』 當主詞時，動詞單複數依然『配合 B』。這裡的 B 是單數的 chief auditor（主計審計師）。敘述常態事实用現在式，單數動詞加 s。故選 (B) uses。"
+  },
+  {
+    "id": "g252",
+    "cat": "[陣營AT]相關對等連詞固定搭配-進階主謂一致",
+    "q": "Whether the regional branches or the main headquarters _______ the event has not been announced.",
+    "a": "hosts",
+    "choices": ["host", "hosts", "hosting", "hosted"],
+    "explain": "【進階連詞主謂 4/5】公式完全一致。整個 『Whether A or B』 結構引導的主詞部分，動詞單複數要『看靠近的 B』。B 是單數的 main headquarters（總部，作單數機構看），所以動詞選單數加 s 的 hosts。故選 (B)。"
+  },
+  {
+    "id": "g253",
+    "cat": "[陣營AT]相關對等連詞固定搭配-進階主謂一致",
+    "q": "Either the legal advisor or the executive assistants _______ the contract drafts before the meeting.",
+    "a": "print",
+    "choices": ["print", "prints", "printing", "printed"],
+    "explain": "【進階連詞主謂 5/5】最後大收尾！『Either A or B』，動詞單複數『配合 B』。B 是複數的 executive assistants（高階助理們）。現在式複數主詞，動詞使用原型 print。秒殺收尾！故選 (A)。"
+  },
+  {
+    "id": "g254",
+    "cat": "[陣營AU]關係代名詞的抉擇-主格與受格",
+    "q": "The senior engineer _______ designed the newly automated assembly line was promoted to director.",
+    "a": "who",
+    "choices": ["who", "whom", "which", "whose"],
+    "explain": "【關代辨析 1/5】先行詞是 The senior engineer（人）。空格後方緊接動詞 designed，表示空格在形容詞子句中擔任『主格』，因此必須選人稱主格關係代名詞 who。故選 (A)。"
+  },
+  {
+    "id": "g255",
+    "cat": "[陣營AU]關係代名詞的抉擇-主格與受格",
+    "q": "The marketing consultant _______ the board of directors hired last month has proposed a new plan.",
+    "a": "whom",
+    "choices": ["who", "whom", "which", "whose"],
+    "explain": "【關代辨析 2/5】先行詞是 The marketing consultant（人）。空格後方有完整的主詞（the board...）與動詞（hired），代表 hired 的受詞被提到了前面，空格擔任『受格』，選人稱受格 whom（多益正式考試中，受格首選 whom）。故選 (B)。"
+  },
+  {
+    "id": "g256",
+    "cat": "[陣營AU]關係代名詞的抉擇-主格與受格",
+    "q": "The logistical software _______ tracks global shipments in real time needs to be updated.",
+    "a": "which",
+    "choices": ["who", "whom", "which", "whose"],
+    "explain": "【關代辨析 3/5】先行詞是 The logistical software（物）。空格後方是動詞 tracks，代表形容詞子句缺物的主格。選非人稱關係代名詞 which。故選 (C)。"
+  },
+  {
+    "id": "g257",
+    "cat": "[陣營AU]關係代名詞的抉擇-主格與受格",
+    "q": "The commercial legal contract _______ you reviewed yesterday afternoon contains a severe pricing error.",
+    "a": "which",
+    "choices": ["who", "whom", "which", "whose"],
+    "explain": "【關代辨析 4/5】先行詞是 The commercial legal contract（物）。後方有主詞 you 和動詞 reviewed，缺物稱受格，依然選 which。故選 (C)。"
+  },
+  {
+    "id": "g258",
+    "cat": "[陣營AU]關係代名詞的抉擇-主格與受格",
+    "q": "The prominent client _______ corporate headquarters are located in Tokyo signed the agreement.",
+    "a": "whose",
+    "choices": ["who", "whom", "which", "whose"],
+    "explain": "【關代辨析 5/5】大陷阱！先行詞是 The prominent client（人/機構）。注意空格後方是個名詞片語 corporate headquarters（企業總部），語意為『該客戶的』企業總部。表達『所有格（...的）』，雷打不動選 whose。故選 (D)。"
+  },
+  {
+    "id": "g259",
+    "cat": "[陣營AV]最高級進階-修飾最高級的常見副詞",
+    "q": "This tech solution is _______ the most innovative product our research team has ever developed.",
+    "a": "by far",
+    "choices": ["by far", "very", "much", "more"],
+    "explain": "【修飾最高級 1/5】多益超高頻大考點！空格後面是最高級 the most innovative。能夠直接放在 the 前面修飾最高級、表達『顯然/無疑是』的程度片語，首選 『by far』。very 不能這樣修飾最高級。故選 (A)。"
+  },
+  {
+    "id": "g260",
+    "cat": "[陣營AV]最高級進階-修飾最高級的常見副詞",
+    "q": "The newly appointed manager is arguably _______ best sales strategist in the entire pharmaceutical company.",
+    "a": "the",
+    "choices": ["a", "the", "an", "one"],
+    "explain": "【修飾最高級 2/5】看清結構。arguably（可以說是/大概是）是個常用來修飾最高級的副詞。它後方接最高級形容詞 best，最高級前面必須配上定冠詞 『the』。故選 (B)。"
+  },
+  {
+    "id": "g261",
+    "cat": "[陣營AV]最高級進階-修飾最高級的常見副詞",
+    "q": "The corporate headquarters in New York is quite _______ the largest facility in our network.",
+    "a": "possibly",
+    "choices": ["possible", "possibly", "possibility", "possibleness"],
+    "explain": "【修飾最高級 3/5】空格夾在副詞 quite 與最高級結構 the largest 之間。這裡需要另一個副詞來修飾最高級（quite possibly the... 很有可能是最大的...），選副詞字尾 -ly。故選 (B)。"
+  },
+  {
+    "id": "g262",
+    "cat": "[陣營AV]最高級進階-修飾最高級的常見副詞",
+    "q": "Upgrading the database infrastructure is single-handedly the _______ critical task of this quarter.",
+    "a": "most",
+    "choices": ["more", "most", "almost", "mostly"],
+    "explain": "【修飾最高級 4/5】看見前方有修飾語 single-handedly（單獨地/獨自）以及定冠詞 the。配合後方的長形容詞 critical，組合起來就是 the most critical（最關鍵的）。選最高級副詞 most。故選 (B)。"
+  },
+  {
+    "id": "g263",
+    "cat": "[陣營AV]最高級進階-修飾最高級的常見副詞",
+    "q": "The logistics conglomerate reported its _______ profitable fiscal year since its establishment.",
+    "a": "most",
+    "choices": ["more", "most", "almost", "much"],
+    "explain": "【最高級大收尾】看到句尾有關鍵提示片語 『since its establishment（自成立以來）』，這是一個涵蓋長時間範圍的對比，提示要用最高級。its 是所有格，所有格後面可以直接接最高級 profitable，不需要再加 the。選 most。故選 (B)。"
+  },
+  {
+    "id": "g264",
+    "cat": "[陣營AW]詞性-副詞修飾過去分詞(被動態中夾副詞)",
+    "q": "The financial audit records were _______ examined by the external accounting firm yesterday.",
+    "a": "thoroughly",
+    "choices": ["thorough", "thoroughly", "thoroughness", "thoroughbred"],
+    "explain": "【副詞夾心 1/5】多益 Part 5 出題率極高的黃金結構：『be 動詞 + 空格 + p.p. 被動態』。夾在 be 動詞和過去分詞（examined）中間的空格，不用懷疑，絕對是填入『副詞』。故選 (B) thoroughly（徹底地）。"
+  },
+  {
+    "id": "g265",
+    "cat": "[陣營AW]詞性-副詞修飾過去分詞(被動態中夾副詞)",
+    "q": "All consumer complaints are _______ registered in the corporate database system.",
+    "a": "automatically",
+    "choices": ["automatic", "automatically", "automation", "automatize"],
+    "explain": "【副詞夾心 2/5】一模一樣的公式。空格夾在 are 與過去分詞 registered 之間，用來修飾登記的這個動作，直接秒選副詞。故選 (B) automatically（自動地）。"
+  },
+  {
+    "id": "g266",
+    "cat": "[陣營AW]詞性-副詞修飾過去分詞(被動態中夾副詞)",
+    "q": "The password resets will be _______ generated by the server to prevent data leakage.",
+    "a": "randomly",
+    "choices": ["random", "randomly", "randomness", "randomize"],
+    "explain": "【副詞夾心 3/5】即使變成了未來被動式（will be + 空格 + p.p.），公式依然成立！夾在 p.p.（generated）前方的空格必填副詞。故選 (B) randomly（隨機地）。"
+  },
+  {
+    "id": "g267",
+    "cat": "[陣營AW]詞性-副詞修飾過去分詞(被動態中夾副詞)",
+    "q": "The factory ventilation system was _______ installed by a certified technician.",
+    "a": "properly",
+    "choices": ["proper", "properly", "property", "properness"],
+    "explain": "【副詞夾心 4/5】空格夾在 be 動詞 was 與 p.p. installed 中間。秒殺選 -ly 結尾的副詞。故選 (B) properly（正確地/妥善地）。"
+  },
+  {
+    "id": "g268",
+    "cat": "[陣營AW]詞性-副詞修飾過去分詞(被動態中夾副詞)",
+    "q": "The confidential documents were _______ shredded after the expiration of the legal deadline.",
+    "a": "immediately",
+    "choices": ["immediate", "immediately", "immediacy", "immediateness"],
+    "explain": "【副詞夾心大收尾】夾在 were 和 p.p. shredded（粉碎/切碎）中間，直接派副詞上場。選 (B) immediately（立刻）。0.5 秒輕鬆拿下！"
+  },
+  {
+    "id": "g269",
+    "cat": "[陣營AX]主謂一致-外表像複數但實為單數的主詞",
+    "q": "Economics _______ considered an essential field of study for modern financial analysts.",
+    "a": "is",
+    "choices": ["is", "are", "be", "being"],
+    "explain": "【單複數陷阱 1/5】主詞是 Economics（經濟學）。雖然字尾有 s，但它是『學科名稱』，屬於不可數名詞，視為『單數』！敘述常態事實，動詞選單數的 is。千萬別被字尾的 s 騙去選 are！故選 (A)。"
+  },
+  {
+    "id": "g270",
+    "cat": "[陣營AX]主謂一致-外表像複數但實為單數的主詞",
+    "q": "The local news _______ broadcasted live every evening at six o'clock on channel 5.",
+    "a": "is",
+    "choices": ["is", "are", "be", "being"],
+    "explain": "【單複數陷阱 2/5】主詞是 news（新聞）。注意！多益必考鐵律：『news 永遠是不可數名詞，必須視為單數』！搭配時間 every evening 提示現在式，動詞選單數的 is。故選 (A)。"
+  },
+  {
+    "id": "g271",
+    "cat": "[陣營AX]主謂一致-外表像複數但實為單數的主詞",
+    "q": "The logistics corporate headquarters _______ located in the central business district.",
+    "a": "is",
+    "choices": ["is", "are", "be", "being"],
+    "explain": "【單複數陷阱 3/5】主詞是 headquarters（總部）。這個字雖然長得像複數，但當作「一個總部機構」時，是標準的『單數主詞』。固定句型 be located in（位於...），主詞單數用 is。故選 (A)。"
+  },
+  {
+    "id": "g272",
+    "cat": "[陣營AX]主謂一致-外表像複數但實為單數的主詞",
+    "q": "Ten thousand dollars _______ the maximum budget allocated for the office renovation.",
+    "a": "is",
+    "choices": ["is", "are", "be", "being"],
+    "explain": "【單複數陷阱 4/5】主詞是 Ten thousand dollars（一萬美元）。在英文中，『金額、時間、距離、重量』雖然看起來是複數數字，但只要是表達『一個整體的概念/總和』，一律視為『單數主詞』！故動詞用 is。故選 (A)。"
+  },
+  {
+    "id": "g273",
+    "cat": "[陣營AX]主謂一致-外表像複數但實為單數的主詞",
+    "q": "Three weeks _______ the standard timeframe required to process an international patent.",
+    "a": "is",
+    "choices": ["is", "are", "be", "being"],
+    "explain": "【單複數陷阱大收尾】主詞是 Three weeks（三週）。如同上一題的黃金規律，『時間長度當作一個整體單位』時，必須視為『單數主詞』。後面也有補語 a standard timeframe 提示。動詞果斷選 is。通關！故選 (A)。"
+  },
+  {
+    "id": "g274",
+    "cat": "[陣營AY]常考多益單字片語-名詞與介系詞固定搭配",
+    "q": "The engineering consultant proposed a practical solution _______ the water leak issue.",
+    "a": "to",
+    "choices": ["to", "for", "with", "at"],
+    "explain": "【名詞+介系詞 1/5】多益超級必背黃金搭配：『a solution to...（針對某問題的解決方案）』。注意，雖然中文習慣講「...的」解決方案，但英文固定搭配的介系詞是 to，千萬別選 for 或 of！故選 (A)。"
+  },
+  {
+    "id": "g275",
+    "cat": "[陣營AY]常考多益單字片語-名詞與介系詞固定搭配",
+    "q": "The tech firm experienced a sharp increase _______ online subscription sales last month.",
+    "a": "in",
+    "choices": ["in", "at", "on", "with"],
+    "explain": "【名詞+介系詞 2/5】商務圖表常用搭配：『an increase / decrease in...（在某方面的增加/減少）』。空格前有 increase，表達在銷售額方面的成長，介系詞固定配 in。故選 (A)。"
+  },
+  {
+    "id": "g276",
+    "cat": "[陣營AY]常考多益單字片語-名詞與介系詞固定搭配",
+    "q": "The newly hired public relations specialist has limited experience _______ crisis management.",
+    "a": "in",
+    "choices": ["in", "to", "for", "with"],
+    "explain": "【名詞+介系詞 3/5】履歷與職能高頻片語：『experience in + 領域（在某領域的經驗）』。名詞 experience 後方固定搭配介系詞 in。故選 (A)。"
+  },
+  {
+    "id": "g277",
+    "cat": "[陣營AY]常考多益單字片語-名詞與介系詞固定搭配",
+    "q": "There is an urgent need _______ temporary office space during the construction period.",
+    "a": "for",
+    "choices": ["for", "to", "in", "of"],
+    "explain": "【名詞+介系詞 4/5】常見商務表達：『a need for...（對某事物的需求）』。名詞 need 後方如果接名詞當作需求的對象，固定搭配介系詞 for。故選 (A)。"
+  },
+  {
+    "id": "g278",
+    "cat": "[陣營AY]常考多益單字片語-名詞與介系詞固定搭配",
+    "q": "The marketing team has complete confidence _______ the success of the product launch.",
+    "a": "in",
+    "choices": ["in", "for", "with", "to"],
+    "explain": "【名詞+介系詞大收尾】經典核心搭配：『have confidence in...（對...有信心）』。名詞 confidence 後方的靈魂介系詞必定是 in。穩穩拿下分數！故選 (A)。"
+  },
+  {
+    "id": "g279",
+    "cat": "[陣營AZ]限定詞-可數與不可數名詞的限定修飾",
+    "q": "The legal department stated that _______ employee records are stored in the secure vault.",
+    "a": "all",
+    "choices": ["all", "every", "each", "much"],
+    "explain": "【限定詞辨析 1/5】空格後方的 employee records（員工紀錄）是『可數複數名詞』。選項中 every 和 each 後方只能接單數名詞；much 只能接不可數名詞；只有 all 可以接複數名詞。故選 (A)。"
+  },
+  {
+    "id": "g280",
+    "cat": "[陣營AZ]限定詞-可數與不可數名詞的限定修飾",
+    "q": "The supervisor assigned _______ administrative task to a different intern this morning.",
+    "a": "each",
+    "choices": ["each", "all", "several", "many"],
+    "explain": "【限定詞辨析 2/5】空格後方是『單數可數名詞』 task（任務）。選項中 all, several, many 後面都必須搭配複數名詞，只有 each（每一個）後面接單數可數名詞。故選 (A)。"
+  },
+  {
+    "id": "g281",
+    "cat": "[陣營AZ]限定詞-可數與不可數名詞的限定修飾",
+    "q": "The customer relations officer spent _______ time resolving the billing dispute yesterday.",
+    "a": "much",
+    "choices": ["many", "much", "several", "few"],
+    "explain": "【限定詞辨析 3/5】空格後方是多益經典『不可數名詞』 time（時間）。many, several, few 後面一律只能接可數複數名詞，只有 much 可以用來修飾不可數。故選 (B)。"
+  },
+  {
+    "id": "g282",
+    "cat": "[陣營AZ]限定詞-可數與不可數名詞的限定修飾",
+    "q": "The factory manager pointed out that _______ machine must undergo inspection every month.",
+    "a": "every",
+    "choices": ["every", "all", "both", "many"],
+    "explain": "【限定詞辨析 4/5】空格後方是『單數可數名詞』 machine（機器）。all, both, many 後面都要接複數名詞，只有 every 後面接單數可數名詞。故選 (A)。"
+  },
+  {
+    "id": "g283",
+    "cat": "[陣營AZ]限定詞-可數與不可數名詞的限定修飾",
+    "q": "The executive board requested _______ information regarding the potential joint venture.",
+    "a": "more",
+    "choices": ["more", "many", "several", "few"],
+    "explain": "【限定詞辨析大收尾】空格後方是『不可數名詞』 information（資訊）。many, several, few 都只能修飾可數複數。而 more（更多的）作為比較級限定詞，可數複數、不可數名詞通吃！因此這裡修飾不可數完全合法。完美通關！故選 (A)。"
+  },
+  {
+    "id": "g284",
+    "cat": "[陣營BA]進階虛擬語氣-與過去事實相反的條件句",
+    "q": "If the legal team _______ the contract earlier, we would have avoided the lawsuit.",
+    "a": "had reviewed",
+    "choices": ["reviewed", "would review", "had reviewed", "has reviewed"],
+    "explain": "【虛擬語氣 1/5】多益高級魔王題！看到主要子句出現 『would have avoided（would have + p.p.）』，得知這是對『過去事實相反』的虛擬語氣。If 子句的動詞必須使用『過去完成式（had + p.p.）』。故選 (C)。"
+  },
+  {
+    "id": "g285",
+    "cat": "[陣營BA]進階虛擬語氣-與過去事實相反的條件句",
+    "q": "If the logistics department _______ the items on time, the client would not have canceled the order.",
+    "a": "had shipped",
+    "choices": ["shipped", "had shipped", "would ship", "has shipped"],
+    "explain": "【虛擬語氣 2/5】同理公式。主要子句是 would not have canceled，代表與過去事實相反。If 子句雷打不動要配過去完成式 had shipped。故選 (B)。"
+  },
+  {
+    "id": "g286",
+    "cat": "[陣營BA]進階虛擬語氣-與過去事實相反的條件句",
+    "q": "The tech startup _______ more funding if they had presented a better business model to the investors.",
+    "a": "would have secured",
+    "choices": ["secured", "would secure", "will secure", "would have secured"],
+    "explain": "【虛擬語氣 3/5】公式前後對調。這題 If 子句給了 『had presented（had + p.p.）』，提示前方的主要子句必須使用 『would / could / might + have + p.p.』 的結構。故選 (D)。"
+  },
+  {
+    "id": "g287",
+    "cat": "[陣營BA]進階虛擬語氣-與過去事實相反的條件句",
+    "q": "If the factory supervisor _______ the security flaw, the workplace accident might have been prevented.",
+    "a": "had noticed",
+    "choices": ["noticed", "has noticed", "had noticed", "would notice"],
+    "explain": "【虛擬語氣 4/5】主要子句為 might have been prevented。標準的與過去事實相反結構，If 子句直接鎖定過去完成式 had noticed。故選 (C)。"
+  },
+  {
+    "id": "g288",
+    "cat": "[陣營BA]進階虛擬語氣-與過去事實相反的條件句",
+    "q": "We _______ the business merger smoothly if the financial auditors had finished the records earlier.",
+    "a": "could have finalized",
+    "choices": ["finalized", "will finalize", "could have finalized", "could finalize"],
+    "explain": "【虛擬語氣 5/5】最後大收尾。If 子句為 had finished，主要子句選 could have finalized（原本就可能完成，但實際上過去沒有完成）。分數穩穩入袋！故選 (C)。"
+  },
+  {
+    "id": "g289",
+    "cat": "[陣營BB]情態助動詞進階-對過去事情的強烈推測",
+    "q": "The lead financial auditor _______ missed the entry error because he checked the spreadsheet three times.",
+    "a": "cannot have",
+    "choices": ["must have", "cannot have", "should have", "might have"],
+    "explain": "【過去推測 1/5】後半句說：『因為他檢查了三遍』，表示他『過去不可能』漏掉這個錯誤。表示對過去事情『不可能發生』的強烈推測，英文固定使用 『cannot have + p.p.』。故選 (B)。"
+  },
+  {
+    "id": "g290",
+    "cat": "[陣營BB]情態助動詞進階-對過去事情的強烈推測",
+    "q": "The regional office was completely dark when I drove past; the staff _______ left for the day.",
+    "a": "must have",
+    "choices": ["must have", "cannot have", "should have", "might have"],
+    "explain": "【過去推測 2/5】前半句說『辦公室全黑的』，表示員工『過去一定已經』下班了。表示對過去事實『必定發生過』的強烈肯定推測，固定語法為 『must have + p.p.』。故選 (A)。"
+  },
+  {
+    "id": "g291",
+    "cat": "[陣營BB]情態助動詞進階-對過去事情的強烈推測",
+    "q": "Ms. Vance looks extremely disappointed; she _______ received the promotion she wanted.",
+    "a": "cannot have",
+    "choices": ["must have", "cannot have", "ought to have", "should have"],
+    "explain": "【過去推測 3/5】語意線索：她看起來極度失望，代表她『過去一定沒有』得到晉升。對過去的否定推測，用 cannot have + p.p.（不可能已經...）。故選 (B)。"
+  },
+  {
+    "id": "g292",
+    "cat": "[陣營BB]情態助動詞進階-對過去事情的強烈推測",
+    "q": "The server room is flooded; the building's drainage system _______ failed during the rainstorm.",
+    "a": "must have",
+    "choices": ["must have", "cannot have", "should have", "would have"],
+    "explain": "【過去推測 4/5】機房淹水了，代表排水系統在暴雨時『一定故障了』。強烈的過去肯定推測，直接選 must have + p.p.。故選 (A)。"
+  },
+  {
+    "id": "g293",
+    "cat": "[陣營BB]情態助動詞進階-對過去事情的強烈推測",
+    "q": "The marketing manager _______ approved the proposal, but I am not entirely certain about it.",
+    "a": "might have",
+    "choices": ["must have", "cannot have", "might have", "should have"],
+    "explain": "【過去推測 5/5】後半句說 『but I am not entirely certain（但我不是完全確定）』。既然不確定，表示是『微弱的推測（有可能...）』。對過去微弱的推測使用 『might have + p.p.』。故選 (C)。"
+  },
+  {
+    "id": "g294",
+    "cat": "[陣營BC]複合不定代名詞-主謂一致與修飾語位置",
+    "q": "The human resources coordinator announced that _______ in the engineering team has been invited.",
+    "a": "everyone",
+    "choices": ["everyone", "all", "several", "many"],
+    "explain": "【不定代名詞 1/5】注意空格後方的單數動詞 『has been』。選項中 all, several, many 如果指人，後面一律要配複數動詞。只有複合不定代名詞 everyone（每個人）在文法上『永遠視為單數』。故選 (A)。"
+  },
+  {
+    "id": "g295",
+    "cat": "[陣營BC]複合不定代名詞-主謂一致與修飾語位置",
+    "q": "The legal consultants mentioned that _______ needs to be adjusted before signing the merger contract.",
+    "a": "something",
+    "choices": ["something", "some", "many", "several"],
+    "explain": "【不定代名詞 2/5】空格後出現單數動詞 『needs』，且依照文意是指「某個條款/事情」。something（某事/某物）作主詞視為單數，符合語意與語法。故選 (A)。"
+  },
+  {
+    "id": "g296",
+    "cat": "[陣營BC]複合不定代名詞-主謂一致與修飾語位置",
+    "q": "The marketing research team discovered _______ interesting about the new consumer demographic.",
+    "a": "something",
+    "choices": ["something", "anything", "some", "any"],
+    "explain": "【不定代名詞 3/5】多益核心語序大考點：『形容詞修飾不定代名詞時，必須放在代名詞後面』！空格後出現形容詞 interesting，前方要填不定代名詞。此句為肯定句，故選 something。組合成 something interesting。故選 (A)。"
+  },
+  {
+    "id": "g297",
+    "cat": "[陣營BC]複合不定代名詞-主謂一致與修飾語位置",
+    "q": "Due to the secure nature of the database, _______ is allowed to copy the files without a permit.",
+    "a": "nobody",
+    "choices": ["nobody", "anybody", "somebody", "all"],
+    "explain": "【不定代名詞 4/5】結合單數動詞 is 與前後文意。因為資料庫很安全，所以『沒有人』被允許在沒有許可證的情況下複製檔案。選否定意味的單數代名詞 nobody。故選 (A)。"
+  },
+  {
+    "id": "g298",
+    "cat": "[陣營BC]複合不定代名詞-主謂一致與修飾語位置",
+    "q": "The customer relations department found that there was _______ wrong with the online portal.",
+    "a": "nothing",
+    "choices": ["nothing", "anything", "none", "any"],
+    "explain": "【不定代名詞 5/5】大收尾！形容詞 wrong（錯誤的）放在空格後面修飾它。文意表示線上入口網站『沒有任何問題』，選 nothing。組合成 nothing wrong（沒問題/沒出錯）。故選 (A)。"
+  },
+  {
+    "id": "g299",
+    "cat": "[陣營BD]特殊否定結構-部分否定與全部否定",
+    "q": "The marketing supervisor clarified that _______ of the two advertising plans was approved.",
+    "a": "neither",
+    "choices": ["neither", "none", "all", "any"],
+    "explain": "【否定辨析 1/5】看到關鍵字 『of the two...（兩者之中）』。在英文中，『兩者的全部否定』有其專屬代名詞，那就是 『neither（兩者皆非）』。none 是用於三者或三者以上。故選 (A)。"
+  },
+  {
+    "id": "g300",
+    "cat": "[陣營BD]特殊否定結構-部分否定與全部否定",
+    "q": "The tech conglomerate has five regional branches, but _______ of them generated a profit last year.",
+    "a": "none",
+    "choices": ["neither", "none", "no", "any"],
+    "explain": "【否定辨析 2/5】恭喜迎來第 300 題！這題前方提到 『five regional branches（五個分部，三者以上）』。當要對『三者或三者以上進行全部否定（皆無）』時，必須使用 『none』。秒殺！故選 (B)。"
+  },
+  {
+    "id": "g301",
+    "cat": "[陣營BD]特殊否定結構-部分否定與全部否定",
+    "q": "Not _______ the senior executives agreed with the proposed budget restructuring plan.",
+    "a": "all",
+    "choices": ["all", "every", "none", "any"],
+    "explain": "【否定辨析 3/5】高級語法：『部分否定』。結構為 『Not + all / both / every...』，意思是『並非所有的...都...』。後面配複數動詞 agreed 與複數名詞 executives，填入 all 構成部分否定。故選 (A)。"
+  },
+  {
+    "id": "g302",
+    "cat": "[陣營BD]特殊否定結構-部分否定與全部否定",
+    "q": "The supervisor reviewed the two inventory reports, but _______ report contained the specific metrics.",
+    "a": "neither",
+    "choices": ["neither", "none", "no", "any"],
+    "explain": "【否定辨析 4/5】前方指明是 『two inventory reports（兩份報告）』。空格後面緊跟著單數名詞 report。neither 在這裡當作限定詞修飾單數名詞，意為『兩份報告都沒有...』。故選 (A)。"
+  },
+  {
+    "id": "g303",
+    "cat": "[陣營BD]特殊否定結構-部分否定與全部否定",
+    "q": "The chief executive officer emphasized that not _______ applicant who has a degree will be hired.",
+    "a": "every",
+    "choices": ["every", "all", "none", "any"],
+    "explain": "【否定辨析 5/5】部分否定收尾。後面出現了單數可數名詞 applicant。Not 與單數限定詞 every 結合，構成 『not every（並非每一個...都...）』 的部分否定結構。完美通關！故選 (A)。"
+  },
+  {
+    "id": "g304",
+    "cat": "[陣營BE]高階副詞連接詞-表達讓步與對比",
+    "q": "The product development team finished the prototype on time; _______, the marketing campaign was delayed.",
+    "a": "however",
+    "choices": ["however", "although", "despite", "whereas"],
+    "explain": "【讓步對比 1/5】注意標點符號！空格前方是分號（;），後方是逗號（,）。這是不折不扣的『副詞連接詞（轉折副詞）』專屬位置。選項中只有 however 是副詞，其餘 although, whereas 為常規連接詞，despite 為介系詞。故選 (A)。"
+  },
+  {
+    "id": "g305",
+    "cat": "[陣營BE]高階副詞連接詞-表達讓步與對比",
+    "q": "The tech firm's profit increased sharply, _______ its competitor experienced a severe decline.",
+    "a": "whereas",
+    "choices": ["whereas", "however", "despite", "nevertheless"],
+    "explain": "【讓步對比 2/5】空格前後是兩個完整的句子，且中間只有一個逗號隔開。這代表空格必須填入一個真正的『連接詞』。whereas（然而/反之）是標準連接詞，用來對比兩個事實。however, nevertheless 是副詞，不能這樣直接連接兩句。故選 (A)。"
+  },
+  {
+    "id": "g306",
+    "cat": "[陣營BE]高階副詞連接詞-表達讓步與對比",
+    "q": "The data migration process was complex; _______, the IT team completed it without any data loss.",
+    "a": "nevertheless",
+    "choices": ["nevertheless", "although", "even though", "while"],
+    "explain": "【讓步對比 3/5】又是經典的標點符號夾心結構（分號 + 空格 + 逗號）。鎖定副詞連接詞 nevertheless（儘管如此/然而）。其餘三個選項都是引導從屬子句的連接詞。故選 (A)。"
+  },
+  {
+    "id": "g307",
+    "cat": "[陣營BE]高階副詞連接詞-表達讓步與對比",
+    "q": "The old database architecture was prone to crashes, _______ the upgraded version is highly secure.",
+    "a": "while",
+    "choices": ["while", "however", "nevertheless", "nonetheless"],
+    "explain": "【讓步對比 4/5】空格用來連接兩個對比的句子（舊架構 vs 新版本）。需要填入連接詞。while 在這裡不代表時間，而是代表對比的『然而/雖然』。其餘三者皆為轉折副詞。故選 (A)。"
+  },
+  {
+    "id": "g308",
+    "cat": "[陣營BE]高階副詞連接詞-表達讓步與對比",
+    "q": "The legal department approved the contract draft; _______, they requested a minor pricing adjustment.",
+    "a": "nonetheless",
+    "choices": ["nonetheless", "although", "though", "despite"],
+    "explain": "【讓步對比 5/5】最後一關。分號與逗號中間，雷打不動填入轉折副詞 nonetheless（但是/儘管如此），語意完全通順。秒殺拿分！故選 (A)。"
+  },
+  {
+    "id": "g309",
+    "cat": "[陣營BF]獨立分詞構句-慣用語與主語一致原則",
+    "q": "_______ from his impressive corporate background, Mr. Liang is highly qualified for the position.",
+    "a": "Judging",
+    "choices": ["Judging", "Judged", "To judge", "Having judged"],
+    "explain": "【分詞構句 1/5】多益核心獨立分詞慣用語：『Judging from...（從...來判斷）』。這種結構屬於獨立分詞，不受主句主詞的限制，固定使用現在分詞 V-ing 開頭。故選 (A)。"
+  },
+  {
+    "id": "g310",
+    "cat": "[陣營BF]獨立分詞構句-慣用語與主語一致原則",
+    "q": "_______ weather conditions permitting, the outdoor corporate anniversary gala will begin at seven.",
+    "a": "Weather",
+    "choices": ["Weather", "Whether", "If", "Because"],
+    "explain": "【分詞構句 2/5】這題考的是『獨立分詞構句』。後半段 permitting 是現在分詞，它的邏輯主詞是 weather（天氣），兩者構成獨立主格結構（Weather permitting，如果天氣允許的話）。不需要再加連接詞 if。故選 (A)。"
+  },
+  {
+    "id": "g311",
+    "cat": "[陣營BF]獨立分詞構句-慣用語與主語一致原則",
+    "q": "_______ generally speaking, the new financial regulations will benefit small tech startups.",
+    "a": "Generally",
+    "choices": ["General", "Generally", "Generality", "Generalize"],
+    "explain": "【分詞構句 3/5】超高頻商務口語分詞片語：『Generally speaking（一般而言）』。固定搭配副詞 generally 來修飾 speaking。背起來就是送分題！故選 (B)。"
+  },
+  {
+    "id": "g312",
+    "cat": "[陣營BF]獨立分詞構句-慣用語與主語一致原則",
+    "q": "_______ the complexity of the project, the development team did a remarkable job.",
+    "a": "Considering",
+    "choices": ["Considering", "Considered", "Considerable", "Considerately"],
+    "explain": "【分詞構句 4/5】介系詞化的分詞慣用語：『Considering...（考慮到.../鑑於...）』。後方直接接名詞片語 the complexity。固定用 V-ing 形式作為引導詞。故選 (A)。"
+  },
+  {
+    "id": "g313",
+    "cat": "[陣營BF]獨立分詞構句-慣用語與主語一致原則",
+    "q": "_______ that the initial market test succeeds, we will launch the product nationwide next year.",
+    "a": "Provided",
+    "choices": ["Provided", "Providing", "Provides", "To provide"],
+    "explain": "【分詞構句 5/5】高階條件連接詞。『Provided that...』 或 『Providing that...』 都可以當作連接詞，意思是『倘若/只要...』。但在多益備考中，考試選項首選過去分詞形式的 『Provided that』。故選 (A)。"
+  },
+  {
+    "id": "g314",
+    "cat": "[陣營BG]進階助動詞-動詞原型的特殊要求(意志動詞+that子句)",
+    "q": "The legal consultant recommended that the corporate board _______ the terms immediately.",
+    "a": "modify",
+    "choices": ["modify", "modifies", "modified", "should be modified"],
+    "explain": "【意志動詞 1/5】多益最經典高階考點！當前方出現 recommended（建議）這類意志動詞，後面的 that 子句結構中，隱藏了一個省略的 『should』。因此，不論主詞是單數還是複數，動詞一律強制使用『原形動詞』！故選 (A) modify。"
+  },
+  {
+    "id": "g315",
+    "cat": "[陣營BG]進階助動詞-動詞原型的特殊要求(意志動詞+that子句)",
+    "q": "The factory plant safety inspector insisted that the main database _______ updated weekly.",
+    "a": "be",
+    "choices": ["is", "was", "be", "been"],
+    "explain": "【意志動詞 2/5】前方動詞是 insisted（堅持）。後面那句話意為「主資料庫『應該要被』每週更新」，that 子句省略了 should，且語意是被動（should be updated）。省去 should 後留下動詞原形 be。千萬不要選 is 或 was！故選 (C)。"
+  },
+  {
+    "id": "g316",
+    "cat": "[陣營BG]進階助動詞-動詞原型的特殊要求(意志動詞+that子句)",
+    "q": "It is imperative that every single employee _______ the new non-disclosure agreement by Friday.",
+    "a": "sign",
+    "choices": ["sign", "signs", "signed", "signing"],
+    "explain": "【意志動詞 3/5】不僅是動詞，當前方出現形容詞 『It is imperative that...（那是至關重要的）』，後方的子句同樣要強制省略 should。主詞雖然是單數的 every single employee，動詞依然只能用原形 sign。極具欺騙性！故選 (A)。"
+  },
+  {
+    "id": "g317",
+    "cat": "[陣營BG]進階助動詞-動詞原型的特殊要求(意志動詞+that子句)",
+    "q": "The chief executive officer requested that the regional manager _______ a report by tomorrow.",
+    "a": "submit",
+    "choices": ["submits", "submit", "submitted", "submitting"],
+    "explain": "【意志動詞 4/5】前方動詞是 requested（要求）。that 子句省略 should， regional manager 後方雷打不動，直接填入原形動詞 submit。考場秒殺題！故選 (B)。"
+  },
+  {
+    "id": "g318",
+    "cat": "[陣營BG]進階助動詞-動詞原型的特殊要求(意志動詞+that子句)",
+    "q": "The HR committee suggested that the intern _______ more training before handling live accounts.",
+    "a": "receive",
+    "choices": ["receives", "receive", "received", "has received"],
+    "explain": "【意志動詞終極收尾】前方動詞為 suggested（建議）。that 子句再度啟動『(should) + 原形動詞』機制。 intern 後方直接補上原形動詞 receive。恭喜你完成了全部終極特訓！故選 (B)。"
   }
+  
 ]
