@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOEIC 多益文法特訓王Pro</title>
+    <style>
+        :root {
+            --primary-color: #6366f1;
+            --secondary-color: #ec4899;
+            --background-color: #f1f5f9;
+            --card-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .nav-tabs { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; justify-content: center; }
+        .tab-btn {
+            padding: 10px 20px; border: none; background-color: #e2e8f0;
+            color: #4a5568; border-radius: 20px; cursor: pointer; font-weight: bold;
+        }
+        .tab-btn.active { background-color: var(--primary-color); color: white; }
+
+        .container {
+            width: 100%; max-width: 550px; min-height: 450px; background: white;
+            padding: 30px; border-radius: 16px; box-shadow: var(--card-shadow);
+            box-sizing: border-box; display: flex; flex-direction: column;
+        }
+
+        .panel { display: none; flex-direction: column; justify-content: space-between; flex-grow: 1; }
+        .panel.active { display: flex; }
+
+        /* 文法卡外框：因為句子較長，最小高度微調至 360px */
+        .flashcard {
+            background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+            color: white; 
+            min-height: 360px; 
+            border-radius: 12px;
+            display: flex; 
+            flex-direction: column; 
+            justify-content: space-between; 
+            align-items: center; 
+            cursor: pointer; 
+            text-align: center;
+            padding: 55px 25px 20px 25px; 
+            box-sizing: border-box; 
+            position: relative;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+        }
+
+        /* 最愛按鈕 */
+        .fav-btn {
+            position: absolute; background: rgba(255,255,255,0.1); border: none;
+            color: white; font-size: 1.6rem; cursor: pointer; padding: 0; border-radius: 50%;
+            width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;
+            transition: background 0.2s; top: 15px; right: 15px; z-index: 10;
+        }
+        .fav-btn:hover { background: rgba(255,255,255,0.3); }
+
+        /* 文法分類標籤 (e.g. 詞性判斷、時態) */
+        .grammar-badge {
+            position: absolute; top: 22px; left: 20px; background: rgba(0,0,0,0.25);
+            padding: 4px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .card-main-content {
+            display: flex; flex-direction: column; justify-content: center; align-items: center;
+            flex-grow: 1; width: 100%;
+        }
+
+        /* 文法題目與背面文字排版 */
+        #card-front-text { font-size: 1.25rem; font-weight: 600; line-height: 1.6; margin: 0; text-align: left; }
+        #card-back-area { width: 100%; text-align: center; }
+        .ans-title { font-size: 0.85rem; opacity: 0.7; font-weight: bold; margin-bottom: 2px; }
+        .word-back-en { font-size: 1.8rem; font-weight: bold; letter-spacing: 0.5px; margin: 0 0 10px 0; color: #fff; }
+        
+        .grammar-explain { 
+            font-size: 0.95rem; opacity: 0.95; line-height: 1.5; margin: 0; 
+            background: rgba(0,0,0,0.15); padding: 14px; border-radius: 8px; 
+            text-align: left; word-break: break-word;
+        }
+
+        .click-hint { 
+            font-size: 0.8rem; opacity: 0.6; animation: pulse 2s infinite; margin-top: 20px; user-select: none;
+        }
+
+        @keyframes pulse { 0% { opacity: 0.4; } 50% { opacity: 0.8; } 100% { opacity: 0.4; } }
+
+        /* 測驗面排版 */
+        .quiz-word { font-size: 1.2rem; font-weight: 600; line-height: 1.6; text-align: left; margin: 20px 0; color: #1e293b; }
+        .options-grid { display: grid; gap: 12px; }
+        .option-btn {
+            padding: 14px; border: 2px solid #e2e8f0; background: white;
+            border-radius: 8px; cursor: pointer; font-size: 1rem; text-align: left;
+            font-weight: 500; color: #334155;
+        }
+
+        /* 測驗詳解展開 */
+        .quiz-hint-btn {
+            background: none; border: 1px dashed #94a3b8; color: #64748b;
+            padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; cursor: pointer;
+            margin-top: 15px; font-weight: 500; transition: all 0.2s; align-self: center;
+        }
+        .quiz-hint-btn:hover { background: #f1f5f9; color: var(--primary-color); border-color: var(--primary-color); }
+        .quiz-hint-box {
+            display: none; background: #f8fafc; border-left: 3px solid var(--primary-color);
+            padding: 12px; border-radius: 6px; font-size: 0.95rem; color: #334155;
+            margin-top: 10px; line-height: 1.5; text-align: left;
+        }
+        
+        .ctrl-btns { display: flex; justify-content: space-between; margin-top: 25px; gap: 15px; }
+        .action-btn {
+            padding: 12px 24px; border: none; background-color: var(--secondary-color);
+            color: white; border-radius: 8px; cursor: pointer; font-weight: bold; flex-grow: 1;
+            text-align: center;
+        }
+        #feedback { text-align: center; font-weight: bold; margin-top: 15px; font-size: 1.1rem; min-height: 24px; }
+    </style>
+</head>
+<body>
+
+    <header style="text-align: center; margin-bottom: 20px;">
+        <h2 style="color: #1e293b; margin-bottom: 5px;">TOEIC 多益文法特訓王</h2>
+        <p style="color: #64748b; margin: 0; font-size: 0.9rem;">點擊文法卡片即可翻面看核心詳解</p>
+    </header>
+
+    <div class="nav-tabs">
+        <button class="tab-btn active" onclick="switchTab('card-panel')">文法翻卡</button>
+        <button class="tab-btn" onclick="switchTab('quiz-panel')">文法四選一</button>
+        <button class="tab-btn" onclick="switchTab('fav-panel')">錯題本 (<span id="fav-count">0</span>)</button>
+    </div>
+
+    <div class="container">
+        <div id="card-panel" class="panel active">
+            <div class="flashcard" onclick="flipCard()">
+                <!-- 分類標籤與最愛 -->
+                <div class="grammar-badge" id="card-badge">考點</div>
+                <button class="fav-btn" id="card-fav-toggle" onclick="toggleFavorite(event)">🤍</button>
+                
+                <div class="card-main-content">
+                    <!-- 正面題目 -->
+                    <p id="card-front-text">載入中...</p>
+                    
+                    <!-- 背面詳解 -->
+                    <div id="card-back-area" style="display:none;">
+                        <div class="ans-title">CORRECT ANSWER</div>
+                        <div class="word-back-en" id="card-back-ans"></div>
+                        <div class="grammar-explain" id="card-explain"></div>
+                    </div>
+                </div>
+
+                <span class="click-hint">點擊卡片翻面</span>
+            </div>
+            
+            <div class="ctrl-btns">
+                <button class="action-btn" style="background-color: #64748b;" onclick="prevQuestion()">上一個</button>
+                <button class="action-btn" onclick="nextQuestion()">下一個 (隨機)</button>
+            </div>
+        </div>
+
+        <div id="quiz-panel" class="panel">
+            <div id="quiz-badge" style="font-size:0.8rem; background:#e2e8f0; color:#4a5568; padding:3px 8px; border-radius:4px; align-self:flex-start; font-weight:bold;">分類</div>
+            <div class="quiz-word" id="quiz-question">Question</div>
+            <div class="options-grid" id="quiz-options"></div>
+            <div id="feedback"></div>
+            
+            <!-- 文法解析展開按鈕 -->
+            <button class="quiz-hint-btn" id="quiz-hint-toggle-btn" onclick="toggleQuizHint()">💡 查看文法詳解</button>
+            <div class="quiz-hint-box" id="quiz-hint-box"></div>
+
+            <div class="ctrl-btns" style="justify-content: flex-end;">
+                <button class="action-btn" onclick="initQuiz()">下一題</button>
+            </div>
+        </div>
+
+        <div id="fav-panel" class="panel">
+            <div id="fav-list-container" style="max-height: 300px; overflow-y: auto; margin-bottom: 15px;"></div>
+            <button class="action-btn" style="background-color: #ef4444; flex-grow: 0;" onclick="clearAllFavorites()">清空錯題本</button>
+        </div>
+    </div>
+
+    <script>
+        let grammarDatabase = [];
+        let currentIndex = 0;
+        let isFlipped = false;
+        let favorites = JSON.parse(localStorage.getItem('toeic_grammar_favs')) || [];
+        let currentQuizWord = null;
+
+        let cardHistory = [];
+        let historyPointer = -1;
+
+        // 頁面初始化載入文法庫
+        async function loadGrammar() {
+            try {
+                const response = await fetch('grammar.json');
+                grammarDatabase = await response.json();
+                updateFavCount();
+                
+                if (grammarDatabase.length > 0) {
+                    currentIndex = Math.floor(Math.random() * grammarDatabase.length);
+                    cardHistory.push(currentIndex);
+                    historyPointer = 0;
+                }
+                updateCard();
+            } catch (error) {
+                document.getElementById('card-front-text').innerText = "無法載入文法庫，請確認 grammar.json 檔案是否存在。";
+                console.error("Error loading JSON:", error);
+            }
+        }
+
+        function switchTab(panelId) {
+            document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById(panelId).classList.add('active');
+            if(event && event.target) event.target.classList.add('active');
+            if(panelId === 'quiz-panel') initQuiz();
+            if(panelId === 'fav-panel') renderFavorites();
+        }
+
+        function updateFavCount() {
+            document.getElementById('fav-count').innerText = favorites.length;
+        }
+
+        // --- 文法翻卡邏輯 ---
+        function updateCard() {
+            if(grammarDatabase.length === 0) return;
+            const item = grammarDatabase[currentIndex];
+            
+            document.getElementById('card-badge').innerText = item.cat || "綜合語法";
+            document.getElementById('card-front-text').innerText = item.q;
+            
+            // 背面答案與解析
+            document.getElementById('card-back-ans').innerText = item.a;
+            document.getElementById('card-explain').innerText = item.explain;
+            
+            const isFav = favorites.some(fav => fav.id === item.id);
+            document.getElementById('card-fav-toggle').innerText = isFav ? "❤️" : "🤍";
+            
+            document.getElementById('card-front-text').style.display = 'block';
+            document.getElementById('card-back-area').style.display = 'none';
+            isFlipped = false;
+        }
+
+        function flipCard() {
+            const front = document.getElementById('card-front-text');
+            const back = document.getElementById('card-back-area');
+            if(isFlipped) {
+                front.style.display = 'block';
+                back.style.display = 'none';
+            } else {
+                front.style.display = 'none';
+                back.style.display = 'block';
+            }
+            isFlipped = !isFlipped;
+        }
+
+        function nextQuestion() { 
+            if (grammarDatabase.length === 0) return;
+            if (historyPointer < cardHistory.length - 1) {
+                historyPointer++;
+                currentIndex = cardHistory[historyPointer];
+            } else {
+                currentIndex = Math.floor(Math.random() * grammarDatabase.length);
+                cardHistory.push(currentIndex);
+                historyPointer++;
+            }
+            updateCard(); 
+        }
+
+        function prevQuestion() { 
+            if (historyPointer > 0) {
+                historyPointer--;
+                currentIndex = cardHistory[historyPointer];
+                updateCard();
+            }
+        }
+
+        function toggleFavorite(e) {
+            e.stopPropagation(); 
+            const currentItem = grammarDatabase[currentIndex];
+            const favIndex = favorites.findIndex(fav => fav.id === currentItem.id);
+            if (favIndex > -1) {
+                favorites.splice(favIndex, 1);
+            } else {
+                favorites.push(currentItem);
+            }
+            localStorage.setItem('toeic_grammar_favs', JSON.stringify(favorites));
+            updateFavCount();
+            updateCard();
+        }
+
+        // --- 測驗邏輯 ---
+        function initQuiz() {
+            if(grammarDatabase.length === 0) return;
+            document.getElementById('feedback').innerText = "";
+            
+            const hintBox = document.getElementById('quiz-hint-box');
+            hintBox.style.display = 'none';
+            hintBox.innerText = "";
+            document.getElementById('quiz-hint-toggle-btn').style.display = 'none'; // 答題前先隱藏解析按鈕
+            
+            currentQuizWord = grammarDatabase[Math.floor(Math.random() * grammarDatabase.length)];
+            document.getElementById('quiz-badge').innerText = `🎯 考點：${currentQuizWord.cat || "綜合"}`;
+            document.getElementById('quiz-question').innerText = currentQuizWord.q;
+
+            // 載入該題目的四個選項
+            const optionsGrid = document.getElementById('quiz-options');
+            optionsGrid.innerHTML = "";
+            
+            currentQuizWord.choices.forEach(choice => {
+                const btn = document.createElement('button');
+                btn.className = 'option-btn';
+                btn.innerText = choice;
+                btn.onclick = () => checkAnswer(btn, choice);
+                optionsGrid.appendChild(btn);
+            });
+        }
+
+        function checkAnswer(btn, choice) {
+            const feedback = document.getElementById('feedback');
+            const hintBtn = document.getElementById('quiz-hint-toggle-btn');
+            
+            // 答題後把「查看文法詳解」按鈕秀出來
+            hintBtn.style.display = 'inline-block';
+            document.getElementById('quiz-hint-box').innerText = currentQuizWord.explain;
+
+            if(choice === currentQuizWord.a) {
+                feedback.innerText = "🎉 回答正確！太強了！";
+                feedback.style.color = "#10b981";
+                btn.style.backgroundColor = "#d1fae5";
+                btn.style.borderColor = "#10b981";
+            } else {
+                feedback.innerText = "❌ 答錯了！已自動記錄至錯題本。";
+                feedback.style.color = "#ef4444";
+                btn.style.backgroundColor = "#fee2e2";
+                btn.style.borderColor = "#ef4444";
+                
+                if (!favorites.some(fav => fav.id === currentQuizWord.id)) {
+                    favorites.push(currentQuizWord);
+                    localStorage.setItem('toeic_grammar_favs', JSON.stringify(favorites));
+                    updateFavCount();
+                }
+            }
+        }
+
+        function toggleQuizHint() {
+            const hintBox = document.getElementById('quiz-hint-box');
+            hintBox.style.display = (hintBox.style.display === 'block') ? 'none' : 'block';
+        }
+
+        // --- 錯題本列表 ---
+        function renderFavorites() {
+            const container = document.getElementById('fav-list-container');
+            container.innerHTML = "";
+            if(favorites.length === 0) {
+                container.innerHTML = "<p style='color:#718096; text-align:center; padding: 20px;'>目前文法錯題本空空如也！</p>";
+                return;
+            }
+            favorites.forEach(item => {
+                const div = document.createElement('div');
+                div.style = "padding: 14px; border-bottom: 1px solid #e2e8f0; display:flex; flex-direction:column; gap:6px;";
+                div.innerHTML = `
+                    <div>
+                        <span style="font-size:0.75rem; background:#fee2e2; color:#ef4444; padding:2px 6px; border-radius:4px; font-weight:bold;">${item.cat}</span>
+                    </div>
+                    <div style="color:#1e293b; font-weight:500;">${item.q}</div>
+                    <div style="color:#6366f1; font-weight:bold;">正確答案：${item.a}</div>
+                    <div style="color:#64748b; font-size:0.85rem; background:#f8fafc; padding:8px; border-radius:4px;">${item.explain}</div>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        function clearAllFavorites() {
+            if(confirm("確定要清空所有文法錯題紀錄嗎？")) {
+                favorites = [];
+                localStorage.setItem('toeic_grammar_favs', JSON.stringify(favorites));
+                updateFavCount();
+                renderFavorites();
+                updateCard();
+            }
+        }
+
+        loadGrammar();
+    </script>
+</body>
+</html>

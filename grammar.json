@@ -1,0 +1,26 @@
+[
+  {
+    "id": "g001",
+    "cat": "詞性判斷",
+    "q": "The committee members voted _______ to approve the new budget proposal during yesterday's meeting.",
+    "a": "unanimously",
+    "choices": ["unanimous", "unanimously", "unanimity", "unanimousness"],
+    "explain": "【考點：副詞修飾動詞】空格前為動詞 voted（投票），此處需要填入一個『副詞』來修飾該動詞，表達『一致地』通過預算。故選 (B)。"
+  },
+  {
+    "id": "g002",
+    "cat": "動詞時態",
+    "q": "Mr. Chen _______ as the chief financial officer at Apex Corporation for ten years before he retired last month.",
+    "a": "had served",
+    "choices": ["serves", "has served", "had served", "is serving"],
+    "explain": "【考點：過去完成式】句尾提及 before he retired last month（在他上個月退休之前，retired 為過去式）。在過去的某個時間點（退休）之前，已經持續進行了十年的動作，必須使用『過去完成式（had + P.P.）』。故選 (C)。"
+  },
+  {
+    "id": "g003",
+    "cat": "多益常考片語/介系詞",
+    "q": "All conference participants are requested to register _______ advance to secure a seat at the main auditorium.",
+    "a": "in",
+    "choices": ["at", "on", "in", "by"],
+    "explain": "【考點：固定片語】多益核心商務片語：『in advance』代表『提前、預先』。全句意為：所有與會者都被要求提前註冊，以確保在主禮堂有座位。故選 (C)。"
+  }
+]
