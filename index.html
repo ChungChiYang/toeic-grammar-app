@@ -38,7 +38,7 @@
         .panel { display: none; flex-direction: column; justify-content: space-between; flex-grow: 1; }
         .panel.active { display: flex; }
 
-        /* 文法卡外框：調整高度以容納正面的選項 */
+        /* 文法卡外框 */
         .flashcard {
             background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
             color: white; 
@@ -65,6 +65,17 @@
         }
         .fav-btn:hover { background: rgba(255,255,255,0.3); }
 
+        /* 外接工具列 (語音與翻譯) */
+        .tool-bar {
+            position: absolute; top: 15px; left: 100px; display: flex; gap: 8px; z-index: 10;
+        }
+        .tool-btn {
+            background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.3);
+            color: white; border-radius: 6px; padding: 4px 10px; font-size: 0.85rem;
+            cursor: pointer; font-weight: 500; transition: all 0.2s; display: flex; align-items: center; gap: 4px;
+        }
+        .tool-btn:hover { background: rgba(255,255,255,0.4); }
+
         /* 文法分類標籤 */
         .grammar-badge {
             position: absolute; top: 22px; left: 20px; background: rgba(0,0,0,0.25);
@@ -81,7 +92,7 @@
         #card-front-area { width: 100%; display: flex; flex-direction: column; gap: 20px; }
         .grammar-question-text { font-size: 1.25rem; font-weight: 600; line-height: 1.6; margin: 0; text-align: left; }
         
-        /* 【新優化】卡片正面 4 個選項排版與淡化樣式 */
+        /* 正面選項預覽 */
         .card-options-preview {
             display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; width: 100%; text-align: left; margin-top: 5px;
         }
@@ -89,14 +100,11 @@
             background: rgba(255, 255, 255, 0.1); padding: 10px 12px; border-radius: 6px; font-size: 0.95rem;
             transition: all 0.2s; border: 1px solid rgba(255, 255, 255, 0.15);
         }
-        /* 正確答案高亮，其餘淡化 */
         .card-opt-item.correct-ans {
             background: rgba(255, 255, 255, 0.25); color: #ffffff; font-weight: bold; border-color: rgba(255, 255, 255, 0.6);
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
-        .card-opt-item.wrong-ans {
-            opacity: 0.45;
-        }
+        .card-opt-item.wrong-ans { opacity: 0.45; }
 
         /* 背面詳解樣式 */
         #card-back-area { width: 100%; text-align: center; }
@@ -114,16 +122,23 @@
 
         @keyframes pulse { 0% { opacity: 0.4; } 50% { opacity: 0.8; } 100% { opacity: 0.4; } }
 
-        /* 測驗面排版 */
-        .quiz-word { font-size: 1.2rem; font-weight: 600; line-height: 1.6; text-align: left; margin: 20px 0; color: #1e293b; }
+        /* 測驗面排版與內嵌工具 */
+        .quiz-header { display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom: 10px; }
+        .quiz-tools { display: flex; gap: 6px; }
+        .quiz-tool-btn {
+            background: #e2e8f0; border: none; color: #4a5568; padding: 4px 8px; font-size: 0.8rem;
+            border-radius: 4px; cursor: pointer; font-weight: bold; transition: all 0.2s;
+        }
+        .quiz-tool-btn:hover { background: #cbd5e1; color: var(--primary-color); }
+
+        .quiz-word { font-size: 1.2rem; font-weight: 600; line-height: 1.6; text-align: left; margin: 10px 0 20px 0; color: #1e293b; }
         .options-grid { display: grid; gap: 12px; }
         .option-btn {
             padding: 14px; border: 2px solid #e2e8f0; background: white;
             border-radius: 8px; cursor: pointer; font-size: 1rem; text-align: left;
             font-weight: 500; color: #334155;
         }
-
-        /* 測驗詳解展開 */
+        
         .quiz-hint-btn {
             background: none; border: 1px dashed #94a3b8; color: #64748b;
             padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; cursor: pointer;
@@ -143,6 +158,14 @@
             text-align: center;
         }
         #feedback { text-align: center; font-weight: bold; margin-top: 15px; font-size: 1.1rem; min-height: 24px; }
+
+        /* 錯題本列表工具列 */
+        .fav-item-tools { display: flex; gap: 8px; margin-top: 4px; }
+        .fav-tool-btn {
+            background: #f1f5f9; border: 1px solid #cbd5e1; color: #64748b; padding: 2px 8px;
+            font-size: 0.75rem; border-radius: 4px; cursor: pointer; transition: all 0.2s;
+        }
+        .fav-tool-btn:hover { background: #e2e8f0; color: var(--primary-color); }
     </style>
 </head>
 <body>
@@ -161,20 +184,21 @@
     <div class="container">
         <div id="card-panel" class="panel active">
             <div class="flashcard" onclick="flipCard()">
-                <!-- 分類標籤與最愛 -->
                 <div class="grammar-badge" id="card-badge">考點</div>
+                
+                <div class="tool-bar">
+                    <button class="tool-btn" id="card-speech-btn" onclick="triggerSpeech(event, 'card')">🔊 發音</button>
+                    <button class="tool-btn" id="card-trans-btn" onclick="triggerTranslate(event, 'card')">🌐 翻譯</button>
+                </div>
+
                 <button class="fav-btn" id="card-fav-toggle" onclick="toggleFavorite(event)">🤍</button>
                 
                 <div class="card-main-content">
-                    <!-- 正面區域：包含題目與淡化選項 -->
                     <div id="card-front-area">
                         <p class="grammar-question-text" id="card-question-text">載入中...</p>
-                        <div class="card-options-preview" id="card-options-preview">
-                            <!-- 由 JS 動態生成帶有高亮/淡化效果的選項 -->
-                        </div>
+                        <div class="card-options-preview" id="card-options-preview"></div>
                     </div>
                     
-                    <!-- 背面詳解 -->
                     <div id="card-back-area" style="display:none;">
                         <div class="ans-title">CORRECT ANSWER</div>
                         <div class="word-back-en" id="card-back-ans"></div>
@@ -192,12 +216,17 @@
         </div>
 
         <div id="quiz-panel" class="panel">
-            <div id="quiz-badge" style="font-size:0.8rem; background:#e2e8f0; color:#4a5568; padding:3px 8px; border-radius:4px; align-self:flex-start; font-weight:bold;">分類</div>
+            <div class="quiz-header">
+                <div id="quiz-badge" style="font-size:0.8rem; background:#e2e8f0; color:#4a5568; padding:3px 8px; border-radius:4px; font-weight:bold;">分類</div>
+                <div class="quiz-tools">
+                    <button class="quiz-tool-btn" onclick="triggerSpeech(event, 'quiz')">🔊 聽完整句</button>
+                    <button class="quiz-tool-btn" onclick="triggerTranslate(event, 'quiz')">🌐 翻譯此句</button>
+                </div>
+            </div>
             <div class="quiz-word" id="quiz-question">Question</div>
             <div class="options-grid" id="quiz-options"></div>
             <div id="feedback"></div>
             
-            <!-- 文法解析展開按鈕 -->
             <button class="quiz-hint-btn" id="quiz-hint-toggle-btn" onclick="toggleQuizHint()">💡 查看文法詳解</button>
             <div class="quiz-hint-box" id="quiz-hint-box"></div>
 
@@ -221,6 +250,56 @@
 
         let cardHistory = [];
         let historyPointer = -1;
+
+        // 【核心邏輯】動態將題目底線組合為完整英文句子
+        function getFullSentence(item) {
+            if (!item || !item.q) return "";
+            // 將題目中的底線（一條或多條底線）動態替換為正確答案 item.a
+            return item.q.replace(/_______+/g, item.a);
+        }
+
+        // 全域語音播放控制
+        function speak(text) {
+            if (!text) return;
+            window.speechSynthesis.cancel(); // 停止上一段正在播放的聲音
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = 'en-US';
+            utterance.rate = 0.9; // 稍微放慢一點點以聽清多益連音
+            window.speechSynthesis.speak(utterance);
+        }
+
+        // 翻卡與測驗的語音中繼站
+        function triggerSpeech(e, type) {
+            if (e) e.stopPropagation(); // 防止翻卡事件被觸發
+            let item = null;
+            if (type === 'card') item = grammarDatabase[currentIndex];
+            if (type === 'quiz') item = currentQuizWord;
+            
+            if (item) {
+                speak(getFullSentence(item));
+            }
+        }
+
+        // 外接 Google 翻譯官網
+        function triggerTranslate(e, type) {
+            if (e) e.stopPropagation(); // 防止翻卡事件被觸發
+            let item = null;
+            if (type === 'card') item = grammarDatabase[currentIndex];
+            if (type === 'quiz') item = currentQuizWord;
+            
+            if (item) {
+                const sentence = getFullSentence(item);
+                const targetUrl = `https://translate.google.com/?sl=en&tl=zh-TW&text=${encodeURIComponent(sentence)}&op=translate`;
+                window.open(targetUrl, '_blank');
+            }
+        }
+
+        // 錯題本專用的獨立語音/翻譯
+        function favSpeak(sentence) { speak(sentence); }
+        function favTranslate(sentence) {
+            const targetUrl = `https://translate.google.com/?sl=en&tl=zh-TW&text=${encodeURIComponent(sentence)}&op=translate`;
+            window.open(targetUrl, '_blank');
+        }
 
         // 頁面初始化載入文法庫
         async function loadGrammar() {
@@ -262,7 +341,6 @@
             document.getElementById('card-badge').innerText = item.cat || "綜合語法";
             document.getElementById('card-question-text').innerText = item.q;
             
-            // 【新功能】動態渲染字卡正面的 A,B,C,D 選項（帶高亮與淡化效果）
             const previewContainer = document.getElementById('card-options-preview');
             previewContainer.innerHTML = "";
             
@@ -276,7 +354,6 @@
                 previewContainer.appendChild(optDiv);
             });
 
-            // 背面答案與解析同步
             document.getElementById('card-back-ans').innerText = `(${prefixes[item.choices.indexOf(item.a)] || ''}) ${item.a}`;
             document.getElementById('card-explain').innerText = item.explain;
             
@@ -404,9 +481,17 @@
             favorites.forEach(item => {
                 const div = document.createElement('div');
                 div.style = "padding: 14px; border-bottom: 1px solid #e2e8f0; display:flex; flex-direction:column; gap:6px;";
+                
+                // 動態取得錯題本中合成後的完整句並安全處理單雙引號
+                const fullSentence = getFullSentence(item).replace(/'/g, "\\'").replace(/"/g, '&quot;');
+
                 div.innerHTML = `
-                    <div>
+                    <div style="display:flex; justify-content:space-between; align-items:center;">
                         <span style="font-size:0.75rem; background:#fee2e2; color:#ef4444; padding:2px 6px; border-radius:4px; font-weight:bold;">${item.cat}</span>
+                        <div class="fav-item-tools">
+                            <button class="fav-tool-btn" onclick="favSpeak('${fullSentence}')">🔊 聽完整句</button>
+                            <button class="fav-tool-btn" onclick="favTranslate('${fullSentence}')">🌐 翻譯</button>
+                        </div>
                     </div>
                     <div style="color:#1e293b; font-weight:500;">${item.q}</div>
                     <div style="color:#6366f1; font-weight:bold;">正確答案：${item.a}</div>
