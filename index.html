@@ -42,7 +42,7 @@
         .flashcard {
             background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
             color: white; 
-            min-height: 400px; 
+            min-height: 420px; 
             border-radius: 12px;
             display: flex; 
             flex-direction: column; 
@@ -65,22 +65,29 @@
         }
         .fav-btn:hover { background: rgba(255,255,255,0.3); }
 
-        /* 外接工具列 (語音與翻譯) */
-        .tool-bar {
-            position: absolute; top: 15px; left: 100px; display: flex; gap: 8px; z-index: 10;
-        }
-        .tool-btn {
-            background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.3);
-            color: white; border-radius: 6px; padding: 4px 10px; font-size: 0.85rem;
-            cursor: pointer; font-weight: 500; transition: all 0.2s; display: flex; align-items: center; gap: 4px;
-        }
-        .tool-btn:hover { background: rgba(255,255,255,0.4); }
-
         /* 文法分類標籤 */
         .grammar-badge {
             position: absolute; top: 22px; left: 20px; background: rgba(0,0,0,0.25);
             padding: 4px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: bold;
             letter-spacing: 0.5px;
+        }
+
+        /* 題目下方的 App 風格內嵌工具列 */
+        .inline-tool-bar {
+            display: flex; gap: 8px; margin: 5px 0 0 0; width: 100%; justify-content: flex-start;
+        }
+        .inline-btn {
+            background: rgba(255, 255, 255, 0.15); border: 1px solid rgba(255, 255, 255, 0.25);
+            color: white; border-radius: 6px; padding: 5px 12px; font-size: 0.8rem;
+            cursor: pointer; font-weight: bold; transition: all 0.2s;
+        }
+        .inline-btn:hover { background: rgba(255, 255, 255, 0.3); }
+
+        /* App 原地展開翻譯面板 */
+        .inline-trans-box {
+            display: none; width: 100%; text-align: left; background: rgba(0,0,0,0.15);
+            padding: 10px 12px; border-radius: 6px; font-size: 0.9rem; line-height: 1.5;
+            box-sizing: border-box; word-break: break-word; margin-top: 5px;
         }
 
         .card-main-content {
@@ -89,7 +96,7 @@
         }
 
         /* 文法題目與排版 */
-        #card-front-area { width: 100%; display: flex; flex-direction: column; gap: 20px; }
+        #card-front-area { width: 100%; display: flex; flex-direction: column; gap: 12px; }
         .grammar-question-text { font-size: 1.25rem; font-weight: 600; line-height: 1.6; margin: 0; text-align: left; }
         
         /* 正面選項預覽 */
@@ -122,16 +129,20 @@
 
         @keyframes pulse { 0% { opacity: 0.4; } 50% { opacity: 0.8; } 100% { opacity: 0.4; } }
 
-        /* 測驗面排版與內嵌工具 */
-        .quiz-header { display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom: 10px; }
-        .quiz-tools { display: flex; gap: 6px; }
-        .quiz-tool-btn {
-            background: #e2e8f0; border: none; color: #4a5568; padding: 4px 8px; font-size: 0.8rem;
-            border-radius: 4px; cursor: pointer; font-weight: bold; transition: all 0.2s;
+        /* 測驗面題目下方工具列樣式 */
+        .quiz-word { font-size: 1.2rem; font-weight: 600; line-height: 1.6; text-align: left; margin: 15px 0 5px 0; color: #1e293b; }
+        .quiz-inline-bar { display: flex; gap: 6px; width: 100%; margin-bottom: 15px; }
+        .quiz-inline-btn {
+            background: #e2e8f0; border: none; color: #4a5568; padding: 5px 12px; font-size: 0.8rem;
+            border-radius: 6px; cursor: pointer; font-weight: bold; transition: all 0.2s;
         }
-        .quiz-tool-btn:hover { background: #cbd5e1; color: var(--primary-color); }
+        .quiz-inline-btn:hover { background: #cbd5e1; color: var(--primary-color); }
+        .quiz-trans-box {
+            display: none; background: #f1f5f9; border-left: 3px solid #6366f1;
+            padding: 10px; border-radius: 4px; font-size: 0.9rem; color: #475569;
+            margin-bottom: 15px; text-align: left;
+        }
 
-        .quiz-word { font-size: 1.2rem; font-weight: 600; line-height: 1.6; text-align: left; margin: 10px 0 20px 0; color: #1e293b; }
         .options-grid { display: grid; gap: 12px; }
         .option-btn {
             padding: 14px; border: 2px solid #e2e8f0; background: white;
@@ -159,13 +170,17 @@
         }
         #feedback { text-align: center; font-weight: bold; margin-top: 15px; font-size: 1.1rem; min-height: 24px; }
 
-        /* 錯題本列表工具列 */
-        .fav-item-tools { display: flex; gap: 8px; margin-top: 4px; }
+        /* 錯題本工具按鈕樣式 */
+        .fav-item-tools { display: flex; gap: 6px; margin-top: 5px; }
         .fav-tool-btn {
-            background: #f1f5f9; border: 1px solid #cbd5e1; color: #64748b; padding: 2px 8px;
-            font-size: 0.75rem; border-radius: 4px; cursor: pointer; transition: all 0.2s;
+            background: #f1f5f9; border: 1px solid #cbd5e1; color: #64748b; padding: 4px 10px;
+            font-size: 0.75rem; border-radius: 4px; cursor: pointer; transition: all 0.2s; font-weight: bold;
         }
         .fav-tool-btn:hover { background: #e2e8f0; color: var(--primary-color); }
+        .fav-trans-box {
+            display: none; font-size: 0.85rem; background: #f0fdf4; border-left: 3px solid #10b981;
+            color: #166534; padding: 8px; border-radius: 4px; margin-top: 4px;
+        }
     </style>
 </head>
 <body>
@@ -185,17 +200,18 @@
         <div id="card-panel" class="panel active">
             <div class="flashcard" onclick="flipCard()">
                 <div class="grammar-badge" id="card-badge">考點</div>
-                
-                <div class="tool-bar">
-                    <button class="tool-btn" id="card-speech-btn" onclick="triggerSpeech(event, 'card')">🔊 發音</button>
-                    <button class="tool-btn" id="card-trans-btn" onclick="triggerTranslate(event, 'card')">🌐 翻譯</button>
-                </div>
-
                 <button class="fav-btn" id="card-fav-toggle" onclick="toggleFavorite(event)">🤍</button>
                 
                 <div class="card-main-content">
                     <div id="card-front-area">
                         <p class="grammar-question-text" id="card-question-text">載入中...</p>
+                        
+                        <div class="inline-tool-bar">
+                            <button class="inline-btn" onclick="triggerSpeech(event, 'card')">🔊 發音</button>
+                            <button class="inline-btn" id="card-toggle-trans-btn" onclick="toggleCardTranslation(event)">👁️ 顯示例句翻譯</button>
+                        </div>
+                        <div class="inline-trans-box" id="card-translation-box"></div>
+
                         <div class="card-options-preview" id="card-options-preview"></div>
                     </div>
                     
@@ -216,14 +232,15 @@
         </div>
 
         <div id="quiz-panel" class="panel">
-            <div class="quiz-header">
-                <div id="quiz-badge" style="font-size:0.8rem; background:#e2e8f0; color:#4a5568; padding:3px 8px; border-radius:4px; font-weight:bold;">分類</div>
-                <div class="quiz-tools">
-                    <button class="quiz-tool-btn" onclick="triggerSpeech(event, 'quiz')">🔊 聽完整句</button>
-                    <button class="quiz-tool-btn" onclick="triggerTranslate(event, 'quiz')">🌐 翻譯此句</button>
-                </div>
-            </div>
+            <div id="quiz-badge" style="font-size:0.8rem; background:#e2e8f0; color:#4a5568; padding:3px 8px; border-radius:4px; font-weight:bold; align-self: flex-start;">分類</div>
             <div class="quiz-word" id="quiz-question">Question</div>
+            
+            <div class="quiz-inline-bar">
+                <button class="quiz-inline-btn" onclick="triggerSpeech(event, 'quiz')">🔊 聽完整句</button>
+                <button class="quiz-inline-btn" id="quiz-toggle-trans-btn" onclick="toggleQuizTranslation()">👁️ 顯示例句翻譯</button>
+            </div>
+            <div class="quiz-trans-box" id="quiz-translation-box"></div>
+
             <div class="options-grid" id="quiz-options"></div>
             <div id="feedback"></div>
             
@@ -250,55 +267,110 @@
 
         let cardHistory = [];
         let historyPointer = -1;
+        
+        let isCardTranslationOpen = false;
+        let isQuizTranslationOpen = false;
 
-        // 【核心邏輯】動態將題目底線組合為完整英文句子
+        // 核心邏輯：將題目底線動態替換為正確答案
         function getFullSentence(item) {
             if (!item || !item.q) return "";
-            // 將題目中的底線（一條或多條底線）動態替換為正確答案 item.a
             return item.q.replace(/_______+/g, item.a);
         }
 
-        // 全域語音播放控制
+        // --- 免費開源 Google 翻譯接口 ---
+        async function fetchTranslation(text) {
+            try {
+                const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-TW&dt=t&q=${encodeURIComponent(text)}`;
+                const response = await fetch(url);
+                const data = await response.json();
+                if (data && data[0]) {
+                    let translatedText = "";
+                    data[0].forEach(sentence => { if(sentence[0]) translatedText += sentence[0]; });
+                    return translatedText;
+                }
+                return "翻譯解析失敗。";
+            } catch (error) {
+                return "網路連線異常，無法取得即時翻譯。";
+            }
+        }
+
+        // 全域語音播放
         function speak(text) {
             if (!text) return;
-            window.speechSynthesis.cancel(); // 停止上一段正在播放的聲音
+            window.speechSynthesis.cancel();
             const utterance = new SpeechSynthesisUtterance(text);
             utterance.lang = 'en-US';
-            utterance.rate = 0.9; // 稍微放慢一點點以聽清多益連音
+            utterance.rate = 0.9;
             window.speechSynthesis.speak(utterance);
         }
 
-        // 翻卡與測驗的語音中繼站
         function triggerSpeech(e, type) {
-            if (e) e.stopPropagation(); // 防止翻卡事件被觸發
-            let item = null;
-            if (type === 'card') item = grammarDatabase[currentIndex];
-            if (type === 'quiz') item = currentQuizWord;
+            if (e) e.stopPropagation();
+            let item = (type === 'card') ? grammarDatabase[currentIndex] : currentQuizWord;
+            if (item) speak(getFullSentence(item));
+        }
+
+        // --- App 原地開關翻譯邏輯 (文法卡正面) ---
+        async function toggleCardTranslation(e) {
+            e.stopPropagation(); // 阻止卡片翻面事件
+            const box = document.getElementById('card-translation-box');
+            const toggleBtn = document.getElementById('card-toggle-trans-btn');
+            isCardTranslationOpen = !isCardTranslationOpen;
             
-            if (item) {
-                speak(getFullSentence(item));
+            if(isCardTranslationOpen) {
+                box.style.display = 'block';
+                toggleBtn.innerText = "⏳ 翻譯載入中...";
+                const currentItem = grammarDatabase[currentIndex];
+                // 快取快取機制：避免重複請求同一句子
+                if (!currentItem.cached_translation) {
+                    currentItem.cached_translation = await fetchTranslation(getFullSentence(currentItem));
+                }
+                box.innerText = currentItem.cached_translation;
+                toggleBtn.innerText = "🙈 隱藏例句翻譯";
+            } else {
+                box.style.display = 'none';
+                toggleBtn.innerText = "👁️ 顯示例句翻譯";
             }
         }
 
-        // 外接 Google 翻譯官網
-        function triggerTranslate(e, type) {
-            if (e) e.stopPropagation(); // 防止翻卡事件被觸發
-            let item = null;
-            if (type === 'card') item = grammarDatabase[currentIndex];
-            if (type === 'quiz') item = currentQuizWord;
+        // --- App 原地開關翻譯邏輯 (測驗四選一) ---
+        async function toggleQuizTranslation() {
+            const box = document.getElementById('quiz-translation-box');
+            const toggleBtn = document.getElementById('quiz-toggle-trans-btn');
+            isQuizTranslationOpen = !isQuizTranslationOpen;
             
-            if (item) {
-                const sentence = getFullSentence(item);
-                const targetUrl = `https://translate.google.com/?sl=en&tl=zh-TW&text=${encodeURIComponent(sentence)}&op=translate`;
-                window.open(targetUrl, '_blank');
+            if(isQuizTranslationOpen) {
+                box.style.display = 'block';
+                toggleBtn.innerText = "⏳ 翻譯載入中...";
+                if (!currentQuizWord.cached_translation) {
+                    currentQuizWord.cached_translation = await fetchTranslation(getFullSentence(currentQuizWord));
+                }
+                box.innerText = currentQuizWord.cached_translation;
+                toggleBtn.innerText = "🙈 隱藏例句翻譯";
+            } else {
+                box.style.display = 'none';
+                toggleBtn.innerText = "👁️ 顯示例句翻譯";
             }
         }
 
-        // 錯題本專用的獨立語音/翻譯
-        function favSpeak(sentence) { speak(sentence); }
-        function favTranslate(sentence) {
-            const targetUrl = `https://translate.google.com/?sl=en&tl=zh-TW&text=${encodeURIComponent(sentence)}&op=translate`;
-            window.open(targetUrl, '_blank');
+        // --- 錯題本獨立的原地開關翻譯 ---
+        async function toggleFavTranslation(btn, id) {
+            const box = document.getElementById(`fav-trans-${id}`);
+            const item = favorites.find(f => f.id === id);
+            if (!item) return;
+
+            if (box.style.display === 'block') {
+                box.style.display = 'none';
+                btn.innerText = "👁️ 顯示翻譯";
+            } else {
+                box.style.display = 'block';
+                btn.innerText = "⏳ 載入中...";
+                if (!item.cached_translation) {
+                    item.cached_translation = await fetchTranslation(getFullSentence(item));
+                }
+                box.innerText = item.cached_translation;
+                btn.innerText = "🙈 隱藏翻譯";
+            }
         }
 
         // 頁面初始化載入文法庫
@@ -338,6 +410,11 @@
             if(grammarDatabase.length === 0) return;
             const item = grammarDatabase[currentIndex];
             
+            // 重設翻譯狀態
+            isCardTranslationOpen = false;
+            document.getElementById('card-translation-box').style.display = 'none';
+            document.getElementById('card-toggle-trans-btn').innerText = "👁️ 顯示例句翻譯";
+
             document.getElementById('card-badge').innerText = item.cat || "綜合語法";
             document.getElementById('card-question-text').innerText = item.q;
             
@@ -366,6 +443,9 @@
         }
 
         function flipCard() {
+            // 如果點擊源是按鈕或翻譯面板，不觸發翻面
+            if (event.target.closest('.inline-tool-bar') || event.target.closest('.inline-trans-box')) return;
+            
             const front = document.getElementById('card-front-area');
             const back = document.getElementById('card-back-area');
             if(isFlipped) {
@@ -418,6 +498,11 @@
             if(grammarDatabase.length === 0) return;
             document.getElementById('feedback').innerText = "";
             
+            // 重設測驗翻譯狀態
+            isQuizTranslationOpen = false;
+            document.getElementById('quiz-translation-box').style.display = 'none';
+            document.getElementById('quiz-toggle-trans-btn').innerText = "👁️ 顯示例句翻譯";
+
             const hintBox = document.getElementById('quiz-hint-box');
             hintBox.style.display = 'none';
             hintBox.innerText = "";
@@ -482,18 +567,18 @@
                 const div = document.createElement('div');
                 div.style = "padding: 14px; border-bottom: 1px solid #e2e8f0; display:flex; flex-direction:column; gap:6px;";
                 
-                // 動態取得錯題本中合成後的完整句並安全處理單雙引號
                 const fullSentence = getFullSentence(item).replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
                 div.innerHTML = `
                     <div style="display:flex; justify-content:space-between; align-items:center;">
                         <span style="font-size:0.75rem; background:#fee2e2; color:#ef4444; padding:2px 6px; border-radius:4px; font-weight:bold;">${item.cat}</span>
                         <div class="fav-item-tools">
-                            <button class="fav-tool-btn" onclick="favSpeak('${fullSentence}')">🔊 聽完整句</button>
-                            <button class="fav-tool-btn" onclick="favTranslate('${fullSentence}')">🌐 翻譯</button>
+                            <button class="fav-tool-btn" onclick="speak('${fullSentence}')">🔊 聽完整句</button>
+                            <button class="fav-tool-btn" onclick="toggleFavTranslation(this, ${item.id})">👁️ 顯示翻譯</button>
                         </div>
                     </div>
                     <div style="color:#1e293b; font-weight:500;">${item.q}</div>
+                    <div class="fav-trans-box" id="fav-trans-${item.id}"></div>
                     <div style="color:#6366f1; font-weight:bold;">正確答案：${item.a}</div>
                     <div style="color:#64748b; font-size:0.85rem; background:#f8fafc; padding:8px; border-radius:4px;">${item.explain}</div>
                 `;
