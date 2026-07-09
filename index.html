@@ -30,7 +30,7 @@
         .tab-btn.active { background-color: var(--primary-color); color: white; }
 
         .container {
-            width: 100%; max-width: 550px; min-height: 450px; background: white;
+            width: 100%; max-width: 550px; min-height: 480px; background: white;
             padding: 30px; border-radius: 16px; box-shadow: var(--card-shadow);
             box-sizing: border-box; display: flex; flex-direction: column;
         }
@@ -38,11 +38,11 @@
         .panel { display: none; flex-direction: column; justify-content: space-between; flex-grow: 1; }
         .panel.active { display: flex; }
 
-        /* 文法卡外框：因為句子較長，最小高度微調至 360px */
+        /* 文法卡外框：調整高度以容納正面的選項 */
         .flashcard {
             background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
             color: white; 
-            min-height: 360px; 
+            min-height: 400px; 
             border-radius: 12px;
             display: flex; 
             flex-direction: column; 
@@ -65,7 +65,7 @@
         }
         .fav-btn:hover { background: rgba(255,255,255,0.3); }
 
-        /* 文法分類標籤 (e.g. 詞性判斷、時態) */
+        /* 文法分類標籤 */
         .grammar-badge {
             position: absolute; top: 22px; left: 20px; background: rgba(0,0,0,0.25);
             padding: 4px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: bold;
@@ -77,14 +77,33 @@
             flex-grow: 1; width: 100%;
         }
 
-        /* 文法題目與背面文字排版 */
-        #card-front-text { font-size: 1.25rem; font-weight: 600; line-height: 1.6; margin: 0; text-align: left; }
+        /* 文法題目與排版 */
+        #card-front-area { width: 100%; display: flex; flex-direction: column; gap: 20px; }
+        .grammar-question-text { font-size: 1.25rem; font-weight: 600; line-height: 1.6; margin: 0; text-align: left; }
+        
+        /* 【新優化】卡片正面 4 個選項排版與淡化樣式 */
+        .card-options-preview {
+            display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; width: 100%; text-align: left; margin-top: 5px;
+        }
+        .card-opt-item {
+            background: rgba(255, 255, 255, 0.1); padding: 10px 12px; border-radius: 6px; font-size: 0.95rem;
+            transition: all 0.2s; border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        /* 正確答案高亮，其餘淡化 */
+        .card-opt-item.correct-ans {
+            background: rgba(255, 255, 255, 0.25); color: #ffffff; font-weight: bold; border-color: rgba(255, 255, 255, 0.6);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .card-opt-item.wrong-ans {
+            opacity: 0.45;
+        }
+
+        /* 背面詳解樣式 */
         #card-back-area { width: 100%; text-align: center; }
         .ans-title { font-size: 0.85rem; opacity: 0.7; font-weight: bold; margin-bottom: 2px; }
         .word-back-en { font-size: 1.8rem; font-weight: bold; letter-spacing: 0.5px; margin: 0 0 10px 0; color: #fff; }
-        
         .grammar-explain { 
-            font-size: 0.95rem; opacity: 0.95; line-height: 1.5; margin: 0; 
+            font-size: 0.95rem; opacity: 0.95; line-height: 1.6; margin: 0; 
             background: rgba(0,0,0,0.15); padding: 14px; border-radius: 8px; 
             text-align: left; word-break: break-word;
         }
@@ -147,8 +166,13 @@
                 <button class="fav-btn" id="card-fav-toggle" onclick="toggleFavorite(event)">🤍</button>
                 
                 <div class="card-main-content">
-                    <!-- 正面題目 -->
-                    <p id="card-front-text">載入中...</p>
+                    <!-- 正面區域：包含題目與淡化選項 -->
+                    <div id="card-front-area">
+                        <p class="grammar-question-text" id="card-question-text">載入中...</p>
+                        <div class="card-options-preview" id="card-options-preview">
+                            <!-- 由 JS 動態生成帶有高亮/淡化效果的選項 -->
+                        </div>
+                    </div>
                     
                     <!-- 背面詳解 -->
                     <div id="card-back-area" style="display:none;">
@@ -212,7 +236,7 @@
                 }
                 updateCard();
             } catch (error) {
-                document.getElementById('card-front-text').innerText = "無法載入文法庫，請確認 grammar.json 檔案是否存在。";
+                document.getElementById('card-question-text').innerText = "無法載入文法庫，請確認 grammar.json 檔案是否存在。";
                 console.error("Error loading JSON:", error);
             }
         }
@@ -236,25 +260,39 @@
             const item = grammarDatabase[currentIndex];
             
             document.getElementById('card-badge').innerText = item.cat || "綜合語法";
-            document.getElementById('card-front-text').innerText = item.q;
+            document.getElementById('card-question-text').innerText = item.q;
             
-            // 背面答案與解析
-            document.getElementById('card-back-ans').innerText = item.a;
+            // 【新功能】動態渲染字卡正面的 A,B,C,D 選項（帶高亮與淡化效果）
+            const previewContainer = document.getElementById('card-options-preview');
+            previewContainer.innerHTML = "";
+            
+            const prefixes = ['A', 'B', 'C', 'D'];
+            item.choices.forEach((choice, idx) => {
+                const optDiv = document.createElement('div');
+                const isCorrect = (choice === item.a);
+                
+                optDiv.className = `card-opt-item ${isCorrect ? 'correct-ans' : 'wrong-ans'}`;
+                optDiv.innerText = `(${prefixes[idx]}) ${choice}`;
+                previewContainer.appendChild(optDiv);
+            });
+
+            // 背面答案與解析同步
+            document.getElementById('card-back-ans').innerText = `(${prefixes[item.choices.indexOf(item.a)] || ''}) ${item.a}`;
             document.getElementById('card-explain').innerText = item.explain;
             
             const isFav = favorites.some(fav => fav.id === item.id);
             document.getElementById('card-fav-toggle').innerText = isFav ? "❤️" : "🤍";
             
-            document.getElementById('card-front-text').style.display = 'block';
+            document.getElementById('card-front-area').style.display = 'flex';
             document.getElementById('card-back-area').style.display = 'none';
             isFlipped = false;
         }
 
         function flipCard() {
-            const front = document.getElementById('card-front-text');
+            const front = document.getElementById('card-front-area');
             const back = document.getElementById('card-back-area');
             if(isFlipped) {
-                front.style.display = 'block';
+                front.style.display = 'flex';
                 back.style.display = 'none';
             } else {
                 front.style.display = 'none';
@@ -306,13 +344,12 @@
             const hintBox = document.getElementById('quiz-hint-box');
             hintBox.style.display = 'none';
             hintBox.innerText = "";
-            document.getElementById('quiz-hint-toggle-btn').style.display = 'none'; // 答題前先隱藏解析按鈕
+            document.getElementById('quiz-hint-toggle-btn').style.display = 'none'; 
             
             currentQuizWord = grammarDatabase[Math.floor(Math.random() * grammarDatabase.length)];
             document.getElementById('quiz-badge').innerText = `🎯 考點：${currentQuizWord.cat || "綜合"}`;
             document.getElementById('quiz-question').innerText = currentQuizWord.q;
 
-            // 載入該題目的四個選項
             const optionsGrid = document.getElementById('quiz-options');
             optionsGrid.innerHTML = "";
             
@@ -329,7 +366,6 @@
             const feedback = document.getElementById('feedback');
             const hintBtn = document.getElementById('quiz-hint-toggle-btn');
             
-            // 答題後把「查看文法詳解」按鈕秀出來
             hintBtn.style.display = 'inline-block';
             document.getElementById('quiz-hint-box').innerText = currentQuizWord.explain;
 
