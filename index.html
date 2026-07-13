@@ -366,6 +366,18 @@
             }
         }
 
+        // 🚀 個別刪除錯題功能
+        function deleteFavoriteItem(id) {
+            const index = favorites.findIndex(f => f.id === id || f.id == id);
+            if (index > -1) {
+                favorites.splice(index, 1);
+                localStorage.setItem('toeic_grammar_favs', JSON.stringify(favorites));
+                updateFavCount();
+                renderFavorites(); // 重新渲染列表
+                updateCard();      // 連動翻卡的收藏愛心狀態
+            }
+        }
+
         async function loadGrammar() {
             try {
                 const response = await fetch('grammar.json');
@@ -566,12 +578,14 @@
                 
                 const fullSentence = getFullSentence(item).replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
+                // 🚀 工具列右側加入了 🗑️ 刪除按鈕
                 div.innerHTML = `
                     <div style="display:flex; justify-content:space-between; align-items:center;">
                         <span style="font-size:0.75rem; background:#fee2e2; color:#ef4444; padding:2px 6px; border-radius:4px; font-weight:bold;">${item.cat}</span>
                         <div class="fav-item-tools">
                             <button class="fav-tool-btn" onclick="speak('${fullSentence}')">🔊 聽完整句</button>
                             <button class="fav-tool-btn" onclick="toggleFavTranslation(this, '${item.id}')">👁️ 顯示翻譯</button>
+                            <button class="fav-tool-btn" style="background:#fef2f2; border-color:#fca5a5; color:#ef4444;" onclick="deleteFavoriteItem('${item.id}')">🗑️ 刪除</button>
                         </div>
                     </div>
                     <div style="color:#1e293b; font-weight:500;">${item.q}</div>
