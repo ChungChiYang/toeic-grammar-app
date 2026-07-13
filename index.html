@@ -147,7 +147,7 @@
         .option-btn {
             padding: 14px; border: 2px solid #e2e8f0; background: white;
             border-radius: 8px; cursor: pointer; font-size: 1rem; text-align: left;
-            font-weight: 500; color: #334155;
+            font-weight: 500; color: #334155; transition: all 0.2s;
         }
         
         .quiz-hint-btn {
@@ -321,7 +321,7 @@
                 box.style.display = 'block';
                 toggleBtn.innerText = "⏳ 翻譯載入中...";
                 const currentItem = grammarDatabase[currentIndex];
-                // 快取快取機制：避免重複請求同一句子
+                // 快取機制：避免重複請求同一句子
                 if (!currentItem.cached_translation) {
                     currentItem.cached_translation = await fetchTranslation(getFullSentence(currentItem));
                 }
@@ -356,7 +356,7 @@
         // --- 錯題本獨立的原地開關翻譯 ---
         async function toggleFavTranslation(btn, id) {
             const box = document.getElementById(`fav-trans-${id}`);
-            const item = favorites.find(f => f.id === id);
+            const item = favorites.find(f => f.id === id || f.id == id);
             if (!item) return;
 
             if (box.style.display === 'block') {
@@ -524,9 +524,13 @@
             });
         }
 
-        function checkAnswer(btn, choice) {
+        function checkAnswer(selectedBtn, choice) {
             const feedback = document.getElementById('feedback');
             const hintBtn = document.getElementById('quiz-hint-toggle-btn');
+            const allButtons = document.querySelectorAll('.option-btn');
+            
+            // 鎖定所有按鈕，不給重複點
+            allButtons.forEach(btn => btn.disabled = true);
             
             hintBtn.style.display = 'inline-block';
             document.getElementById('quiz-hint-box').innerText = currentQuizWord.explain;
@@ -534,13 +538,22 @@
             if(choice === currentQuizWord.a) {
                 feedback.innerText = "🎉 回答正確！太強了！";
                 feedback.style.color = "#10b981";
-                btn.style.backgroundColor = "#d1fae5";
-                btn.style.borderColor = "#10b981";
+                selectedBtn.style.backgroundColor = "#d1fae5";
+                selectedBtn.style.borderColor = "#10b981";
             } else {
                 feedback.innerText = "❌ 答錯了！已自動記錄至錯題本。";
                 feedback.style.color = "#ef4444";
-                btn.style.backgroundColor = "#fee2e2";
-                btn.style.borderColor = "#ef4444";
+                selectedBtn.style.backgroundColor = "#fee2e2";
+                selectedBtn.style.borderColor = "#ef4444";
+                
+                // 🚀 【新功能】答錯後，自動把正確答案那顆按鈕渲染出來提示
+                allButtons.forEach(btn => {
+                    if (btn.innerText === currentQuizWord.a) {
+                        btn.style.backgroundColor = "#d1fae5";
+                        btn.style.borderColor = "#10b981";
+                        btn.style.color = "#065f46";
+                    }
+                });
                 
                 if (!favorites.some(fav => fav.id === currentQuizWord.id)) {
                     favorites.push(currentQuizWord);
@@ -569,12 +582,13 @@
                 
                 const fullSentence = getFullSentence(item).replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
+                // 🚀 【修復漏洞】將 toggleFavTranslation 的第二個引號修正為 '${item.id}'，支援字串ID
                 div.innerHTML = `
                     <div style="display:flex; justify-content:space-between; align-items:center;">
                         <span style="font-size:0.75rem; background:#fee2e2; color:#ef4444; padding:2px 6px; border-radius:4px; font-weight:bold;">${item.cat}</span>
                         <div class="fav-item-tools">
                             <button class="fav-tool-btn" onclick="speak('${fullSentence}')">🔊 聽完整句</button>
-                            <button class="fav-tool-btn" onclick="toggleFavTranslation(this, ${item.id})">👁️ 顯示翻譯</button>
+                            <button class="fav-tool-btn" onclick="toggleFavTranslation(this, '${item.id}')">👁️ 顯示翻譯</button>
                         </div>
                     </div>
                     <div style="color:#1e293b; font-weight:500;">${item.q}</div>
