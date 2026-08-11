@@ -210,6 +210,30 @@
             display: none; font-size: 0.85rem; background: #f0fdf4; border-left: 3px solid #10b981;
             color: #166534; padding: 8px; border-radius: 4px; margin-top: 4px;
         }
+
+        /* 🏷️ 多益字尾速查助手 (Suffix Helper) 樣式 */
+        .suffix-header-tools {
+            display: flex; gap: 10px; margin-bottom: 15px; flex-wrap: wrap;
+        }
+        .suffix-search-input {
+            flex: 1; min-width: 150px; padding: 8px 12px; border: 1px solid #cbd5e1;
+            border-radius: 8px; font-size: 0.9rem; outline: none;
+        }
+        .suffix-search-input:focus { border-color: var(--primary-color); }
+        .suffix-card {
+            background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px;
+            padding: 14px; margin-bottom: 12px; text-align: left;
+        }
+        .suffix-title-row {
+            display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;
+        }
+        .suffix-name { font-size: 1.1rem; font-weight: bold; color: var(--primary-color); }
+        .suffix-pos-tag {
+            font-size: 0.75rem; font-weight: bold; padding: 3px 8px; border-radius: 12px;
+            background: #e0e7ff; color: #4338ca;
+        }
+        .suffix-examples { font-size: 0.85rem; color: #334155; margin-top: 4px; line-height: 1.4; }
+        .suffix-note { font-size: 0.8rem; color: #64748b; background: #f1f5f9; padding: 6px 8px; border-radius: 6px; margin-top: 6px; }
     </style>
 </head>
 <body>
@@ -230,6 +254,7 @@
     <div class="nav-tabs">
         <button class="tab-btn active" onclick="switchTab('card-panel')">文法翻卡</button>
         <button class="tab-btn" onclick="switchTab('quiz-panel')">文法四選一</button>
+        <button class="tab-btn" onclick="switchTab('suffix-panel')">字尾速查</button>
         <button class="tab-btn" onclick="switchTab('fav-panel')">錯題本 (<span id="fav-count">0</span>)</button>
     </div>
 
@@ -291,6 +316,21 @@
             </div>
         </div>
 
+        <!-- 🔤 多益字尾速查助手 (Suffix Helper) -->
+        <div id="suffix-panel" class="panel">
+            <div class="suffix-header-tools">
+                <input type="text" id="suffix-search" class="suffix-search-input" placeholder="🔍 搜尋字尾 (例: tion, ly)..." oninput="renderSuffixes()">
+                <select id="suffix-filter-pos" class="filter-select" onchange="renderSuffixes()">
+                    <option value="ALL">全部詞性</option>
+                    <option value="名詞">名詞 (-tion, -ment...)</option>
+                    <option value="形容詞">形容詞 (-able, -ive...)</option>
+                    <option value="副詞">副詞 (-ly...)</option>
+                    <option value="動詞">動詞 (-ize, -fy...)</option>
+                </select>
+            </div>
+            <div id="suffix-list-container" style="min-height: 380px; max-height: 420px; overflow-y: auto;"></div>
+        </div>
+
         <!-- 錯題本模式 -->
         <div id="fav-panel" class="panel">
             <div id="fav-list-container" style="min-height: 400px; height: auto; margin-bottom: 20px;"></div>
@@ -312,6 +352,24 @@
         
         let isCardTranslationOpen = false;
         let isQuizTranslationOpen = false;
+
+        // 🔤 多益常考字尾資料庫 (Suffix Database)
+        const suffixDatabase = [
+            { suffix: "-tion / -sion", pos: "名詞", examples: "action, decision, solution", note: "高頻率考點：前方常接形容詞 (e.g., effective solution)" },
+            { suffix: "-ment", pos: "名詞", examples: "agreement, management, payment", note: "多益商業情境極常見" },
+            { suffix: "-ance / -ence", pos: "名詞", examples: "performance, maintenance, difference", note: "常與 -ant / -ent (形容詞) 互相混淆出題" },
+            { suffix: "-ity / -ty", pos: "名詞", examples: "quality, availability, safety", note: "常表示抽象概念或狀態" },
+            { suffix: "-er / -or / -ee", pos: "名詞", examples: "manager, supervisor, employee", note: "-er/-or 指執行者，-ee 指受者 (如 employer vs employee)" },
+            { suffix: "-able / -ible", pos: "形容詞", examples: "available, responsible, suitable", note: "表『可…的』，常放動詞 is/are 之後當補語" },
+            { suffix: "-ive", pos: "形容詞", examples: "effective, competitive, comprehensive", note: "修飾名詞或作主詞補語" },
+            { suffix: "-al", pos: "形容詞", examples: "professional, financial, additional", note: "注意：少數為名詞 (如 proposal, approval)" },
+            { suffix: "-ful / -less", pos: "形容詞", examples: "successful, helpful / careless", note: "-ful 表充滿，-less 表缺乏" },
+            { suffix: "-ous / -ious", pos: "形容詞", examples: "various, previous, continuous", note: "修飾後方名詞" },
+            { suffix: "-ly", pos: "副詞", examples: "quickly, recently, significantly", note: "常修飾動詞、形容詞或全句；注意少數為形容詞 (friendly, costly)" },
+            { suffix: "-ize / -ise", pos: "動詞", examples: "organize, finalize, customize", note: "表示『使成為…』" },
+            { suffix: "-fy / -ify", pos: "動詞", examples: "notify, certify, modify", note: "常接名詞受詞 (e.g., notify customers)" },
+            { suffix: "-ate", pos: "動詞", examples: "indicate, participate, estimate", note: "注意：作動詞發音為 /eɪt/，多益長難句常用動詞" }
+        ];
 
         function getFullSentence(item) {
             if (!item || !item.q) return "";
@@ -491,6 +549,7 @@
             if(event && event.target) event.target.classList.add('active');
             
             if(panelId === 'quiz-panel') initQuiz();
+            if(panelId === 'suffix-panel') renderSuffixes();
             if(panelId === 'fav-panel') renderFavorites();
         }
 
@@ -666,6 +725,41 @@
             hintBox.style.display = (hintBox.style.display === 'block') ? 'none' : 'block';
         }
 
+        // 🔤 渲染多益字尾速查助手 (Suffix Helper)
+        function renderSuffixes() {
+            const search = document.getElementById('suffix-search').value.toLowerCase().trim();
+            const posFilter = document.getElementById('suffix-filter-pos').value;
+            const container = document.getElementById('suffix-list-container');
+            container.innerHTML = "";
+
+            const filtered = suffixDatabase.filter(item => {
+                const matchSearch = item.suffix.toLowerCase().includes(search) || 
+                                    item.examples.toLowerCase().includes(search) ||
+                                    item.note.toLowerCase().includes(search);
+                const matchPos = (posFilter === "ALL") || (item.pos === posFilter);
+                return matchSearch && matchPos;
+            });
+
+            if (filtered.length === 0) {
+                container.innerHTML = "<p style='color:#64748b; text-align:center; padding: 20px;'>找不到符合條件的字尾。</p>";
+                return;
+            }
+
+            filtered.forEach(item => {
+                const card = document.createElement('div');
+                card.className = "suffix-card";
+                card.innerHTML = `
+                    <div class="suffix-title-row">
+                        <span class="suffix-name">${item.suffix}</span>
+                        <span class="suffix-pos-tag">${item.pos}</span>
+                    </div>
+                    <div class="suffix-examples"><strong>常見例字：</strong> ${item.examples}</div>
+                    <div class="suffix-note">💡 <strong>多益考點：</strong> ${item.note}</div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
         function renderFavorites() {
             const container = document.getElementById('fav-list-container');
             container.innerHTML = "";
@@ -707,8 +801,10 @@
             }
         }
 
-        // 初始化載入
-        loadGrammar();
+        // DOM 載入後自動觸發初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            loadGrammar();
+        });
     </script>
 </body>
 </html>
