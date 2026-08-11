@@ -22,10 +22,39 @@
             align-items: center;
         }
 
+        /* 頂部分類篩選列 */
+        .filter-container {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .filter-label {
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: #475569;
+        }
+        .filter-select {
+            padding: 6px 12px;
+            border-radius: 12px;
+            border: 1px solid #cbd5e1;
+            background-color: #f8fafc;
+            color: #1e293b;
+            font-size: 0.9rem;
+            font-weight: 500;
+            outline: none;
+            cursor: pointer;
+        }
+
         .nav-tabs { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; justify-content: center; }
         .tab-btn {
             padding: 10px 20px; border: none; background-color: #e2e8f0;
             color: #4a5568; border-radius: 20px; cursor: pointer; font-weight: bold;
+            transition: all 0.2s;
         }
         .tab-btn.active { background-color: var(--primary-color); color: white; }
 
@@ -185,10 +214,18 @@
 </head>
 <body>
 
-    <header style="text-align: center; margin-bottom: 20px;">
+    <header style="text-align: center; margin-bottom: 15px;">
         <h2 style="color: #1e293b; margin-bottom: 5px;">TOEIC 多益文法特訓王</h2>
         <p style="color: #64748b; margin: 0; font-size: 0.9rem;">點擊文法卡片即可翻面看核心詳解</p>
     </header>
+
+    <!-- 🎯 頂部考點篩選選單 -->
+    <div class="filter-container">
+        <span class="filter-label">🎯 出題考點：</span>
+        <select id="category-filter" class="filter-select" onchange="onCategoryChange()">
+            <option value="ALL">全部題型 (混合練習)</option>
+        </select>
+    </div>
 
     <div class="nav-tabs">
         <button class="tab-btn active" onclick="switchTab('card-panel')">文法翻卡</button>
@@ -197,6 +234,7 @@
     </div>
 
     <div class="container">
+        <!-- 翻卡模式 -->
         <div id="card-panel" class="panel active">
             <div class="flashcard" onclick="flipCard()">
                 <div class="grammar-badge" id="card-badge">考點</div>
@@ -231,6 +269,7 @@
             </div>
         </div>
 
+        <!-- 四選一測驗模式 -->
         <div id="quiz-panel" class="panel">
             <div id="quiz-badge" style="font-size:0.8rem; background:#e2e8f0; color:#4a5568; padding:3px 8px; border-radius:4px; font-weight:bold; align-self: flex-start;">分類</div>
             <div class="quiz-word" id="quiz-question">Question</div>
@@ -252,6 +291,7 @@
             </div>
         </div>
 
+        <!-- 錯題本模式 -->
         <div id="fav-panel" class="panel">
             <div id="fav-list-container" style="min-height: 400px; height: auto; margin-bottom: 20px;"></div>
             <button class="action-btn" style="background-color: #ef4444; flex-grow: 0; margin-top: 10px;" onclick="clearAllFavorites()">清空錯題本</button>
@@ -259,7 +299,9 @@
     </div>
 
     <script>
-        let grammarDatabase = [];
+        let rawDatabase = [];       // 原始完整的 JSON 題庫
+        let filteredDatabase = [];  // 經過考點篩選後的題庫
+        
         let currentIndex = 0;
         let isFlipped = false;
         let favorites = JSON.parse(localStorage.getItem('toeic_grammar_favs')) || [];
@@ -303,7 +345,7 @@
 
         function triggerSpeech(e, type) {
             if (e) e.stopPropagation();
-            let item = (type === 'card') ? grammarDatabase[currentIndex] : currentQuizWord;
+            let item = (type === 'card') ? filteredDatabase[currentIndex] : currentQuizWord;
             if (item) speak(getFullSentence(item));
         }
 
@@ -316,7 +358,7 @@
             if(isCardTranslationOpen) {
                 box.style.display = 'block';
                 toggleBtn.innerText = "⏳ 翻譯載入中...";
-                const currentItem = grammarDatabase[currentIndex];
+                const currentItem = filteredDatabase[currentIndex];
                 if (!currentItem.cached_translation) {
                     currentItem.cached_translation = await fetchTranslation(getFullSentence(currentItem));
                 }
@@ -366,41 +408,88 @@
             }
         }
 
-        // 🚀 個別刪除錯題功能
         function deleteFavoriteItem(id) {
             const index = favorites.findIndex(f => f.id === id || f.id == id);
             if (index > -1) {
                 favorites.splice(index, 1);
                 localStorage.setItem('toeic_grammar_favs', JSON.stringify(favorites));
                 updateFavCount();
-                renderFavorites(); // 重新渲染列表
-                updateCard();      // 連動翻卡的收藏愛心狀態
+                renderFavorites();
+                updateCard();
             }
         }
 
         async function loadGrammar() {
             try {
                 const response = await fetch('grammar.json');
-                grammarDatabase = await response.json();
+                rawDatabase = await response.json();
                 updateFavCount();
                 
-                if (grammarDatabase.length > 0) {
-                    currentIndex = Math.floor(Math.random() * grammarDatabase.length);
-                    cardHistory.push(currentIndex);
-                    historyPointer = 0;
-                }
-                updateCard();
+                // 動態建立考點選單選項
+                populateCategoryFilter();
+                
+                // 初始化篩選後的題庫
+                filterDatabase();
             } catch (error) {
                 document.getElementById('card-question-text').innerText = "無法載入文法庫，請確認 grammar.json 檔案是否存在。";
                 console.error("Error loading JSON:", error);
             }
         }
 
+        // 🎯 自動掃描 JSON 所有 `cat` 標籤並填入下拉選單
+        function populateCategoryFilter() {
+            const select = document.getElementById('category-filter');
+            select.innerHTML = '<option value="ALL">全部題型 (混合練習)</option>';
+            
+            const categories = [...new Set(rawDatabase.map(item => item.cat).filter(Boolean))];
+            categories.forEach(cat => {
+                const opt = document.createElement('option');
+                opt.value = cat;
+                opt.innerText = cat;
+                select.appendChild(opt);
+            });
+        }
+
+        // 🎯 執行考點篩選邏輯
+        function filterDatabase() {
+            const selectedCat = document.getElementById('category-filter').value;
+            if (selectedCat === "ALL") {
+                filteredDatabase = [...rawDatabase];
+            } else {
+                filteredDatabase = rawDatabase.filter(item => item.cat === selectedCat);
+            }
+
+            // 重置翻卡歷史與指標
+            cardHistory = [];
+            historyPointer = -1;
+
+            if (filteredDatabase.length > 0) {
+                currentIndex = Math.floor(Math.random() * filteredDatabase.length);
+                cardHistory.push(currentIndex);
+                historyPointer = 0;
+            }
+
+            updateCard();
+            
+            // 如果當前在測驗頁面，同步刷新測驗題
+            const quizPanel = document.getElementById('quiz-panel');
+            if (quizPanel.classList.contains('active')) {
+                initQuiz();
+            }
+        }
+
+        // 當使用者切換考點下拉選單時觸發
+        function onCategoryChange() {
+            filterDatabase();
+        }
+
         function switchTab(panelId) {
             document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
             document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
             document.getElementById(panelId).classList.add('active');
+            
             if(event && event.target) event.target.classList.add('active');
+            
             if(panelId === 'quiz-panel') initQuiz();
             if(panelId === 'fav-panel') renderFavorites();
         }
@@ -410,8 +499,14 @@
         }
 
         function updateCard() {
-            if(grammarDatabase.length === 0) return;
-            const item = grammarDatabase[currentIndex];
+            if(!filteredDatabase || filteredDatabase.length === 0) {
+                document.getElementById('card-question-text').innerText = "該考點目前無題目可練習。";
+                document.getElementById('card-options-preview').innerHTML = "";
+                document.getElementById('card-badge').innerText = "無題目";
+                return;
+            }
+            
+            const item = filteredDatabase[currentIndex];
             
             isCardTranslationOpen = false;
             document.getElementById('card-translation-box').style.display = 'none';
@@ -460,12 +555,12 @@
         }
 
         function nextQuestion() { 
-            if (grammarDatabase.length === 0) return;
+            if (filteredDatabase.length === 0) return;
             if (historyPointer < cardHistory.length - 1) {
                 historyPointer++;
                 currentIndex = cardHistory[historyPointer];
             } else {
-                currentIndex = Math.floor(Math.random() * grammarDatabase.length);
+                currentIndex = Math.floor(Math.random() * filteredDatabase.length);
                 cardHistory.push(currentIndex);
                 historyPointer++;
             }
@@ -482,7 +577,8 @@
 
         function toggleFavorite(e) {
             e.stopPropagation(); 
-            const currentItem = grammarDatabase[currentIndex];
+            if (filteredDatabase.length === 0) return;
+            const currentItem = filteredDatabase[currentIndex];
             const favIndex = favorites.findIndex(fav => fav.id === currentItem.id);
             if (favIndex > -1) {
                 favorites.splice(favIndex, 1);
@@ -495,7 +591,12 @@
         }
 
         function initQuiz() {
-            if(grammarDatabase.length === 0) return;
+            if(!filteredDatabase || filteredDatabase.length === 0) {
+                document.getElementById('quiz-question').innerText = "該考點目前無題目可測驗。";
+                document.getElementById('quiz-options').innerHTML = "";
+                return;
+            }
+
             document.getElementById('feedback').innerText = "";
             
             isQuizTranslationOpen = false;
@@ -507,7 +608,7 @@
             hintBox.innerText = "";
             document.getElementById('quiz-hint-toggle-btn').style.display = 'none'; 
             
-            currentQuizWord = grammarDatabase[Math.floor(Math.random() * grammarDatabase.length)];
+            currentQuizWord = filteredDatabase[Math.floor(Math.random() * filteredDatabase.length)];
             document.getElementById('quiz-badge').innerText = `🎯 考點：${currentQuizWord.cat || "綜合"}`;
             document.getElementById('quiz-question').innerText = currentQuizWord.q;
 
@@ -578,10 +679,9 @@
                 
                 const fullSentence = getFullSentence(item).replace(/'/g, "\\'").replace(/"/g, '&quot;');
 
-                // 🚀 工具列右側加入了 🗑️ 刪除按鈕
                 div.innerHTML = `
                     <div style="display:flex; justify-content:space-between; align-items:center;">
-                        <span style="font-size:0.75rem; background:#fee2e2; color:#ef4444; padding:2px 6px; border-radius:4px; font-weight:bold;">${item.cat}</span>
+                        <span style="font-size:0.75rem; background:#fee2e2; color:#ef4444; padding:2px 6px; border-radius:4px; font-weight:bold;">${item.cat || "綜合"}</span>
                         <div class="fav-item-tools">
                             <button class="fav-tool-btn" onclick="speak('${fullSentence}')">🔊 聽完整句</button>
                             <button class="fav-tool-btn" onclick="toggleFavTranslation(this, '${item.id}')">👁️ 顯示翻譯</button>
@@ -607,6 +707,7 @@
             }
         }
 
+        // 初始化載入
         loadGrammar();
     </script>
 </body>
