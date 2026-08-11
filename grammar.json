@@ -178,5 +178,1931 @@
     "a": "presence",
     "choices": ["present", "presence", "presently", "presenting"],
     "explain": "【考點：介系詞與定冠詞後接名詞】介系詞/冠詞短語 in the _______ of 中間必須填入『名詞』。presence 為名詞（出席、在場）。故選 (B)。"
+  },
+  {
+    "id": "g_pos_021",
+    "cat": "詞性變化",
+    "sub_cat": "副詞修飾動詞",
+    "q": "All employees should read the safety guidelines _______ before using the new factory machines.",
+    "a": "carefully",
+    "choices": ["careful", "carefully", "carefulness", "care"],
+    "explain": "【考點：副詞修飾動詞】空格位於動詞短語 read the safety guidelines 之後，需要填入『副詞』修飾動詞 read（仔細地閱讀）。carefully 為副詞（仔細地）。故選 (B)。"
+  },
+  {
+    "id": "g_pos_022",
+    "cat": "詞性變化",
+    "sub_cat": "名詞受詞位置",
+    "q": "Mr. Lee will give a short _______ about the new product during the team meeting tomorrow.",
+    "a": "presentation",
+    "choices": ["present", "presenter", "presentation", "presently"],
+    "explain": "【考點：形容詞後接名詞】形容詞 short（短的）後面需要接『名詞』當作動詞 give 的受詞。presentation 表示『簡報/發表』。故選 (C)。"
+  },
+  {
+    "id": "g_pos_023",
+    "cat": "詞性變化",
+    "sub_cat": "形容詞修飾名詞",
+    "q": "The company provides _______ training programs for all newly hired customer service staff.",
+    "a": "excellent",
+    "choices": ["excel", "excellent", "excellently", "excellence"],
+    "explain": "【考點：形容詞修飾名詞】空格位於名詞短語 training programs 前面，需要填入『形容詞』來修飾名詞。excellent 為形容詞（優秀的、極好的）。故選 (B)。"
+  },
+  {
+    "id": "g_pos_024",
+    "cat": "詞性變化",
+    "sub_cat": "介系詞後接動名詞",
+    "q": "Visitors must show their identification at the front desk before _______ the building.",
+    "a": "entering",
+    "choices": ["enter", "entered", "entering", "entrance"],
+    "explain": "【考點：介系詞後接動名詞】介系詞 before（在...之前）後面若要接動作，必須填入『動名詞 (V-ing)』。entering 為動名詞。故選 (C)。"
+  },
+  {
+    "id": "g_pos_025",
+    "cat": "詞性變化",
+    "sub_cat": "形容詞作補語",
+    "q": "The supervisor was very _______ with the sales results delivered by the marketing team.",
+    "a": "pleased",
+    "choices": ["please", "pleased", "pleasingly", "pleasure"],
+    "explain": "【考點：be動詞後接形容詞補語】be動詞 was + 程度副詞 very 後面需要填入『形容詞』作為主詞補語。主詞是人 (The supervisor)，表達滿意要用過去分詞/形容詞 pleased。故選 (B)。"
+  },
+  {
+    "id": "g_pos_026",
+    "cat": "詞性變化",
+    "sub_cat": "副詞修飾動詞",
+    "q": "Please review the financial report _______ to ensure there are no calculation errors.",
+    "a": "thoroughly",
+    "choices": ["thorough", "thoroughly", "thoroughness", "thoroughs"],
+    "explain": "【考點：副詞修飾動詞】修飾動詞 review（審查/檢查），需要填入『副詞』。thoroughly 為副詞（徹底地、細心地）。故選 (B)。"
+  },
+  {
+    "id": "g_pos_027",
+    "cat": "詞性變化",
+    "sub_cat": "名詞受詞位置",
+    "q": "The manager sent a written _______ to all team members regarding the new office rules.",
+    "a": "announcement",
+    "choices": ["announce", "announced", "announcement", "announcing"],
+    "explain": "【考點：形容詞後接名詞】不定冠詞 a + 形容詞 written（書面的），後面必須填入『名詞』當受詞。announcement 為名詞（公告/通知）。故選 (C)。"
+  },
+  {
+    "id": "g_pos_028",
+    "cat": "詞性變化",
+    "sub_cat": "形容詞修飾名詞",
+    "q": "Our company offers a _______ range of office supplies at very affordable prices.",
+    "a": "wide",
+    "choices": ["wide", "widely", "widen", "width"],
+    "explain": "【考點：形容詞修飾名詞】不定冠詞 a 與名詞 range（範圍）之間，需要填入『形容詞』。a wide range of... 為常見高頻片語（廣泛的...）。故選 (A)。"
+  },
+  {
+    "id": "g_pos_029",
+    "cat": "詞性變化",
+    "sub_cat": "副詞修飾動詞/分詞",
+    "q": "The flight to Tokyo was _______ delayed due to heavy snowfall at the airport.",
+    "a": "slightly",
+    "choices": ["slight", "slightly", "slighter", "slightness"],
+    "explain": "【考點：副詞修飾動詞】位於被動態 was 與過去分詞 delayed 之間，需要填入『副詞』修飾動詞。slightly 為副詞（稍微地）。故選 (B)。"
+  },
+  {
+    "id": "g_pos_030",
+    "cat": "詞性變化",
+    "sub_cat": "副詞修飾副詞",
+    "q": "Ms. Green has worked _______ hard to prepare the budget report for next quarter.",
+    "a": "extremely",
+    "choices": ["extreme", "extremely", "extremity", "extremes"],
+    "explain": "【考點：副詞修飾副詞】修飾副詞 hard（努力地），需要填入『副詞』做程度修飾。extremely 為副詞（極其、非常）。故選 (B)。"
+  },
+  {
+    "id": "g_pos_031",
+    "cat": "詞性變化",
+    "sub_cat": "副詞修飾動詞",
+    "q": "The new computer system allows staff members to complete their daily tasks more _______.",
+    "a": "efficiently",
+    "choices": ["efficient", "efficiently", "efficiency", "efficiencies"],
+    "explain": "【考點：副詞修飾動詞】修飾動詞 complete（完成），需要填入『副詞』。more efficiently 意為『更有效率地』。故選 (B)。"
+  },
+  {
+    "id": "g_pos_032",
+    "cat": "詞性變化",
+    "sub_cat": "名詞受詞位置",
+    "q": "Customers must obtain written _______ from the store manager before returning any opened items.",
+    "a": "permission",
+    "choices": ["permit", "permission", "permissible", "permissively"],
+    "explain": "【考點：形容詞後接名詞】形容詞 written（書面的）後面需要接『名詞』當受詞。permission 為不可數名詞（許可/同意）。故選 (B)。"
+  },
+  {
+    "id": "g_pos_033",
+    "cat": "詞性變化",
+    "sub_cat": "副詞修飾動詞",
+    "q": "The technical support team will _______ resolve any software issues reported by our staff.",
+    "a": "quickly",
+    "choices": ["quick", "quickly", "quickness", "quicken"],
+    "explain": "【考點：副詞修飾動詞】位於助動詞 will 與動詞 resolve 之間，需要填入『副詞』來修飾動詞。quickly 為副詞（快速地）。故選 (B)。"
+  },
+  {
+    "id": "g_pos_034",
+    "cat": "詞性變化",
+    "sub_cat": "名詞位置判斷",
+    "q": "The final cost of the renovation project was much higher than our original _______.",
+    "a": "estimate",
+    "choices": ["estimate", "estimated", "estimating", "estimably"],
+    "explain": "【考點：所有格/形容詞後接名詞】所有格形容詞 our 與形容詞 original（原本的）後面需要接『名詞』。estimate 在此作為名詞，意為『估算值/預算』。故選 (A)。"
+  },
+  {
+    "id": "g_pos_035",
+    "cat": "詞性變化",
+    "sub_cat": "形容詞修飾名詞",
+    "q": "The hotel receptionist greeted all incoming guests with a _______ smile.",
+    "a": "friendly",
+    "choices": ["friend", "friendship", "friendly", "friendliness"],
+    "explain": "【考點：形容詞修飾名詞】不定冠詞 a 與名詞 smile（微笑）之間需要填入『形容詞』。friendly 雖然字尾為 -ly，但是『形容詞』（友善的）。故選 (C)。"
+  },
+  {
+    "id": "g_pos_036",
+    "cat": "詞性變化",
+    "sub_cat": "動詞位置判斷",
+    "q": "The human resources manager will _______ all submitted application forms by the end of this week.",
+    "a": "review",
+    "choices": ["review", "reviewer", "reviewing", "reviewed"],
+    "explain": "【考點：助動詞後接原形動詞】情態助動詞 will 後面必須接『原形動詞』。review 為原形動詞（審查/審閱）。故選 (A)。"
+  },
+  {
+    "id": "g_pos_037",
+    "cat": "詞性變化",
+    "sub_cat": "副詞修飾動詞",
+    "q": "All team members should communicate _______ with each other during the project.",
+    "a": "clearly",
+    "choices": ["clear", "clearly", "clarity", "clearness"],
+    "explain": "【考點：副詞修飾動詞】修飾動詞 communicate（溝通），需要填入『副詞』。clearly 為副詞（清楚地）。故選 (B)。"
+  },
+  {
+    "id": "g_pos_038",
+    "cat": "詞性變化",
+    "sub_cat": "名詞受詞位置",
+    "q": "The board members expressed great _______ in the new marketing strategy proposed by Ms. Chen.",
+    "a": "interest",
+    "choices": ["interesting", "interested", "interest", "interestingly"],
+    "explain": "【考點：形容詞後接名詞】形容詞 great（極大的）後面需要填入『名詞』當受詞。interest 作名詞意為『興趣/關注』。故選 (C)。"
+  },
+  {
+    "id": "g_pos_039",
+    "cat": "詞性變化",
+    "sub_cat": "形容詞修飾名詞",
+    "q": "The updated employee handbook contains _______ instructions for requesting paid time off.",
+    "a": "detailed",
+    "choices": ["detail", "detailed", "detailing", "details"],
+    "explain": "【考點：形容詞修飾名詞】修飾複數名詞 instructions（說明/指示），需要填入『形容詞』。detailed 為分詞作形容詞（詳細的）。故選 (B)。"
+  },
+  {
+    "id": "g_pos_040",
+    "cat": "詞性變化",
+    "sub_cat": "副詞修飾動詞",
+    "q": "The maintenance worker checked the air conditioning unit _______ to make sure it was working properly.",
+    "a": "regularly",
+    "choices": ["regular", "regularly", "regularity", "regulate"],
+    "explain": "【考點：副詞修飾動詞】修飾動詞 checked（檢查），需要填入『副詞』。regularly 為副詞（定期地/經常地）。故選 (B)。"
+  },
+  {
+    "id": "g_tense_001",
+    "cat": "時態與主被動",
+    "sub_cat": "完成式時間副詞",
+    "q": "The regional sales manager _______ several new clients since moving to the Chicago branch last November.",
+    "a": "has acquired",
+    "choices": ["acquires", "acquired", "has acquired", "will acquire"],
+    "explain": "【考點：現在完成式】句尾有『since + 時間點/過去式子句』，表示從過去持續到現在，主句必須使用『現在完成式 (has/have + p.p.)』。主詞為單數 manager，故選 (C)。"
+  },
+  {
+    "id": "g_tense_002",
+    "cat": "時態與主被動",
+    "sub_cat": "被動語態判斷",
+    "q": "All updated safety protocols must be _______ by the end of the orientation session tomorrow.",
+    "a": "reviewed",
+    "choices": ["review", "reviewing", "reviewed", "reviews"],
+    "explain": "【考點：情態助動詞被動態】主詞為 safety protocols（安全規範），規範是被審查，故需填入『must be + p.p.』構成被動語態。故選 (C)。"
+  },
+  {
+    "id": "g_tense_003",
+    "cat": "時態與主被動",
+    "sub_cat": "未來完成式",
+    "q": "By the time the new facility opens next year, the engineering team _______ the construction project.",
+    "a": "will have completed",
+    "choices": ["completes", "completed", "has completed", "will have completed"],
+    "explain": "【考點：未來完成式】句首有『By the time + 現在式動詞（表未來時間點）』，表示到了未來某時將已經完成，主句需用『未來完成式 (will have + p.p.)』。故選 (D)。"
+  },
+  {
+    "id": "g_tense_004",
+    "cat": "時態與主被動",
+    "sub_cat": "過去進行式與過去式",
+    "q": "Mr. Harrison _______ a client call when the power outage suddenly interrupted the entire office network.",
+    "a": "was conducting",
+    "choices": ["conducts", "was conducting", "has conducted", "will conduct"],
+    "explain": "【考點：過去進行式】描述過去某動作正在進行時（was conducting），被另一個突發的過去動作（interrupted）打斷。故選 (B)。"
+  },
+  {
+    "id": "g_tense_005",
+    "cat": "時態與主被動",
+    "sub_cat": "主謂一致（集合名詞/名詞短語）",
+    "q": "A comprehensive list of all required documents _______ attached to the welcome email sent yesterday.",
+    "a": "was",
+    "choices": ["were", "was", "are", "have been"],
+    "explain": "【考點：主謂一致】主詞的核心字是單數名詞 'A list'（A list of... 的主要主詞是 list），時間點為 yesterday，故動詞需用單數過去式 was。故選 (B)。"
+  },
+  {
+    "id": "g_tense_006",
+    "cat": "時態與主被動",
+    "sub_cat": "被動語態與授與動詞",
+    "q": "Outstanding employees will be _______ prestigious recognition awards at the annual gala next Friday.",
+    "a": "presented",
+    "choices": ["present", "presenting", "presented", "presents"],
+    "explain": "【考點：被動語態】主詞為 employees（員工），員工是被頒發獎項（will be + p.p.）。present A with B 或 be presented awards。故選 (C)。"
+  },
+  {
+    "id": "g_tense_007",
+    "cat": "時態與主被動",
+    "sub_cat": "現在完成進行式",
+    "q": "The research team _______ the market trends for over three months to prepare the final report.",
+    "a": "has been analyzing",
+    "choices": ["analyzes", "analyzed", "has been analyzing", "will analyze"],
+    "explain": "【考點：現在完成進行式】句中有『for + 一段時間 (for over three months)』強調從過去持續到現在且仍在進行的動作，使用『has/have been + V-ing』。故選 (C)。"
+  },
+  {
+    "id": "g_tense_008",
+    "cat": "時態與主被動",
+    "sub_cat": "時間副詞與簡單過去式",
+    "q": "The board of directors _______ the budget proposal during the emergency meeting held last Tuesday.",
+    "a": "approved",
+    "choices": ["approves", "approved", "has approved", "will approve"],
+    "explain": "【考點：簡單過去式】句尾有明確的過去時間指示詞 'last Tuesday'，動詞必須使用『簡單過去式』。故選 (B)。"
+  },
+  {
+    "id": "g_tense_009",
+    "cat": "時態與主被動",
+    "sub_cat": "主謂一致（代名詞主詞）",
+    "q": "Each of the applicants _______ required to submit three professional references along with the resume.",
+    "a": "is",
+    "choices": ["are", "is", "were", "have been"],
+    "explain": "【考點：主謂一致（Each of + 複數名詞）】'Each of...' 作為主詞時，核心動詞永遠使用『單數型態』。描述一般規定用現在式 is。故選 (B)。"
+  },
+  {
+    "id": "g_tense_010",
+    "cat": "時態與主被動",
+    "sub_cat": "被動語態受詞判斷",
+    "q": "The new employee handbook was _______ to all department heads early this morning.",
+    "a": "distributed",
+    "choices": ["distribute", "distributing", "distributed", "distribution"],
+    "explain": "【考點：被動語態】主詞 handbook（手冊）與動詞 distribute（發放）為被動關係（手冊被發放），was + 過去分詞 distributed。故選 (C)。"
+  },
+  {
+    "id": "g_tense_011",
+    "cat": "時態與主被動",
+    "sub_cat": "時間/條件子句代替未來式",
+    "q": "As soon as the shipment _______ at the warehouse, the inventory manager will perform a quality check.",
+    "a": "arrives",
+    "choices": ["arrived", "arrives", "will arrive", "has arrived"],
+    "explain": "【考點：時間子句代替未來式】在 As soon as / When / If 引導的時間或條件副詞子句中，必須用『現在式 (arrives) 代替未來式』。故選 (B)。"
+  },
+  {
+    "id": "g_tense_012",
+    "cat": "時態與主被動",
+    "sub_cat": "過去完成式",
+    "q": "By the time the technician arrived, the IT department _______ the server issue.",
+    "a": "already resolved",
+    "choices": ["already resolves", "already resolved", "had already resolved", "has already resolved"],
+    "explain": "【考點：過去完成式】描述在過去某個時間點（arrived）之前『已經發生並完成的動作』，需用『過去完成式 (had + p.p.)』。故選 (C)。"
+  },
+  {
+    "id": "g_tense_013",
+    "cat": "時態與主被動",
+    "sub_cat": "主謂一致（數量詞部分代名詞）",
+    "q": "Most of the equipment in the manufacturing facility _______ regular maintenance to function efficiently.",
+    "a": "requires",
+    "choices": ["require", "requires", "requiring", "are required"],
+    "explain": "【考點：主謂一致（Most of + 不可數名詞）】Most of ＋ 名詞時，動詞單複數由 of 後面的名詞決定。equipment 為不可數名詞，動詞需用單數式 (requires)。故選 (B)。"
+  },
+  {
+    "id": "g_tense_014",
+    "cat": "時態與主被動",
+    "sub_cat": "被動語態與介系詞搭配",
+    "q": "The press conference will be _______ in the main auditorium to accommodate the large crowd.",
+    "a": "held",
+    "choices": ["hold", "holding", "held", "holds"],
+    "explain": "【考點：被動語態】主詞 press conference（記者會）是被舉辦（will be held）。hold 的過去分詞為 held。故選 (C)。"
+  },
+  {
+    "id": "g_tense_015",
+    "cat": "時態與主被動",
+    "sub_cat": "現在簡單式表常態/習慣",
+    "q": "The quality control manager usually _______ the assembly line twice a day to ensure safety standards.",
+    "a": "inspects",
+    "choices": ["inspect", "inspects", "inspected", "is inspecting"],
+    "explain": "【考點：現在簡單式（頻率副詞）】有頻率副詞 'usually' 且描述常態性工作，動詞用『現在簡單式』。主詞 manager 為單數，動詞加 s。故選 (B)。"
+  },
+  {
+    "id": "g_tense_016",
+    "cat": "時態與主被動",
+    "sub_cat": "現在進行式表預定未來",
+    "q": "Dr. Aris is currently _______ a keynote address on sustainable energy at the international summit.",
+    "a": "delivering",
+    "choices": ["deliver", "delivered", "delivering", "delivers"],
+    "explain": "【考點：現在進行式】有時間副詞 'currently'（目前），搭配 is + V-ing 表示『正在進行的動作』。deliver a speech/address 意為發表演說。故選 (C)。"
+  },
+  {
+    "id": "g_tense_017",
+    "cat": "時態與主被動",
+    "sub_cat": "主謂一致（Neither... nor...）",
+    "q": "Neither the marketing Director nor the assistant manager _______ available for a comment yesterday.",
+    "a": "was",
+    "choices": ["was", "were", "are", "been"],
+    "explain": "【考點：主謂一致（Neither A nor B）】'Neither A nor B' 作為主詞時，動詞單複數由『靠近動詞的 B（the assistant manager）』決定。assistant manager 為單數，配合過去時間 yesterday，選 was。故選 (A)。"
+  },
+  {
+    "id": "g_tense_018",
+    "cat": "時態與主被動",
+    "sub_cat": "未來式時間副詞",
+    "q": "The newly hired consultants _______ their recommendations at the executive meeting next Monday.",
+    "a": "will present",
+    "choices": ["presented", "have presented", "will present", "presents"],
+    "explain": "【考點：簡單未來式】句尾有明確未來時間指示詞 'next Monday'，動詞需用『簡單未來式 (will + 原形動詞)』。故選 (C)。"
+  },
+  {
+    "id": "g_tense_019",
+    "cat": "時態與主被動",
+    "sub_cat": "被動語態與完成式結合",
+    "q": "Several key provisions of the contract have been _______ by the legal team after careful review.",
+    "a": "modified",
+    "choices": ["modify", "modifying", "modified", "modification"],
+    "explain": "【考點：現在完成式被動態】have been + 過去分詞 (p.p.) 表示『已經被...』。條款是被修改 (have been modified)。故選 (C)。"
+  },
+  {
+    "id": "g_tense_020",
+    "cat": "時態與主被動",
+    "sub_cat": "主謂一致（時間/金額/距離整體概念）",
+    "q": "Ten thousand dollars _______ a significant amount of money to allocate for marketing research.",
+    "a": "is",
+    "choices": ["is", "are", "were", "have been"],
+    "explain": "【考點：主謂一致（金額/時間名詞作整體）】表示『金額、時間、距離』的名詞作主詞時，視為一個整體概念，動詞需用『單數型態』(is)。故選 (A)。"
+  },
+  {
+    "id": "g_tense_021",
+    "cat": "時態與主被動",
+    "sub_cat": "一般過去時 (Time Signal: yesterday)",
+    "q": "The IT department _______ the server maintenance work yesterday evening.",
+    "a": "completed",
+    "choices": ["completes", "completed", "will complete", "is completing"],
+    "explain": "【考點：一般過去時】句尾有明確的過去時間副詞 yesterday evening（昨天晚上），動詞必須使用『一般過去時』。completed 為過去式。故選 (B)。"
+  },
+  {
+    "id": "g_tense_022",
+    "cat": "時態與主被動",
+    "sub_cat": "一般未來時 (Time Signal: next week)",
+    "q": "Our company _______ a new branch in downtown Chicago next week.",
+    "a": "will open",
+    "choices": ["opened", "opens", "will open", "has opened"],
+    "explain": "【考點：一般未來時】句尾有未來時間副詞 next week（下週），動詞必須使用『一般未來時 (will + V)』。will open 為未來式。故選 (C)。"
+  },
+  {
+    "id": "g_tense_023",
+    "cat": "時態與主被動",
+    "sub_cat": "現在完成時 (Time Signal: since)",
+    "q": "Ms. Davis _______ as a senior accountant at this firm since 2018.",
+    "a": "has worked",
+    "choices": ["works", "worked", "has worked", "will work"],
+    "explain": "【考點：現在完成時】句尾有 'since + 過去時間點 (since 2018)'，表示從過去持續到現在的動作，動詞需使用『現在完成時 (have/has + p.p.)』。主詞為單數 Ms. Davis，故選 has worked。故選 (C)。"
+  },
+  {
+    "id": "g_tense_024",
+    "cat": "時態與主被動",
+    "sub_cat": "現在進行時 (Time Signal: currently)",
+    "q": "The marketing team _______ a new promotional campaign for the summer sale currently.",
+    "a": "is developing",
+    "choices": ["developed", "is developing", "was developed", "will develop"],
+    "explain": "【考點：現在進行時】句中有副詞 currently（目前），表示當前正在進行的動作，需使用『現在進行時 (be + V-ing)』。主詞為單數 team，故選 is developing。故選 (B)。"
+  },
+  {
+    "id": "g_tense_025",
+    "cat": "時態與主被動",
+    "sub_cat": "一般現在時被動態",
+    "q": "Monthly financial reports _______ to all regional managers by the fifth of every month.",
+    "a": "are sent",
+    "choices": ["send", "sent", "are sent", "will send"],
+    "explain": "【考點：一般現在時被動態】主詞為物 'Monthly financial reports（月度財務報告）'，與動作 send（寄送）之間是被動關係（報告被寄送）；句尾 'by the fifth of every month' 表示規律習慣，用現在式被動態 (are + p.p.)。故選 (C)。"
+  },
+  {
+    "id": "g_tense_026",
+    "cat": "時態與主被動",
+    "sub_cat": "一般未來時被動態",
+    "q": "The renovated conference room _______ for the annual general meeting next Monday.",
+    "a": "will be used",
+    "choices": ["uses", "will use", "will be used", "used"],
+    "explain": "【考點：一般未來時被動態】主詞為物 'The renovated conference room（整修後的會議室）'，與動詞 use 之間是被動關係（會議室被使用）；時間副詞為 next Monday（下週一），故選擇未來時被動態 (will be + p.p.)。故選 (C)。"
+  },
+  {
+    "id": "g_tense_027",
+    "cat": "時態與主被動",
+    "sub_cat": "現在完成時 (Time Signal: already)",
+    "q": "The logistics department _______ all the ordered items to the client.",
+    "a": "has already shipped",
+    "choices": ["ships", "shipped", "has already shipped", "will ship"],
+    "explain": "【考點：現在完成時】already（已經）為現在完成時的常考指標詞，表示動作已經完成並對現在造成影響。主詞為單數 department，搭配 has + p.p.。故選 (C)。"
+  },
+  {
+    "id": "g_tense_028",
+    "cat": "時態與主被動",
+    "sub_cat": "一般過去時 (Time Signal: last night)",
+    "q": "The regional sales director _______ an emergency email to all staff last night.",
+    "a": "sent",
+    "choices": ["sends", "sent", "will send", "has sent"],
+    "explain": "【考點：一般過去時】句尾有明確過去時間指標 last night（昨晚），動詞需填入過去式。sent 為 send 的過去式。故選 (B)。"
+  },
+  {
+    "id": "g_tense_029",
+    "cat": "時態與主被動",
+    "sub_cat": "一般現在時 (習慣/規律)",
+    "q": "The shuttle bus _______ at the main entrance every fifteen minutes during peak hours.",
+    "a": "arrives",
+    "choices": ["arrives", "arrived", "will arrive", "has arrived"],
+    "explain": "【考點：一般現在時表習慣或常態】句尾有 every fifteen minutes（每十五分鐘），表示規律重複發生的習慣或常態，需用一般現在時。主詞為單數 bus，動詞加 s。故選 (A)。"
+  },
+  {
+    "id": "g_tense_030",
+    "cat": "時態與主被動",
+    "sub_cat": "過去進行時",
+    "q": "Mr. Kim _______ a presentation when the fire alarm suddenly sounded.",
+    "a": "was giving",
+    "choices": ["gives", "gave", "was giving", "will give"],
+    "explain": "【考點：過去進行時】當突然發生某事（fire alarm sounded - 過去式）時，當時『正在進行』另一個動作，需用過去進行時 (was/were + V-ing)。故選 (C)。"
+  },
+  {
+    "id": "g_tense_031",
+    "cat": "時態與主被動",
+    "sub_cat": "一般過去時被動態",
+    "q": "The new safety policies _______ by the board of directors during yesterday's session.",
+    "a": "were approved",
+    "choices": ["approve", "approved", "were approved", "will be approved"],
+    "explain": "【考點：一般過去時被動態】主詞為物 'The new safety policies（新安全政策）'，與 approve（批准）之間是被動關係；且時間為 yesterday's session（昨天的會議），故選擇過去時被動態 (were + p.p.)。故選 (C)。"
+  },
+  {
+    "id": "g_tense_032",
+    "cat": "時態與主被動",
+    "sub_cat": "時間/條件副詞子句 (現在代替未來)",
+    "q": "We will send you a confirmation email as soon as the payment _______ processed.",
+    "a": "is",
+    "choices": ["is", "was", "will be", "has been"],
+    "explain": "【考點：時間副詞子句用現在代替未來】在由 as soon as（一...就...）引導的時間副詞子句中，主要子句用未來時 (will send)，子句必須用『現在時態』表示未來。 payment 為單數被動，用 is processed。故選 (A)。"
+  },
+  {
+    "id": "g_tense_033",
+    "cat": "時態與主被動",
+    "sub_cat": "現在完成時 (Time Signal: for three years)",
+    "q": "Mr. Harrison _______ as the head of the human resources team for three years.",
+    "a": "has served",
+    "choices": ["serves", "served", "has served", "will serve"],
+    "explain": "【考點：現在完成時】句中有 'for + 時間長度 (for three years)'，表示從過去持續至今的狀態，需搭配『現在完成時 (has + p.p.)』。故選 (C)。"
+  },
+  {
+    "id": "g_tense_034",
+    "cat": "時態與主被動",
+    "sub_cat": "一般未來時 (Time Signal: soon)",
+    "q": "The engineering department _______ testing the new eco-friendly engine soon.",
+    "a": "will start",
+    "choices": ["started", "starts", "will start", "has started"],
+    "explain": "【考點：一般未來時】句尾有副詞 soon（很快/不久後），指向未來時間，需使用未來時 (will + V)。故選 (C)。"
+  },
+  {
+    "id": "g_tense_035",
+    "cat": "時態與主被動",
+    "sub_cat": "過去完成時",
+    "q": "By the time the manager arrived, the team _______ the client proposal.",
+    "a": "had finished",
+    "choices": ["finishes", "finished", "has finished", "had finished"],
+    "explain": "【考點：過去完成時 (had + p.p.)】'By the time + 過去式動詞 (arrived)'，表示在過去某個時間點之前『就已經完成』的動作，需使用過去完成時 (had + p.p.)。故選 (D)。"
+  },
+  {
+    "id": "g_tense_036",
+    "cat": "時態與主被動",
+    "sub_cat": "一般現在時被動態",
+    "q": "All visitor passes _______ at the main security desk upon entering the building.",
+    "a": "are issued",
+    "choices": ["issue", "are issued", "issued", "will issue"],
+    "explain": "【考點：一般現在時被動態】主詞為物 'All visitor passes（所有訪客證）'，與 issue（核發）之間是被動關係（訪客證被核發）；句意描述日常規定，用現在時被動態 (are + p.p.)。故選 (B)。"
+  },
+  {
+    "id": "g_tense_037",
+    "cat": "時態與主被動",
+    "sub_cat": "現在進行時 (Time Signal: right now)",
+    "q": "The factory manager _______ the assembly line equipment right now.",
+    "a": "is inspecting",
+    "choices": ["inspects", "inspected", "is inspecting", "will inspect"],
+    "explain": "【考點：現在進行時】句尾有 right now（現在/此刻），強調當下正在發生的動作，需使用『現在進行時 (is + V-ing)』。故選 (C)。"
+  },
+  {
+    "id": "g_tense_038",
+    "cat": "時態與主被動",
+    "sub_cat": "一般過去時 (Time Signal: two days ago)",
+    "q": "The design team _______ the new product prototype to the client two days ago.",
+    "a": "demonstrated",
+    "choices": ["demonstrates", "demonstrated", "will demonstrate", "has demonstrated"],
+    "explain": "【考點：一般過去時】句尾有明確過去時間指標 'two days ago（兩天前）'，動詞必須使用過去式。demonstrated 為過去式。故選 (B)。"
+  },
+  {
+    "id": "g_tense_039",
+    "cat": "時態與主被動",
+    "sub_cat": "情態助動詞後接被動態",
+    "q": "The application form must _______ to the office before the end of the day.",
+    "a": "be submitted",
+    "choices": ["be submitted", "submit", "submitting", "submitted"],
+    "explain": "【考點：助動詞後接被動態 (must be + p.p.)】主詞為物 'The application form（申請表）'，與 submit（繳交）之間是被動關係；情態助動詞 must 後面接原形 be + p.p. (must be submitted)。故選 (A)。"
+  },
+  {
+    "id": "g_tense_040",
+    "cat": "時態與主被動",
+    "sub_cat": "一般未來時 (Time Signal: tomorrow)",
+    "q": "The chief financial officer _______ the annual earnings report tomorrow morning.",
+    "a": "will present",
+    "choices": ["presents", "presented", "will present", "has presented"],
+    "explain": "【考點：一般未來時】句尾有時間指標 tomorrow morning（明天早上），屬於未發生的動作，需填入一般未來時 (will + V)。故選 (C)。"
+  },
+  {
+    "id": "g_prep_001",
+    "cat": "介系詞與片語",
+    "sub_cat": "時間介系詞 (within)",
+    "q": "All reimbursements for travel expenses must be submitted to the finance office _______ two weeks of returning from the trip.",
+    "a": "within",
+    "choices": ["within", "until", "during", "since"],
+    "explain": "【考點：時間介系詞 within】within + 一段時間，意為『在...（時間）以內/之內』。句意為『必須在自行程返回後的兩週內提交』。until 表示『直到...為止』；during 後接特定時期名詞（如 summer）。故選 (A)。"
+  },
+  {
+    "id": "g_prep_002",
+    "cat": "介系詞與片語",
+    "sub_cat": "複合介系詞 (prior to)",
+    "q": "All participants are required to register online _______ attending the specialized software training workshop.",
+    "a": "prior to",
+    "choices": ["prior to", "ahead", "in front of", "beforehand"],
+    "explain": "【考點：複合介系詞 prior to】prior to 為介系詞片語，相當於 before，後面接名詞或動名詞（attending），意為『在...之前』。ahead 需要搭配 of (ahead of)；beforehand 是副詞不可直接接受詞。故選 (A)。"
+  },
+  {
+    "id": "g_prep_003",
+    "cat": "介系詞與片語",
+    "sub_cat": "商務介系詞 (under)",
+    "q": "The newly hired research assistants will work directly _______ the supervision of Dr. Elizabeth Vance.",
+    "a": "under",
+    "choices": ["under", "below", "with", "about"],
+    "explain": "【考點：商務常見介系詞片語 under supervision】'under the supervision of...' 是多益極高頻片語，意為『在...的監督/指導之下』。故選 (A)。"
+  },
+  {
+    "id": "g_prep_004",
+    "cat": "介系詞與片語",
+    "sub_cat": "轉化介系詞 (despite / in spite of)",
+    "q": "_______ severe supply chain disruptions, the logistics firm managed to deliver all holiday orders on time.",
+    "a": "In spite of",
+    "choices": ["Although", "In spite of", "Even though", "Whereas"],
+    "explain": "【考點：介系詞 vs 連接詞】空格後為名詞短語 'severe supply chain disruptions'（無完整動詞），需填入介系詞。in spite of 為介系詞片語（儘管...）；Although, Even though, Whereas 皆為連接詞，後需接完整子句。故選 (B)。"
+  },
+  {
+    "id": "g_prep_005",
+    "cat": "介系詞與片語",
+    "sub_cat": "空間與地點介系詞 (throughout)",
+    "q": "The international corporation operates over fifty regional branches _______ Europe and North America.",
+    "a": "throughout",
+    "choices": ["throughout", "along", "across to", "between"],
+    "explain": "【考點：空間介系詞 throughout】throughout 加上地點名詞，表示『遍及、貫穿整個區域』。句意為『遍及歐洲與北美』。along 表示『沿著』；between 需搭配 and 連接兩者。故選 (A)。"
+  },
+  {
+    "id": "g_prep_006",
+    "cat": "介系詞與片語",
+    "sub_cat": "複合介系詞 (instead of)",
+    "q": "The company decided to launch a social media campaign _______ placing traditional advertisements in newspapers.",
+    "a": "instead of",
+    "choices": ["in spite of", "instead of", "as for", "due to"],
+    "explain": "【考點：複合介系詞 instead of】instead of + V-ing/N. 意為『代替.../而不是...』。句意為『決定推動社群媒體活動，而不是在報紙上刊登傳統廣告』。due to 為『因為』；in spite of 為『儘管』。故選 (B)。"
+  },
+  {
+    "id": "g_prep_007",
+    "cat": "介系詞與片語",
+    "sub_cat": "原因介系詞 (due to / because of)",
+    "q": "The outdoor charity marathon was rescheduled to next Sunday _______ unforeseen weather conditions.",
+    "a": "because of",
+    "choices": ["because", "because of", "so that", "as a result"],
+    "explain": "【考點：原因介系詞 because of】空格後接名詞短語 'unforeseen weather conditions'，需要使用表示原因的介系詞 because of（由於/因為）。because 為連接詞需接子句；as a result 為轉接副詞；so that 為連接詞。故選 (B)。"
+  },
+  {
+    "id": "g_prep_008",
+    "cat": "介系詞與片語",
+    "sub_cat": "商務介系詞 (upon / on)",
+    "q": "All foreign visitors must present a valid passport and entry visa _______ arrival at the border check-point.",
+    "a": "upon",
+    "choices": ["upon", "until", "during", "towards"],
+    "explain": "【考點：商務常考片語 upon arrival】upon / on + 名詞/動名詞，表示『一...就.../在...之際』。'upon arrival' 意為『抵達時/一抵達』。故選 (A)。"
+  },
+  {
+    "id": "g_prep_009",
+    "cat": "介系詞與片語",
+    "sub_cat": "動詞介系詞搭配 (comply with)",
+    "q": "All newly manufactured electronic components must fully comply _______ strict international safety regulations.",
+    "a": "with",
+    "choices": ["to", "with", "for", "by"],
+    "explain": "【考點：動詞固定搭配 comply with】comply 必須與介系詞 with 搭配使用，構成 'comply with + 規則/法律'（遵守/符合）。（同義詞為 conform to / abide by）。故選 (B)。"
+  },
+  {
+    "id": "g_prep_010",
+    "cat": "介系詞與片語",
+    "sub_cat": "商務介系詞 (in line with)",
+    "q": "The newly announced employee benefits policy is fully _______ company core values and labor guidelines.",
+    "a": "in line with",
+    "choices": ["in front of", "in line with", "in terms", "in place"],
+    "explain": "【考點：複合介系詞 in line with】in line with 是多益常考片語，意為『與...一致/符合...』。句意為『新公布的員工福利政策完全符合公司的核心價值』。故選 (B)。"
+  },
+  {
+    "id": "g_prep_011",
+    "cat": "介系詞與片語",
+    "sub_cat": "時間介系詞 (by vs. until)",
+    "q": "Please ensure that your completed registration forms are delivered to the office _______ 5:00 PM on Friday.",
+    "a": "by",
+    "choices": ["by", "until", "since", "for"],
+    "explain": "【考點：時間介系詞 by 與 until 的區別】by 表示『在...之前（完成一次性的動作）』；until 表示『狀態持續到...為止』。此處 deliver（遞交）為一次性動作，指在 5 點前交齊，故選 by。故選 (A)。"
+  },
+  {
+    "id": "g_prep_012",
+    "cat": "介系詞與片語",
+    "sub_cat": "商務介系詞 (on behalf of)",
+    "q": "The vice president signed the official merger agreement _______ the entire board of directors.",
+    "a": "on behalf of",
+    "choices": ["in charge of", "on behalf of", "with regard to", "by means of"],
+    "explain": "【考點：商務片語 on behalf of】on behalf of 意為『代表...』。句意為『副總裁代表整個董事會簽署了合約』。in charge of 為『負責』；with regard to 為『關於』。故選 (B)。"
+  },
+  {
+    "id": "g_prep_013",
+    "cat": "介系詞與片語",
+    "sub_cat": "商務介系詞 (in terms of)",
+    "q": "_______ customer satisfaction, our latest line of smartphones has outperformed all competitors this quarter.",
+    "a": "In terms of",
+    "choices": ["In terms of", "In light of", "In addition", "In case"],
+    "explain": "【考點：商務片語 in terms of】in terms of 意為『就...而言 / 在...方面』。句意為『就顧客滿意度而言，我們最新的智慧型手機超越了所有競爭對手』。in light of 為『鑑於/考慮到』。故選 (A)。"
+  },
+  {
+    "id": "g_prep_014",
+    "cat": "介系詞與片語",
+    "sub_cat": "形容詞介系詞搭配 (eligible for)",
+    "q": "Only permanent employees who have completed their probation period are eligible _______ the education allowance.",
+    "a": "for",
+    "choices": ["for", "to", "with", "at"],
+    "explain": "【考點：形容詞固定搭配 be eligible for】be eligible for + 名詞，意為『有資格獲得...』。（若後接動詞原形則用 be eligible to + V）。後接名詞 allowance，故選 for。故選 (A)。"
+  },
+  {
+    "id": "g_prep_015",
+    "cat": "介系詞與片語",
+    "sub_cat": "複合介系詞 (according to)",
+    "q": "_______ the revised weather forecast, heavy rainfall is expected to persist throughout the entire weekend.",
+    "a": "According to",
+    "choices": ["According to", "In spite of", "Except for", "As well as"],
+    "explain": "【考點：複合介系詞 according to】according to 意為『根據/依據...』。句意為『根據修訂後的天氣預報...』。except for 為『除了...之外』；as well as 為『以及』。故選 (A)。"
+  },
+  {
+    "id": "g_prep_016",
+    "cat": "介系詞與片語",
+    "sub_cat": "商務介系詞 (regardless of)",
+    "q": "All employees are entitled to equal training opportunities _______ their job title or length of service.",
+    "a": "regardless of",
+    "choices": ["regardless of", "in addition to", "owing to", "in comparison with"],
+    "explain": "【考點：商務片語 regardless of】regardless of 意為『無論... / 不論...』。句意為『所有員工都有權享有平等的培訓機會，不論其職稱或服務年資』。owing to 為『由於』。故選 (A)。"
+  },
+  {
+    "id": "g_prep_017",
+    "cat": "介系詞與片語",
+    "sub_cat": "範圍介系詞 (among vs. between)",
+    "q": "The remaining annual budget will be distributed evenly _______ the four regional sales departments.",
+    "a": "among",
+    "choices": ["between", "among", "along", "through"],
+    "explain": "【考點：介系詞 among vs. between】between 通常用於『兩者之間』；among 用于『三者或三者以上（群體）之間』。後方為 'the four departments'（四個部門），故需選擇 among。故選 (B)。"
+  },
+  {
+    "id": "g_prep_018",
+    "cat": "介系詞與片語",
+    "sub_cat": "商務介系詞 (in charge of)",
+    "q": "Ms. Karen Davis has been put _______ the entire global marketing restructuring campaign.",
+    "a": "in charge of",
+    "choices": ["in charge of", "in compliance with", "in accordance with", "in contrast to"],
+    "explain": "【考點：商務片語 in charge of】be in charge of 意為『掌管/負責...』。句意為『Karen Davis 女士被任命掌管整個全球行銷重組活動』。故選 (A)。"
+  },
+  {
+    "id": "g_prep_019",
+    "cat": "介系詞與片語",
+    "sub_cat": "動詞介系詞搭配 (attribute to)",
+    "q": "The sharp increase in Q3 revenue can be largely attributed _______ the successful digital marketing campaign.",
+    "a": "to",
+    "choices": ["to", "for", "with", "by"],
+    "explain": "【考點：動詞固定搭配 attribute A to B】attribute A to B / be attributed to 意為『將 A 歸因於 B』。句意為『第三季營收的大幅增長可主要歸因於成功的數位行銷活動』。故選 (A)。"
+  },
+  {
+    "id": "g_prep_020",
+    "cat": "介系詞與片語",
+    "sub_cat": "商務介系詞 (aside from / in addition to)",
+    "q": "_______ the competitive base salary, our company offers comprehensive medical coverage and performance bonuses.",
+    "a": "In addition to",
+    "choices": ["In addition to", "In response to", "In view of", "In place of"],
+    "explain": "【考點：複合介系詞 in addition to】in addition to + N. 意為『除了...之外（還有...）』。句意為『除了具有競爭力的底薪外，我們公司還提供全面的醫療保險和績效獎金』。in response to 為『回應』。故選 (A)。"
+  },
+  {
+    "id": "g_prep_021",
+    "cat": "介系詞與片語",
+    "sub_cat": "時間介系詞 (specific time)",
+    "q": "The morning staff meeting will begin promptly _______ 9:00 AM in the main conference room.",
+    "a": "at",
+    "choices": ["in", "on", "at", "for"],
+    "explain": "【考點：時間介系詞 at】表示特定的『具體時間/點鐘』前，必須使用介系詞 at（at 9:00 AM）。in 用於月份/年份；on 用於具體日期/星期。故選 (C)。"
+  },
+  {
+    "id": "g_prep_022",
+    "cat": "介系詞與片語",
+    "sub_cat": "時間介系詞 (date)",
+    "q": "The annual sales conference is scheduled to take place _______ October 15.",
+    "a": "on",
+    "choices": ["in", "on", "at", "by"],
+    "explain": "【考點：時間介系詞 on】表示『具體日期（October 15）』或星期幾前，必須使用介系詞 on。單純月份（如 in October）才用 in。故選 (B)。"
+  },
+  {
+    "id": "g_prep_023",
+    "cat": "介系詞與片語",
+    "sub_cat": "時間介系詞 (month/year)",
+    "q": "Our company plans to launch its new mobile application _______ November.",
+    "a": "in",
+    "choices": ["in", "on", "at", "for"],
+    "explain": "【考點：時間介系詞 in】表示『月份、年份、季節、世紀』等較長的時間範圍前，需使用介系詞 in（in November）。故選 (A)。"
+  },
+  {
+    "id": "g_prep_024",
+    "cat": "介系詞與片語",
+    "sub_cat": "截止時間 (by vs. until)",
+    "q": "All job applicants must submit their resume and portfolio _______ Friday afternoon.",
+    "a": "by",
+    "choices": ["by", "until", "for", "since"],
+    "explain": "【考點：截止時間介系詞 by】by 表示『在...之前（強調截止時間，動作完成即結束）』；until 表示『直到...（動作或狀態持續進行）』。遞交履歷只需在週五下午前『完成一次』，故選 by。故選 (A)。"
+  },
+  {
+    "id": "g_prep_025",
+    "cat": "介系詞與片語",
+    "sub_cat": "持續時間 (until vs. by)",
+    "q": "The factory will remain closed for routine inspection _______ next Monday.",
+    "a": "until",
+    "choices": ["by", "until", "at", "on"],
+    "explain": "【考點：持續狀態介系詞 until】動詞為 remain closed（保持關閉狀態），強調關閉狀態『一直持續直到』下週一，需使用 until。故選 (B)。"
+  },
+  {
+    "id": "g_prep_026",
+    "cat": "介系詞與片語",
+    "sub_cat": "時間長度 (for vs. during)",
+    "q": "Mr. Tanaka will stay in London _______ two weeks to attend the international trade fair.",
+    "a": "for",
+    "choices": ["for", "during", "since", "at"],
+    "explain": "【考點：時間長度介系詞 for】for 後面接『一段數字時間（如 two weeks）』；during 後面接『特定事件/名詞（如 the meeting）』。two weeks 為數字時間長度，故選 for。故選 (A)。"
+  },
+  {
+    "id": "g_prep_027",
+    "cat": "介系詞與片語",
+    "sub_cat": "特定事件期間 (during)",
+    "q": "Please keep your mobile phones on silent mode _______ the entire presentation.",
+    "a": "during",
+    "choices": ["for", "during", "while", "since"],
+    "explain": "【考點：特定事件期間 during】during 後面接特定事件或期間名詞（the presentation）。while 為連接詞後面需接子句 (S+V)。故選 (B)。"
+  },
+  {
+    "id": "g_prep_028",
+    "cat": "介系詞與片語",
+    "sub_cat": "時間限制 (within)",
+    "q": "Customers will receive their orders _______ three business days after payment confirmation.",
+    "a": "within",
+    "choices": ["within", "among", "between", "during"],
+    "explain": "【考點：期限介系詞 within】within + 時間長度 意為『在...（時間）之內』。within three business days 意為『在三個工作天之內』。故選 (A)。"
+  },
+  {
+    "id": "g_prep_029",
+    "cat": "介系詞與片語",
+    "sub_cat": "因果介系詞片語 (due to)",
+    "q": "The flight was delayed _______ heavy rain and strong wind conditions near the airport.",
+    "a": "due to",
+    "choices": ["because", "due to", "although", "in spite"],
+    "explain": "【考點：因果介系詞片語 due to】due to 意為『由於/因為』，後面接名詞/名詞片語（heavy rain...）。because 為連接詞需接子句；although 為連接詞。故選 (B)。"
+  },
+  {
+    "id": "g_prep_030",
+    "cat": "介系詞與片語",
+    "sub_cat": "地點介系詞 (building/city)",
+    "q": "The new corporate headquarters will be located _______ New York City.",
+    "a": "in",
+    "choices": ["in", "on", "at", "to"],
+    "explain": "【考點：地點介系詞 in】在國家、城市、大區域前，必須使用介系詞 in（in New York City）。at 用於具體地址點；on 用於街道。故選 (A)。"
+  },
+  {
+    "id": "g_prep_031",
+    "cat": "介系詞與片語",
+    "sub_cat": "地點介系詞 (street)",
+    "q": "Our main customer service center is situated _______ Fifth Avenue.",
+    "a": "on",
+    "choices": ["in", "on", "at", "by"],
+    "explain": "【考點：地點介系詞 on】在『路名、街名（Fifth Avenue）』前，使用介系詞 on。如果有精確門牌號碼（如 at 500 Fifth Avenue）才使用 at。故選 (B)。"
+  },
+  {
+    "id": "g_prep_032",
+    "cat": "介系詞與片語",
+    "sub_cat": "兩者之間 (between vs. among)",
+    "q": "The contract agreement was signed _______ the two technology companies yesterday.",
+    "a": "between",
+    "choices": ["between", "among", "within", "through"],
+    "explain": "【考點：介系詞 between】between 指『在（兩者）之間』，後面常搭配 the two... 或 A and B；among 指『在（三者或以上）之間』。句中有 explicit 的 'the two'，故選 between。故選 (A)。"
+  },
+  {
+    "id": "g_prep_033",
+    "cat": "介系詞與片語",
+    "sub_cat": "多者之間 (among vs. between)",
+    "q": "The bonus budget will be shared _______ all the hardworking members of the sales team.",
+    "a": "among",
+    "choices": ["between", "among", "along", "across"],
+    "explain": "【考點：介系詞 among】among 指『在（三者或以上/一群人）之中』。獎金在團隊所有成員之間發放，故選 among。故選 (B)。"
+  },
+  {
+    "id": "g_prep_034",
+    "cat": "介系詞與片語",
+    "sub_cat": "目的介系詞片語 (in order to)",
+    "q": "All staff must wear safety helmets _______ protect themselves from falling objects.",
+    "a": "in order to",
+    "choices": ["so that", "in order to", "because of", "due to"],
+    "explain": "【考點：目的片語 in order to + V】in order to（為了要...）後面接『原形動詞 (protect)』；so that 後面需接『子句 (S+V)』；because of 與 due to 後面接名詞。故選 (B)。"
+  },
+  {
+    "id": "g_prep_035",
+    "cat": "介系詞與片語",
+    "sub_cat": "舉例介系詞片語 (such as)",
+    "q": "Office supplies _______ paper clips, notebooks, and pens are available in the storage room.",
+    "a": "such as",
+    "choices": ["such as", "for example", "as well", "instead of"],
+    "explain": "【考點：舉例介系詞 such as】such as 意為『例如/諸如...』，後面直接接名詞清單（paper clips, notebooks...）當做舉例。for example 後面通常接完整句子或搭配逗號。故選 (A)。"
+  },
+  {
+    "id": "g_prep_036",
+    "cat": "介系詞與片語",
+    "sub_cat": "依據介系詞片語 (according to)",
+    "q": "_______ the latest weather forecast, heavy rain is expected to continue until tomorrow morning.",
+    "a": "According to",
+    "choices": ["According to", "Because", "Due", "In addition"],
+    "explain": "【考點：介系詞片語 according to】according to 意為『根據/依據』，後面接資訊來源名詞（the latest weather forecast）。故選 (A)。"
+  },
+  {
+    "id": "g_prep_037",
+    "cat": "介系詞與片語",
+    "sub_cat": "替代/非介系詞片語 (instead of)",
+    "q": "We decided to hold an online virtual meeting _______ traveling to the branch office.",
+    "a": "instead of",
+    "choices": ["instead of", "because of", "in spite of", "due to"],
+    "explain": "【考點：介系詞片語 instead of】instead of 意為『代替/而不是...』，後接 V-ing 或名詞。句意為『開線上會議，而不是親自搭車前往』。故選 (A)。"
+  },
+  {
+    "id": "g_prep_038",
+    "cat": "介系詞與片語",
+    "sub_cat": "固定動詞片語 (look forward to)",
+    "q": "We are looking forward _______ you at the annual marketing summit next Friday.",
+    "a": "to meeting",
+    "choices": ["to meet", "to meeting", "meet", "meeting"],
+    "explain": "【考點：固定片語 look forward to + V-ing】look forward to 中的 to 是『介系詞』，後面必須接『動名詞 (V-ing)』或名詞。to meeting 為正確型態。故選 (B)。"
+  },
+  {
+    "id": "g_prep_039",
+    "cat": "介系詞與片語",
+    "sub_cat": "固定動詞片語 (depend on)",
+    "q": "The final success of the product launch depends _______ the quality of our advertising strategy.",
+    "a": "on",
+    "choices": ["on", "in", "at", "with"],
+    "explain": "【考點：固定搭配 depend on】depend on 意為『取決於/依賴』，為高頻固定動詞介系詞搭配。故選 (A)。"
+  },
+  {
+    "id": "g_prep_040",
+    "cat": "介系詞與片語",
+    "sub_cat": "固定形容詞片語 (responsible for)",
+    "q": "Ms. Watson is responsible _______ managing the client accounts in the European region.",
+    "a": "for",
+    "choices": ["for", "to", "with", "about"],
+    "explain": "【考點：固定形容詞搭配 be responsible for】be responsible for 意為『負責...』，介系詞 for 後面接動名詞 (managing) 或名詞。故選 (A)。"
+  },
+  {
+    "id": "g_conn_003",
+    "cat": "連接詞與子句",
+    "sub_cat": "讓步副詞子句連接詞 (although)",
+    "q": "_______ the new project management tool was initially expensive, it ultimately saved the firm considerable time and labor.",
+    "a": "Although",
+    "choices": ["Although", "Despite", "In spite of", "Regardless of"],
+    "explain": "【考點：讓步連接詞】空格後為完整子句 'the new project management tool was initially expensive'，必須選擇連接詞。Although 為連接詞（儘管/雖然）；Despite、In spite of、Regardless of 皆為介系詞，後面只能接名詞或動名詞。故選 (A)。"
+  },
+  {
+    "id": "g_conn_004",
+    "cat": "連接詞與子句",
+    "sub_cat": "條件副詞子句連接詞 (unless)",
+    "q": "The outdoor corporate picnic will proceed as scheduled _______ heavy rainfall makes the field unsafe.",
+    "a": "unless",
+    "choices": ["unless", "without", "except", "in case of"],
+    "explain": "【考點：條件連接詞 unless】空格後接完整子句 'heavy rainfall makes...'。unless 為連接詞（除非...否則不）。句意為『除非大雨導致場地不安全，否則野餐將照常進行』。without, except, in case of 皆需接名詞。故選 (A)。"
+  },
+  {
+    "id": "g_conn_005",
+    "cat": "連接詞與子句",
+    "sub_cat": "目的副詞子句連接詞 (so that)",
+    "q": "The IT team updated the server security settings overnight _______ employees could access files remotely without risk.",
+    "a": "so that",
+    "choices": ["in order to", "so that", "because of", "due to"],
+    "explain": "【考點：目的連接詞 so that】空格後接完整子句 'employees could access files...'。so that 為連接詞，意為『為了/以便於...』，常搭配 modal auxiliary（如 could/can）。in order to 後面接原形動詞；because of, due to 為介系詞。故選 (B)。"
+  },
+  {
+    "id": "g_conn_006",
+    "cat": "連接詞與子句",
+    "sub_cat": "關係代名詞主格 (who)",
+    "q": "All candidates _______ possess relevant experience in digital marketing are encouraged to apply for the position.",
+    "a": "who",
+    "choices": ["who", "whom", "whose", "which"],
+    "explain": "【考點：關係代名詞主格】先行詞為『人』(candidates)，引導的定語子句中缺乏『主詞』(possess 為動詞)，因此需填入人稱主格關係代名詞 who。故選 (A)。"
+  },
+  {
+    "id": "g_conn_007",
+    "cat": "連接詞與子句",
+    "sub_cat": "關係代名詞受格與補述用法 (which)",
+    "q": "The annual financial report, _______ was published earlier this morning, shows a fifteen percent growth in net profit.",
+    "a": "which",
+    "choices": ["that", "which", "what", "who"],
+    "explain": "【考點：關係代名詞非限定用法（補述用法）】先行詞為物 'report'，且空格前有『逗號』。在非限定用法中，不能使用 that 或 what，必須使用 which 來引導子句。故選 (B)。"
+  },
+  {
+    "id": "g_conn_008",
+    "cat": "連接詞與子句",
+    "sub_cat": "所有格關係代名詞 (whose)",
+    "q": "We are looking for an architectural consultant _______ previous work includes designing eco-friendly office buildings.",
+    "a": "whose",
+    "choices": ["who", "whom", "whose", "which"],
+    "explain": "【考點：所有格關係代名詞】先行詞為 'consultant'，空格後方的 'previous work'（先前的作品）與 consultant 之間為所有格關係（顧問的作品），故需使用所有格關係代名詞 whose。故選 (C)。"
+  },
+  {
+    "id": "g_conn_009",
+    "cat": "連接詞與子句",
+    "sub_cat": "相關連接詞 (not only... but also)",
+    "q": "The new manager is not only highly experienced _______ exceptionally skilled at resolving workplace conflicts.",
+    "a": "but also",
+    "choices": ["but also", "and also", "as well", "or else"],
+    "explain": "【考點：相關對等連接詞 not only... but also】not only A but also B 意為『不僅 A 而且 B』。A (highly experienced) 與 B (exceptionally skilled) 結構對等。故選 (A)。"
+  },
+  {
+    "id": "g_conn_010",
+    "cat": "連接詞與子句",
+    "sub_cat": "相關連接詞 (either... or)",
+    "q": "All employees may choose to attend _______ the morning session or the afternoon workshop.",
+    "a": "either",
+    "choices": ["both", "neither", "either", "not only"],
+    "explain": "【考點：相關對等連接詞 either... or】後方有『or』，形成固定搭配 'either A or B'（二者擇一）。both 搭配 and；neither 搭配 nor；not only 搭配 but also。故選 (C)。"
+  },
+  {
+    "id": "g_conn_011",
+    "cat": "連接詞與子句",
+    "sub_cat": "名詞子句連接詞 (whether)",
+    "q": "The board has not yet decided _______ to accept the acquisition offer from the international firm.",
+    "a": "whether",
+    "choices": ["whether", "if", "that", "whatever"],
+    "explain": "【考點：名詞子句 / 不定詞連接詞 whether】whether + to V 形成名詞片語，當作動詞 decided 的受詞，意為『是否要...』。注意：if 不能直接接 'to + V'（不可寫成 if to accept）。故選 (A)。"
+  },
+  {
+    "id": "g_conn_012",
+    "cat": "連接詞與子句",
+    "sub_cat": "時間副詞子句連接詞 (once)",
+    "q": "_______ the contract is signed by both executive directors, the initial payment will be transferred immediately.",
+    "a": "Once",
+    "choices": ["Once", "Until", "During", "While that"],
+    "explain": "【考點：時間連接詞 once】once 當連接詞時，意為『一旦...就...』，後接完整子句。句意為『一旦雙方董事簽署合約，首期款項將立即轉帳』。Until 語意不符；During 為介系詞。故選 (A)。"
+  },
+  {
+    "id": "g_conn_013",
+    "cat": "連接詞與子句",
+    "sub_cat": "對等連接詞 (yet / but)",
+    "q": "The new smartphone model is feature-rich, _______ it is surprisingly easy to navigate for users of all ages.",
+    "a": "yet",
+    "choices": ["yet", "or", "nor", "so"],
+    "explain": "【考點：對等連接詞 yet】yet 作為對等連接詞時，意為『然而 / 但是』，用來連接語意轉折的兩個獨立子句。句意為『功能豐富，然而操作卻出奇地簡單』。故選 (A)。"
+  },
+  {
+    "id": "g_conn_014",
+    "cat": "連接詞與子句",
+    "sub_cat": "原因副詞子句連接詞 (since / as)",
+    "q": "_______ the chief financial officer was away on business, the vice president chaired the quarterly review meeting.",
+    "a": "Since",
+    "choices": ["Since", "Because of", "Due to", "Owing to"],
+    "explain": "【考點：原因連接詞 Since】空格後為完整子句 'the chief financial officer was away...'，需要連接詞。Since 在此當連接詞，表示『因為 / 既然』。Because of, Due to, Owing to 皆為介系詞。故選 (A)。"
+  },
+  {
+    "id": "g_conn_015",
+    "cat": "連接詞與子句",
+    "sub_cat": "關係副詞 (where)",
+    "q": "The company will build a modern research center in Geneva, _______ several leading pharmaceutical firms are located.",
+    "a": "where",
+    "choices": ["where", "which", "that", "when"],
+    "explain": "【考點：關係副詞 where】先行詞為地點 'Geneva'，引導的子句 'several leading pharmaceutical firms are located [in Geneva]' 結構完整且表地點，因此使用關係副詞 where。故選 (A)。"
+  },
+  {
+    "id": "g_conn_016",
+    "cat": "連接詞與子句",
+    "sub_cat": "條件副詞子句連接詞 (as long as)",
+    "q": "Employees are permitted to work remotely _______ they maintain their daily performance metrics.",
+    "a": "as long as",
+    "choices": ["as long as", "as well as", "in addition to", "such as"],
+    "explain": "【考點：條件連接詞 as long as】as long as 為連接詞，意為『只要...』。句意為『只要員工保持每日績效指標，即可遠端工作』。as well as 為『以及』；in addition to 與 such as 為介系詞片語。故選 (A)。"
+  },
+  {
+    "id": "g_conn_017",
+    "cat": "連接詞與子句",
+    "sub_cat": "名詞子句連接詞 (that)",
+    "q": "The survey results indicate _______ customer satisfaction has improved significantly over the past year.",
+    "a": "that",
+    "choices": ["that", "what", "which", "whether"],
+    "explain": "【考點：名詞子句連接詞 that】indicate 後面接一個結構完整的子句（含有主詞、動詞與完整語意），此時需用不具字義的連接詞 that 來引導名詞子句作為動詞受詞。故選 (A)。"
+  },
+  {
+    "id": "g_conn_018",
+    "cat": "連接詞與子句",
+    "sub_cat": "相關連接詞 (neither... nor)",
+    "q": "Neither the CEO _______ the board members were available for comment after the emergency meeting ended.",
+    "a": "nor",
+    "choices": ["nor", "or", "and", "but"],
+    "explain": "【考點：相關對等連接詞 neither... nor】Neither 與 nor 搭配使用，構成 'neither A nor B'（既不 A 也不 B）。故選 (A)。"
+  },
+  {
+    "id": "g_conn_019",
+    "cat": "連接詞與子句",
+    "sub_cat": "讓步/時間副詞子句 (while)",
+    "q": "_______ Ms. Davis was inspecting the factory floor, the maintenance crew identified a mechanical glitch.",
+    "a": "While",
+    "choices": ["While", "During", "In spite of", "Despite"],
+    "explain": "【考點：時間連接詞 while】空格後接完整子句 'Ms. Davis was inspecting...'，需填入連接詞。While 當連接詞，表示『當...之際 / 在...期間』。During, In spite of, Despite 皆為介系詞。故选 (A)。"
+  },
+  {
+    "id": "g_conn_020",
+    "cat": "連接詞與子句",
+    "sub_cat": "關係代名詞與介系詞搭配 (in which)",
+    "q": "The annual conference provides a platform _______ professionals can share innovative industry practices.",
+    "a": "in which",
+    "choices": ["in which", "whereby", "to which", "that"],
+    "explain": "【考點：介系詞 + 關係代名詞】先行詞為 'a platform'，在平台上有專業人士可以分享做法 (professionals can share practices on/in this platform)。'in which' 或 'where' 用於修飾場合/平台。故選 (A)。"
+  },
+  {
+    "id": "g_conn_021",
+    "cat": "連接詞與子句",
+    "sub_cat": "對等連接詞 (轉折 but)",
+    "q": "The product design is impressive, _______ the production cost is much higher than we expected.",
+    "a": "but",
+    "choices": ["and", "but", "so", "or"],
+    "explain": "【考點：對等連接詞】前半句說『設計令人印象深刻（正面）』，後半句說『成本比預期高（負面）』，前後句語意為轉折關係，故使用對等連接詞 but（但是）。故選 (B)。"
+  },
+  {
+    "id": "g_conn_022",
+    "cat": "連接詞與子句",
+    "sub_cat": "對等連接詞 (因果 so)",
+    "q": "The flight was canceled due to bad weather, _______ Mr. Lee had to reschedule his business meeting.",
+    "a": "so",
+    "choices": ["so", "because", "although", "unless"],
+    "explain": "【考點：對等連接詞】前半句為原因（航班取消），後半句為結果（必須改期）。表達『因果關係：因此/所以』，且空格位於兩句中間連接，需使用對等連接詞 so。故選 (A)。"
+  },
+  {
+    "id": "g_conn_023",
+    "cat": "連接詞與子句",
+    "sub_cat": "從屬連接詞 (原因 because vs. because of)",
+    "q": "_______ Mr. Smith was stuck in heavy traffic, he arrived late for the morning briefing.",
+    "a": "Because",
+    "choices": ["Because", "Because of", "Due to", "Owing to"],
+    "explain": "【考點：原因連接詞 vs. 介系詞】空格後為完整句子 'Mr. Smith (S) was (V) stuck...'，必須選擇『從屬連接詞』Because。Because of, Due to, Owing to 後面只能接名詞或名詞短語。故選 (A)。"
+  },
+  {
+    "id": "g_conn_024",
+    "cat": "連接詞與子句",
+    "sub_cat": "從屬連接詞 (讓步 although vs. despite)",
+    "q": "_______ the weather forecast predicted rain, the outdoor promotional event went smoothly.",
+    "a": "Although",
+    "choices": ["Although", "Despite", "In spite of", "Regardless of"],
+    "explain": "【考點：讓步連接詞 vs. 介系詞】空格後為完整句子 'the weather forecast (S) predicted (V) rain'，需要填入『從屬連接詞』Although（雖然）。Despite, In spite of, Regardless of 後面只能接名詞。故選 (A)。"
+  },
+  {
+    "id": "g_conn_025",
+    "cat": "連接詞與子句",
+    "sub_cat": "從屬連接詞 (時間 when)",
+    "q": "Please double-check all calculation details _______ you submit the final budget report to the manager.",
+    "a": "before",
+    "choices": ["before", "during", "despite", "because of"],
+    "explain": "【考點：時間從屬連接詞】空格後為完整句子 'you (S) submit (V)...'，需要填入『連接詞』。before 可引導時間子句（在...之前）。during, despite, because of 皆為介系詞，後面不能接完整句子。故選 (A)。"
+  },
+  {
+    "id": "g_conn_026",
+    "cat": "連接詞與子句",
+    "sub_cat": "從屬連接詞 (條件 if)",
+    "q": "_______ you have any questions regarding the new policy, please contact human resources.",
+    "a": "If",
+    "choices": ["If", "Unless", "Whether", "Although"],
+    "explain": "【考點：條件從屬連接詞】句意表示條件：『如果你有任何問題（If you have...），請聯絡人資』。Unless 意為『除非』，語意不符。故選 (A)。"
+  },
+  {
+    "id": "g_conn_027",
+    "cat": "連接詞與子句",
+    "sub_cat": "從屬連接詞 (條件 unless)",
+    "q": "We cannot issue a full refund _______ you provide the original store purchase receipt.",
+    "a": "unless",
+    "choices": ["unless", "if", "because", "although"],
+    "explain": "【考點：條件從屬連接詞】句意表示：『除非你提供發票，否則我們無法退款』。unless 意為『除非...否則不 (if... not)』，符合句意。故選 (A)。"
+  },
+  {
+    "id": "g_conn_028",
+    "cat": "連接詞與子句",
+    "sub_cat": "從屬連接詞 (時間 as soon as)",
+    "q": "The manager will call you _______ the meeting with the client ends.",
+    "a": "as soon as",
+    "choices": ["as soon as", "as long as", "such as", "as well as"],
+    "explain": "【考點：時間從屬連接詞】as soon as 表示『一...就...』，引導時間副詞子句。句意為：『與客戶的會議一結束，經理就會打電話給你』。故選 (A)。"
+  },
+  {
+    "id": "g_conn_029",
+    "cat": "連接詞與子句",
+    "sub_cat": "對等相關連接詞 (both... and)",
+    "q": "The hotel offers _______ complimentary breakfast and free wireless internet to all guests.",
+    "a": "both",
+    "choices": ["both", "either", "neither", "not only"],
+    "explain": "【考點：對等相關連接詞 both... and...】後方有對應的 coordinates 'and'，構成『both A and B（A與B兩者皆有）』的結構。故選 (A)。"
+  },
+  {
+    "id": "g_conn_030",
+    "cat": "連接詞與子句",
+    "sub_cat": "對等相關連接詞 (either... or)",
+    "q": "You can send the signed contract _______ by email or by regular postal service.",
+    "a": "either",
+    "choices": ["either", "both", "neither", "not"],
+    "explain": "【考點：對等相關連接詞 either... or...】後方有對應的 coordinates 'or'，構成『either A or B（不是A就是B / 二擇一）』的結構。故選 (A)。"
+  },
+  {
+    "id": "g_conn_031",
+    "cat": "連接詞與子句",
+    "sub_cat": "對等相關連接詞 (neither... nor)",
+    "q": "The report was _______ clear nor helpful for solving the technical problem.",
+    "a": "neither",
+    "choices": ["neither", "either", "both", "not"],
+    "explain": "【考點：對等相關連接詞 neither... nor...】後方有對應的 coordinates 'nor'，構成『neither A nor B（兩者皆非/既不...也不...）』的結構。故選 (A)。"
+  },
+  {
+    "id": "g_conn_032",
+    "cat": "連接詞與子句",
+    "sub_cat": "從屬連接詞 (時間 since)",
+    "q": "Mr. Wang has been working in the sales department _______ he joined the company three years ago.",
+    "a": "since",
+    "choices": ["since", "until", "while", "during"],
+    "explain": "【考點：時間連接詞 since】主要子句為現在完成時 (has been working)，後接『since + 過去式子句 (he joined...)』，表示『自從...以來』。故選 (A)。"
+  },
+  {
+    "id": "g_conn_033",
+    "cat": "連接詞與子句",
+    "sub_cat": "從屬連接詞 (時間 while / 進行中)",
+    "q": "Please do not enter the examination room _______ the candidates are taking the test.",
+    "a": "while",
+    "choices": ["while", "during", "despite", "because of"],
+    "explain": "【考點：時間連接詞 while】空格後為完整句子 'the candidates (S) are taking (V)...'，需選擇『連接詞』。while 表示『在...期間/當...的時候』，常用於引導進行時態子句。during 為介系詞後接名詞。故選 (A)。"
+  },
+  {
+    "id": "g_conn_034",
+    "cat": "連接詞與子句",
+    "sub_cat": "從屬連接詞 (目的 so that)",
+    "q": "The company upgraded its server system _______ employees could access data more quickly.",
+    "a": "so that",
+    "choices": ["so that", "in order to", "because of", "such as"],
+    "explain": "【考點：目的連接詞 so that】空格後為完整子句 'employees (S) could access (V)...'，需選擇『連接詞』so that（為了要/以便於...）。in order to 後面接原形動詞。故選 (A)。"
+  },
+  {
+    "id": "g_conn_035",
+    "cat": "連接詞與子句",
+    "sub_cat": "從屬連接詞 (原因 since)",
+    "q": "_______ tomorrow is a public holiday, all corporate offices will remain closed.",
+    "a": "Since",
+    "choices": ["Since", "Because of", "Due to", "In spite of"],
+    "explain": "【考點：原因從屬連接詞】Since 除表示時間外，亦可作從屬連接詞表示『因為/既然』，後接完整子句 'tomorrow (S) is (V)...'。Because of 與 Due to 為介系詞。故選 (A)。"
+  },
+  {
+    "id": "g_conn_036",
+    "cat": "連接詞與子句",
+    "sub_cat": "關係代名詞 (主格 who)",
+    "q": "The technician _______ repaired our air conditioner was very professional and efficient.",
+    "a": "who",
+    "choices": ["who", "which", "whose", "whom"],
+    "explain": "【考點：關係代名詞人稱主格】先行詞為人 'The technician（技師）'，且關係代名詞在子句中作動詞 repaired 的主詞，故選主格關係代名詞 who。which 用於修飾物。故選 (A)。"
+  },
+  {
+    "id": "g_conn_037",
+    "cat": "連接詞與子句",
+    "sub_cat": "關係代名詞 (物格 which)",
+    "q": "The new software program _______ was installed yesterday operates much faster.",
+    "a": "which",
+    "choices": ["which", "who", "whom", "whose"],
+    "explain": "【考點：關係代名詞物稱主格】先行詞為物 'The new software program（新軟體）'，且在修飾子句中作主詞，故選關係代名詞 which。who 與 whom 用於修飾人。故選 (A)。"
+  },
+  {
+    "id": "g_conn_038",
+    "cat": "連接詞與子句",
+    "sub_cat": "關係代名詞 (所有格 whose)",
+    "q": "We interviewed an applicant _______ family background is in international law.",
+    "a": "whose",
+    "choices": ["whose", "who", "which", "whom"],
+    "explain": "【考點：關係代名詞所有格】空格前後的名詞為『applicant（求職者）』與『family background（家庭背景）』，兩者為所有格關係（applicant's family background），故選擇所有格關係代名詞 whose。故選 (A)。"
+  },
+  {
+    "id": "g_conn_039",
+    "cat": "連接詞與子句",
+    "sub_cat": "名詞子句 (whether... or not)",
+    "q": "The manager has not decided _______ we should launch the product this month or next month.",
+    "a": "whether",
+    "choices": ["whether", "if", "that", "since"],
+    "explain": "【考點：名詞子句 whether... or...】表示『是否...』，句中有對應的選擇字 'or'，構成 'whether A or B' 結構當作動詞 decided 的受詞名詞子句。故選 (A)。"
+  },
+  {
+    "id": "g_conn_040",
+    "cat": "連接詞與子句",
+    "sub_cat": "從屬連接詞 (讓步 even though)",
+    "q": "_______ the new phone model is expensive, many customers are willing to buy it.",
+    "a": "Even though",
+    "choices": ["Even though", "Despite", "Because of", "In spite of"],
+    "explain": "【考點：讓步從屬連接詞】空格後為完整句子 'the new phone model (S) is (V) expensive'，需選從屬連接詞 Even though（雖然/即使）。Despite, Because of, In spite of 後面只能接名詞短語。故選 (A)。"
+  },
+  {
+    "id": "g_pron_003",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "所有格代名詞",
+    "q": "Although Mr. Lin's budget proposal was submitted yesterday, _______ has yet to be finalized by the committee.",
+    "a": "ours",
+    "choices": ["our", "us", "ours", "ourselves"],
+    "explain": "【考點：所有格代名詞】空格處充當子句的主詞，代表『我們的預算提案 (our budget proposal)』。為了避免名詞重複，必須使用『所有格代名詞 ours』。our 為所有格不可單獨做主詞；us 為受格。故選 (C)。"
+  },
+  {
+    "id": "g_pron_004",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "反身代名詞 (by oneself)",
+    "q": "The senior developer managed to fix the critical database glitch completely by _______ before the system crashed.",
+    "a": "himself",
+    "choices": ["him", "his", "himself", "he"],
+    "explain": "【考點：反身代名詞慣用語 (by oneself)】介系詞 by + 反身代名詞，意為『靠自己 / 獨自一人』(by himself = alone / on his own)。故選 (C)。"
+  },
+  {
+    "id": "g_pron_005",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "指示代名詞比較替代 (those)",
+    "q": "The customer service ratings of our new branch are higher than _______ of the older city-center office.",
+    "a": "those",
+    "choices": ["that", "those", "them", "these"],
+    "explain": "【考點：指示代名詞替代比較對象】句中用來比較的是『客服評分 (ratings)』，為複數名詞。在比較級結構中，用 those 來替代前面已出現過的複數名詞 (those of...)；若單數則用 that。故選 (B)。"
+  },
+  {
+    "id": "g_pron_006",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "限定詞 (another vs. other)",
+    "q": "The regional manager requested _______ three days to complete the annual financial performance analysis.",
+    "a": "another",
+    "choices": ["other", "another", "others", "the other"],
+    "explain": "【考點：限定詞 another + 數字 + 複數名詞】another 一般接單數名詞，但後接『數字 + 複數名詞』時，視為一個時間/數量的整體，意為『再...；另外的...』(another three days = 再三天)。other 接複數名詞，不可直接接數字。故選 (B)。"
+  },
+  {
+    "id": "g_pron_007",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "限定詞 (each / every)",
+    "q": "_______ representative attending the international summit will receive a complimentary orientation welcome folder.",
+    "a": "Each",
+    "choices": ["Each", "All", "Several", "Both"],
+    "explain": "【考點：限定詞後接單數名詞】空格後的代表 'representative' 是『單數名詞』，動詞 'will receive'（若為現在式則配合單數）。Each（每一個）後接單數可數名詞。All, Several, Both 後面皆需接複數名詞。故選 (A)。"
+  },
+  {
+    "id": "g_pron_008",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "反身代名詞 (受詞位置)",
+    "q": "All newly appointed department heads must register _______ for the upcoming leadership seminar.",
+    "a": "themselves",
+    "choices": ["they", "them", "their", "themselves"],
+    "explain": "【考點：反身代名詞作為動詞受詞】當動作的發起者（主詞 All department heads）與動作的接受者為同一人/物時，受詞必須使用『反身代名詞 (themselves)』。register oneself 意為『報名/登記』。故選 (D)。"
+  },
+  {
+    "id": "g_pron_009",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "代名詞/限定詞 (one another / each other)",
+    "q": "The design team members collaborated closely with _______ to finish the promotional material before the deadline.",
+    "a": "one another",
+    "choices": ["one another", "each other's", "the other", "another"],
+    "explain": "【考點：相互代名詞 (one another)】介系詞 with 後面需要填入代名詞當受詞。one another 與 each other 皆表示『彼此 / 互相』，作為介系詞的受詞。c.f. each other's 為所有格；another 與 the other 語意不符。故選 (A)。"
+  },
+  {
+    "id": "g_pron_010",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "限定詞 (other vs. others)",
+    "q": "Some participants preferred the morning lecture, while _______ opted to attend the afternoon hands-on workshop.",
+    "a": "others",
+    "choices": ["other", "others", "another", "the other"],
+    "explain": "【考點：代名詞 some... others...】句型『Some... while others...』表示『有些人...而其他人則...』。others 是代名詞，獨立代表其他的人或物。other 為形容詞需接名詞；another 表單數；the other 表兩者中的另一個。故選 (B)。"
+  },
+  {
+    "id": "g_pron_011",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "不定代名詞 (anyone who)",
+    "q": "_______ interested in applying for the overseas transfer program should submit a formal application by Friday.",
+    "a": "Anyone",
+    "choices": ["Anyone", "Everyone", "Those", "Someone"],
+    "explain": "【考點：不定代名詞 Anyone (who is)】'Anyone interested in...' 為 'Anyone who is interested in...' 的省略（分詞修飾）。Anyone 指『任何人都...』，符合申請條件句的語意脈絡。Those 後常接複數或 who are。故選 (A)。"
+  },
+  {
+    "id": "g_pron_012",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "限定詞 (all vs. every)",
+    "q": "_______ submitted expense claims must include itemized store receipts to be eligible for full reimbursement.",
+    "a": "All",
+    "choices": ["All", "Every", "Each", "Either"],
+    "explain": "【考點：限定詞修飾複數名詞】空格後方的 claims 是『複數名詞』。All（所有的）後接複數名詞或不可數名詞。Every, Each, Either 後面皆必須接『單數名詞』。故選 (A)。"
+  },
+  {
+    "id": "g_pron_013",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "所有格形容詞",
+    "q": "The pharmaceutical company recently announced _______ plans to construct a state-of-the-art facility.",
+    "a": "its",
+    "choices": ["it", "its", "itself", "they"],
+    "explain": "【考點：所有格修飾名詞】空格修飾名詞 plans（計畫），需要填入『所有格』。主詞為單數公司 'The pharmaceutical company'，故使用單數代名詞所有格 its（它的）。注意 it's 是 it is 的縮寫。故選 (B)。"
+  },
+  {
+    "id": "g_pron_014",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "限定詞 (few / a few / little / a little)",
+    "q": "Unfortunately, _______ candidates demonstrated the advanced technical skills required for the senior engineering role.",
+    "a": "few",
+    "choices": ["few", "a few", "little", "a little"],
+    "explain": "【考點：數量限定詞 few (否定意味)】candidates 為『可數複數名詞』，排除修飾不可數的 little / a little。句首有 Unfortunately（不幸地），表示『幾乎沒有人（否定概念）』，故選擇帶有否定意味的 few。a few 表示『有一些（肯定概念）』。故選 (A)。"
+  },
+  {
+    "id": "g_pron_015",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "指示代名詞 (those who)",
+    "q": "The manager will award bonus gift certificates to _______ who exceeded their quarterly sales quotas.",
+    "a": "those",
+    "choices": ["them", "those", "they", "these"],
+    "explain": "【考點：代名詞片語 those who】'those who + 複數動詞' 意為『那些...的人們』，為多益極高頻句型。them 與 they 不能直接被 who 子句修飾。故選 (B)。"
+  },
+  {
+    "id": "g_pron_016",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "限定詞 (both vs. either)",
+    "q": "_______ of the proposed software solutions meet our security requirements, so we can choose either one.",
+    "a": "Both",
+    "choices": ["Both", "Neither", "Either", "Every"],
+    "explain": "【考點：限定詞 Both of...】後方動詞為複數型的 'meet'，且後半句提到『choose either one（選哪一個都行）』，說明兩者皆符合需求。Both of + 複數名詞 + 複數動詞（兩者都...）。Neither 表示兩者都不；Either / Every 搭配單數動詞。故選 (A)。"
+  },
+  {
+    "id": "g_pron_017",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "所有格代名詞 (of + 所有格代名詞)",
+    "q": "A former client of _______ recommended our law firm to the venture capital group.",
+    "a": "ours",
+    "choices": ["our", "us", "ours", "we"],
+    "explain": "【考點：雙重所有格 (of + 所有格代名詞)】'a/an + 名詞 + of + 所有格代名詞' 表示『...中的一個』。'a former client of ours' 相當於 'one of our former clients'（我們以前的客戶中的一位）。故選 (C)。"
+  },
+  {
+    "id": "g_pron_018",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "限定詞 (much vs. many)",
+    "q": "Due to strict confidentiality policies, not _______ information regarding the corporate merger was disclosed.",
+    "a": "much",
+    "choices": ["many", "much", "several", "few"],
+    "explain": "【考點：不可數名詞限定詞】information（資訊）為『不可數名詞』。修飾不可數名詞需使用 much。many, several, few 只能修飾可數複數名詞。故選 (B)。"
+  },
+  {
+    "id": "g_pron_019",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "代名詞主格",
+    "q": "After the board members evaluated the marketing strategy, _______ decided to approve the expanded budget.",
+    "a": "they",
+    "choices": ["they", "them", "their", "themselves"],
+    "explain": "【考點：主格代名詞】空格充當子句 '_______ decided to approve...' 的主詞，需要填入『主格代名詞』。先行詞為複數名詞 'the board members'，故選 they。故選 (A)。"
+  },
+  {
+    "id": "g_pron_020",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "限定詞 (the other)",
+    "q": "Of the two candidates interviewed for the managerial position, one had extensive experience while _______ had superior leadership skills.",
+    "a": "the other",
+    "choices": ["other", "another", "the other", "others"],
+    "explain": "【考點：兩者間的特指代名詞 (one... the other...)】句首明確指出限定在『兩者之中 (Of the two candidates)'，特定兩者中的第一個用 one，『剩下特定的那一個』必須用『the other』。故選 (C)。"
+  },
+  {
+    "id": "g_pron_021",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "所有格代名詞 (+N)",
+    "q": "All department managers must review _______ budget plans before submitting them to the director.",
+    "a": "their",
+    "choices": ["they", "them", "their", "themselves"],
+    "explain": "【考點：所有格代名詞】空格後有名詞短語 'budget plans（預算計畫）'，前面需要填入『所有格』來修飾名詞。their（他們的）為所有格。they 為主格；them 為受格；themselves 為反身代名詞。故選 (C)。"
+  },
+  {
+    "id": "g_pron_022",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "人稱代名詞受格",
+    "q": "Ms. Garcia will contact _______ by phone once the contract details are finalized.",
+    "a": "you",
+    "choices": ["you", "your", "yours", "yourself"],
+    "explain": "【考點：動詞受格】空格位於及物動詞 contact（聯絡）之後，需要填入『受格代名詞』作動詞的受詞。you 可作受格。your 為所有格；yours 為所有格代名詞；yourself 為反身代名詞。故選 (A)。"
+  },
+  {
+    "id": "g_pron_023",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "人稱代名詞主格",
+    "q": "Although Mr. Lee is very busy, _______ agreed to review the monthly report today.",
+    "a": "he",
+    "choices": ["he", "him", "his", "himself"],
+    "explain": "【考點：主格代名詞】空格位於主要子句動詞 agreed（同意）之前，作該子句的主詞，必須使用『主格代名詞』he（他）。him 為受格；his 為所有格；himself 為反身代名詞。故選 (A)。"
+  },
+  {
+    "id": "g_pron_024",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "反身代名詞 (by oneself)",
+    "q": "Because the assistant was ill, Ms. Davis had to prepare the entire report by _______.",
+    "a": "herself",
+    "choices": ["she", "her", "hers", "herself"],
+    "explain": "【考點：反身代名詞片語 by oneself】by + 反身代名詞 意為『獨自/靠自己』。句意為：『因為助理生病，Davis 女士必須自己一個人準備整份報告』，故填入 herself。故選 (D)。"
+  },
+  {
+    "id": "g_pron_025",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "所有格代名詞 (獨立所有格)",
+    "q": "Your presentation proposal looks complete, but I need a few more days to finish _______.",
+    "a": "mine",
+    "choices": ["my", "me", "mine", "myself"],
+    "explain": "【考點：所有格代名詞 (Possessive Pronoun)】mine 等於 my proposal，代替『所有格 + 名詞』，避免重複名詞。my 後面必須接名詞；me 為受格；myself 為反身代名詞。故選 (C)。"
+  },
+  {
+    "id": "g_pron_026",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "限定詞 (every/each + 單數名詞)",
+    "q": "_______ employee is required to attend the safety training session this Thursday.",
+    "a": "Every",
+    "choices": ["Every", "All", "Many", "Several"],
+    "explain": "【考點：限定詞 + 單數名詞】空格後的名詞 employee 是『單數名詞』，且動詞為單數 is。Every（每一個）接單數可數名詞；All, Many, Several 後面接複數名詞。故選 (A)。"
+  },
+  {
+    "id": "g_pron_027",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "限定詞 (all + 複數名詞)",
+    "q": "_______ participants must register at the reception desk upon arriving at the venue.",
+    "a": "All",
+    "choices": ["All", "Each", "Every", "One"],
+    "explain": "【考點：限定詞 + 複數名詞】空格後的名詞 participants 為『複數名詞』。All（所有的）可接複數可數名詞。Each, Every, One 後面接單數名詞。故選 (A)。"
+  },
+  {
+    "id": "g_pron_028",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "限定詞 (much vs. many)",
+    "q": "We do not have _______ time left to prepare the conference room before guests arrive.",
+    "a": "much",
+    "choices": ["much", "many", "few", "several"],
+    "explain": "【考點：不可數名詞限定詞】time（時間）在句中為『不可數名詞』。much 用於修飾不可數名詞；many, few, several 用於修飾複數可數名詞。故選 (A)。"
+  },
+  {
+    "id": "g_pron_029",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "限定詞 (many + 複數名詞)",
+    "q": "There are _______ applicants waiting outside the interview room for their turn.",
+    "a": "many",
+    "choices": ["many", "much", "little", "each"],
+    "explain": "【考點：複數可數名詞限定詞】applicants（應徵者）為『複數可數名詞』，且動詞為 are。many 修飾複數可數名詞；much 與 little 用於不可數名詞；each 後接單數名詞。故選 (A)。"
+  },
+  {
+    "id": "g_pron_030",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "不定代名詞 (another + 單數名詞)",
+    "q": "If you are not satisfied with this desktop computer, we can offer you _______ model.",
+    "a": "another",
+    "choices": ["another", "other", "others", "the other"],
+    "explain": "【考點：不定代名詞/限定詞 another】another 意為『另一個』，後面接『單數可數名詞 (model)』。other 後面常接複數名詞；others 為代名詞後面不接名詞。故選 (A)。"
+  },
+  {
+    "id": "g_pron_031",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "限定詞 (other + 複數名詞)",
+    "q": "Some members preferred the original plan, while _______ delegates favored the new option.",
+    "a": "other",
+    "choices": ["other", "another", "others", "one"],
+    "explain": "【考點：限定詞 other + 複數名詞】空格後為複數名詞 delegates（代表們）。other 可以作限定詞修飾『複數可數名詞』。another 後接單數名詞；others 為代名詞不能直接修飾名詞。故選 (A)。"
+  },
+  {
+    "id": "g_pron_032",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "不定代名詞 (others 獨立使用)",
+    "q": "Some employees chose to work from home today, but _______ decided to come to the office.",
+    "a": "others",
+    "choices": ["others", "other", "another", "the other"],
+    "explain": "【考點：不定代名詞 some... others...】句型『Some... others...（有些人...其他人...）』。others 本身即為複數代名詞（等於 other employees），後方無名詞，作子句主詞。故選 (A)。"
+  },
+  {
+    "id": "g_pron_033",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "指示代名詞 (that / those)",
+    "q": "The customer service policies of our branch are similar to _______ of the headquarters.",
+    "a": "those",
+    "choices": ["those", "that", "this", "them"],
+    "explain": "【考點：指示代名詞替代前方名詞】空格用來替代前方已出現的複數名詞 'policies'，避免重複。複數名詞替代用 those（those of...）；若是單數名詞則用 that。故選 (A)。"
+  },
+  {
+    "id": "g_pron_034",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "反身代名詞 (強調主詞)",
+    "q": "The company CEO _______ attended the opening ceremony of the new branch.",
+    "a": "himself",
+    "choices": ["himself", "he", "his", "him"],
+    "explain": "【考點：反身代名詞強調用法】反身代名詞放置於主詞 (The company CEO) 後方，用來『強調主詞本身』，意為『CEO 親自/本人』。故選 (A)。"
+  },
+  {
+    "id": "g_pron_035",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "限定詞 (little vs. few)",
+    "q": "There is _______ hope of finishing the project on time without additional funding.",
+    "a": "little",
+    "choices": ["little", "few", "many", "several"],
+    "explain": "【考點：不可數名詞限定詞 little】hope（希望）為『不可數名詞』。little 意為『幾乎沒有』，修飾不可數名詞；few, many, several 皆修飾複數可數名詞。故選 (A)。"
+  },
+  {
+    "id": "g_pron_036",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "限定詞 (few vs. little)",
+    "q": "Only a _______ tickets remain available for tomorrow night's theater performance.",
+    "a": "few",
+    "choices": ["few", "little", "much", "each"],
+    "explain": "【考點：可數名詞限定詞 a few】tickets（門票）為『複數可數名詞』。a few 意為『一些/少數』，修飾複數可數名詞；little 與 much 用於不可數名詞。故選 (A)。"
+  },
+  {
+    "id": "g_pron_037",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "所有格代名詞 (+N)",
+    "q": "Mr. Roberts asked the technician to check _______ computer for potential network errors.",
+    "a": "his",
+    "choices": ["his", "him", "he", "himself"],
+    "explain": "【考點：所有格代名詞】空格後有名詞 computer，前面需填入『所有格』his（他的）來修飾該名詞。him 為受格；he 為主格；himself 為反身代名詞。故選 (A)。"
+  },
+  {
+    "id": "g_pron_038",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "介系詞受格",
+    "q": "The manager divided the urgent assignment between Sarah and _______.",
+    "a": "me",
+    "choices": ["me", "I", "my", "mine"],
+    "explain": "【考點：介系詞受格】between 是介系詞，其後連接的受詞（between A and B）必須使用『受格』。me 為第一人稱受格。I 為主格；my 為所有格；mine 為所有格代名詞。故選 (A)。"
+  },
+  {
+    "id": "g_pron_039",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "數量片語 (most of the + N)",
+    "q": "_______ of the staff members have already completed the annual compliance questionnaire.",
+    "a": "Most",
+    "choices": ["Most", "Almost", "Every", "Much"],
+    "explain": "【考點：數量代名詞 Most of】 Most of the + 複數名詞 表示『大部分的...』，作句子的主詞。Almost 為副詞不能直接接 of；Every 不能直接接 of（需為 Every one of）；Much 用於不可數名詞。故選 (A)。"
+  },
+  {
+    "id": "g_pron_040",
+    "cat": "代名詞與限定詞",
+    "sub_cat": "相互代名詞 (each other)",
+    "q": "The two department leaders frequently assist _______ with difficult customer inquiries.",
+    "a": "each other",
+    "choices": ["each other", "one another", "themselves", "the other"],
+    "explain": "【考點：相互代名詞 each other】each other 意為『彼此/互相』，通常用於『兩者之間』；one another 用於三者或以上。句中明確提及 'The two department leaders'，故選 each other。故選 (A)。"
+  },
+  {
+    "id": "g_part_003",
+    "cat": "不定詞與分詞",
+    "sub_cat": "分詞修飾名詞 (V-ing 主動/進行)",
+    "q": "The rapid development of _______ market trends requires business leaders to adjust their operational strategies quickly.",
+    "a": "emerging",
+    "choices": ["emerge", "emerged", "emerging", "emergence"],
+    "explain": "【考點：現在分詞作形容詞】空格修飾後方的名詞 market trends（市場趨勢）。趨勢是『正在興起的/新興的』，屬於主動與進行概念，故使用現在分詞作形容詞『emerging（新興的）』。故選 (C)。"
+  },
+  {
+    "id": "g_part_004",
+    "cat": "不定詞與分詞",
+    "sub_cat": "分詞修飾名詞 (V-ed 被動/完成)",
+    "q": "Clients must submit all _______ paperwork to the human resources department prior to starting their orientation.",
+    "a": "required",
+    "choices": ["require", "requiring", "required", "requirement"],
+    "explain": "【考點：過去分詞作形容詞】空格修飾後方的名詞 paperwork（文件）。文件是『被要求的』，屬於被動概念，故使用過去分詞作形容詞『required（被要求的/必要的）』。故選 (C)。"
+  },
+  {
+    "id": "g_part_005",
+    "cat": "不定詞與分詞",
+    "sub_cat": "分詞構句 (現在分詞 V-ing)",
+    "q": "_______ the potential risks of the international investment, the board decided to proceed with caution.",
+    "a": "Recognizing",
+    "choices": ["Recognize", "Recognized", "Recognizing", "Recognition"],
+    "explain": "【考點：分詞構句（主動語態）】句首省略了連接詞與相同的主詞 'the board'。董事會與動作 'recognize（意識到）' 之間為主動關係，故使用現在分詞 'Recognizing' 開頭引導分詞構句。故選 (C)。"
+  },
+  {
+    "id": "g_part_006",
+    "cat": "不定詞與分詞",
+    "sub_cat": "分詞構句 (過去分詞 V-ed)",
+    "q": "_______ in a conveniently located commercial building, the new office offers easy access to public transit.",
+    "a": "Situated",
+    "choices": ["Situate", "Situating", "Situated", "Situation"],
+    "explain": "【考點：分詞構句（被動語態）】主句主詞為 'the new office（新辦公室）'。辦公室與動詞 situate（使位於）之間為被動關係（辦公室被座落於...），故省略 'Being' 後保留過去分詞 'Situated'。故選 (C)。"
+  },
+  {
+    "id": "g_part_007",
+    "cat": "不定詞與分詞",
+    "sub_cat": "動名詞作主詞",
+    "q": "_______ high-quality customer relationships is crucial for maintaining long-term business success.",
+    "a": "Building",
+    "choices": ["Build", "Built", "Building", "Builder"],
+    "explain": "【考點：動名詞作主詞】空格位於句首當主詞，且後面帶有受詞 'relationships' 與單數動詞 'is'。動詞需轉化為動名詞（V-ing）型態當作主詞，即 'Building... is...'。故選 (C)。"
+  },
+  {
+    "id": "g_part_008",
+    "cat": "不定詞與分詞",
+    "sub_cat": "介系詞後接動名詞",
+    "q": "Before _______ the finalized purchase contract, Mr. Tanaka requested a minor adjustment to the payment schedule.",
+    "a": "signing",
+    "choices": ["sign", "signed", "signing", "signature"],
+    "explain": "【考點：介系詞後接動名詞】Before 在此作為介系詞使用，後方若接動作，必須使用『動名詞 (V-ing)』當介系詞的受詞。故選 (C)。"
+  },
+  {
+    "id": "g_part_009",
+    "cat": "不定詞與分詞",
+    "sub_cat": "不定詞作形容詞修飾名詞",
+    "q": "The firm has implemented a new automated system _______ the time needed to generate monthly payroll reports.",
+    "a": "to reduce",
+    "choices": ["reduce", "reduced", "to reduce", "reduction"],
+    "explain": "【考點：不定詞表目的 / 修飾名詞】句意為『導入新系統以減少（to reduce）生成月薪報告所需的時間』。不定詞 (to + V) 在此修飾 system 或作為目的補語。故選 (C)。"
+  },
+  {
+    "id": "g_part_010",
+    "cat": "不定詞與分詞",
+    "sub_cat": "固定動詞搭配不定詞 (agree/plan/decide to V)",
+    "q": "The committee members unanimously agreed _______ the implementation of the revised safety guidelines.",
+    "a": "to postpone",
+    "choices": ["postpone", "postponing", "to postpone", "postponement"],
+    "explain": "【考點：動詞受詞搭配不定詞】動詞 agree（同意）後面必須接『不定詞 (to + V)』當作受詞 (agree to do something)。故選 (C)。"
+  },
+  {
+    "id": "g_part_011",
+    "cat": "不定詞與分詞",
+    "sub_cat": "固定動詞搭配動名詞 (avoid/consider/mind V-ing)",
+    "q": "To prevent server overload during peak hours, management recommends _______ large data back-ups overnight.",
+    "a": "conducting",
+    "choices": ["conduct", "to conduct", "conducting", "conducted"],
+    "explain": "【考點：動詞受詞搭配動名詞】動詞 recommend（建議）後面若直接接動詞當受詞，必須使用『動名詞 (V-ing)』(recommend doing something)。故選 (C)。"
+  },
+  {
+    "id": "g_part_012",
+    "cat": "不定詞與分詞",
+    "sub_cat": "情緒分詞 (修飾人 vs. 物)",
+    "q": "The audience was completely _______ by the keynote speaker's insightful presentation on artificial intelligence.",
+    "a": "fascinated",
+    "choices": ["fascinate", "fascinating", "fascinated", "fascination"],
+    "explain": "【考點：情緒分詞】修飾『人 (The audience)』感覺到某種情緒時，使用過去分詞 (V-ed)；修飾『物/事物』本身令人感到如何時，用現在分詞 (V-ing)。聽眾是被深深吸引（fascinated）。故選 (C)。"
+  },
+  {
+    "id": "g_part_013",
+    "cat": "不定詞與分詞",
+    "sub_cat": "使役動詞與受詞補語 (make/have/let)",
+    "q": "The managing director had the administrative assistant _______ copies of the annual report for all meeting attendees.",
+    "a": "make",
+    "choices": ["make", "making", "to make", "made"],
+    "explain": "【考點：使役動詞用法】使役動詞 have + 人 (assistant) + 原形動詞 (make)，表示『讓/叫某人做某事』。故選 (A)。"
+  },
+  {
+    "id": "g_part_014",
+    "cat": "不定詞與分詞",
+    "sub_cat": "感官與觀察動詞受詞補語 (find/keep + O + Adj/Participle)",
+    "q": "The auditing team found the financial ledgers _______ accurate and well-organized.",
+    "a": "to be",
+    "choices": ["to be", "being", "been", "be"],
+    "explain": "【考點：find + O + (to be) Adj】find 的受詞補語結構為 'find A to be B' 或 'find A + B (形容詞)'，表示『發現 A 是 B』。故選 (A)。"
+  },
+  {
+    "id": "g_part_015",
+    "cat": "不定詞與分詞",
+    "sub_cat": "虛主詞/真主詞結構 (It is... to V)",
+    "q": "It is essential for all lab personnel _______ safety goggles and protective coats at all times.",
+    "a": "to wear",
+    "choices": ["wear", "wearing", "to wear", "wore"],
+    "explain": "【考點：虛主詞句型 It is + Adj + for sb + to V】It 為形式主詞（虛主詞），真正的受詞/主詞為後方的『不定詞短語 (to wear...)』。故選 (C)。"
+  },
+  {
+    "id": "g_part_016",
+    "cat": "不定詞與分詞",
+    "sub_cat": "情緒分詞修飾名詞",
+    "q": "The research team presented an _______ summary of the survey results during the quarterly board meeting.",
+    "a": "interesting",
+    "choices": ["interest", "interested", "interesting", "interestingly"],
+    "explain": "【考點：情緒分詞修飾事物】修飾後方的名詞 'summary（摘要）'，摘要本身是『令人感興趣的』，屬於事物特質，故使用現在分詞 'interesting' 作形容詞。故選 (C)。"
+  },
+  {
+    "id": "g_part_017",
+    "cat": "不定詞與分詞",
+    "sub_cat": "被動不定詞 (to be p.p.)",
+    "q": "The confidential documents need _______ in a fireproof safe before the office closes for the weekend.",
+    "a": "to be stored",
+    "choices": ["store", "storing", "to be stored", "stored"],
+    "explain": "【考點：被動不定詞】主詞 documents（文件）與 store（存放）之間為被動關係，意為『文件需要被存放』，動詞 need 後面使用被動不定詞 'to be + p.p. (to be stored)'。故選 (C)。"
+  },
+  {
+    "id": "g_part_018",
+    "cat": "不定詞與分詞",
+    "sub_cat": "獨立分詞片語 (weather permitting / generally speaking)",
+    "q": "_______ speaking, products manufactured in this automated facility undergo three rounds of quality testing.",
+    "a": "Generally",
+    "choices": ["General", "Generally", "Generalize", "Generality"],
+    "explain": "【考點：獨立分詞慣用語 (Generally speaking)】'Generally speaking' 為固定慣用片語，意為『一般而言 / 總的來說』。故選 (B)。"
+  },
+  {
+    "id": "g_part_019",
+    "cat": "不定詞與分詞",
+    "sub_cat": "動詞後接雙重受詞/補語 (allow sb to V)",
+    "q": "The upgraded software permits staff members _______ client records from remote locations securely.",
+    "a": "to access",
+    "choices": ["access", "accessing", "to access", "accessed"],
+    "explain": "【考點：permit / allow sb + to V】permit/allow + 受詞 + 不定詞 (to + V)，意為『允許某人做某事』。故選 (C)。"
+  },
+  {
+    "id": "g_part_020",
+    "cat": "不定詞與分詞",
+    "sub_cat": "形容詞搭配不定詞 (be likely to V)",
+    "q": "Due to ongoing market volatility, raw material prices are likely _______ significantly over the next few months.",
+    "a": "to fluctuate",
+    "choices": ["fluctuate", "fluctuating", "to fluctuate", "fluctuation"],
+    "explain": "【考點：be likely to + V】be likely to + 原形動詞為多益極高頻片語，意為『很有可能做/發生某事』。故選 (C)。"
+  },
+  {
+    "id": "g_part_021",
+    "cat": "不定詞與分詞",
+    "sub_cat": "不定詞 (動詞 + to V)",
+    "q": "The management team decided _______ the proposal for opening a new regional office.",
+    "a": "to approve",
+    "choices": ["to approve", "approving", "approved", "approve"],
+    "explain": "【考點：及物動詞 + 不定詞】decide（決定）後面必須接『不定詞 (to + V)』作受詞。decide to approve 意為『決定批准』。故選 (A)。"
+  },
+  {
+    "id": "g_part_022",
+    "cat": "不定詞與分詞",
+    "sub_cat": "動名詞 (動詞 + V-ing)",
+    "q": "Mr. Chen finished _______ the quarterly sales report right before the weekly meeting started.",
+    "a": "preparing",
+    "choices": ["to prepare", "preparing", "prepare", "prepared"],
+    "explain": "【考點：及物動詞 + 動名詞】finish（完成）後面必須接『動名詞 (V-ing)』作受詞。finish preparing 意為『完成準備』。故選 (B)。"
+  },
+  {
+    "id": "g_part_023",
+    "cat": "不定詞與分詞",
+    "sub_cat": "目的副詞 (to + V)",
+    "q": "The company launched a marketing campaign _______ new customers in young demographics.",
+    "a": "to attract",
+    "choices": ["to attract", "attracted", "attract", "attraction"],
+    "explain": "【考點：不定詞表目的】不定詞片語 (to + V) 可作副詞，用來表示『目的（為了要...）』。句意為：『公司推出行銷活動以吸引新客戶』。故選 (A)。"
+  },
+  {
+    "id": "g_part_024",
+    "cat": "不定詞與分詞",
+    "sub_cat": "介系詞 + 動名詞 (V-ing)",
+    "q": "Before _______ the factory equipment, technicians must put on protective gloves.",
+    "a": "operating",
+    "choices": ["operate", "operated", "operating", "to operate"],
+    "explain": "【考點：介系詞後接動名詞】before 在此作介系詞，後面接動詞時必須改為『動名詞 (V-ing)』。operating 為正確形式。故選 (C)。"
+  },
+  {
+    "id": "g_part_025",
+    "cat": "不定詞與分詞",
+    "sub_cat": "情緒分詞 (-ed 表感到)",
+    "q": "All the participants were extremely _______ in the presentation about environmental sustainability.",
+    "a": "interested",
+    "choices": ["interest", "interesting", "interested", "interests"],
+    "explain": "【考點：情緒分詞】修飾『人 (participants)』感受到的情緒時，需使用被動姿態的『過去分詞 (V-ed)』。be interested in 意為『對...感興趣』。故選 (C)。"
+  },
+  {
+    "id": "g_part_026",
+    "cat": "不定詞與分詞",
+    "sub_cat": "情緒分詞 (-ing 表令人...)",
+    "q": "The keynote speaker gave an _______ talk about recent trends in artificial intelligence.",
+    "a": "inspiring",
+    "choices": ["inspired", "inspiring", "inspire", "inspiration"],
+    "explain": "【考點：情緒分詞】修飾『物 (talk/演講)』具備的特質（令人感到鼓舞的）時，需使用主動/特質的『現在分詞 (V-ing)』。inspiring talk 意為『令人鼓舞的演講』。故選 (B)。"
+  },
+  {
+    "id": "g_part_027",
+    "cat": "不定詞與分詞",
+    "sub_cat": "不定詞 (SVO + to V)",
+    "q": "The supervisor reminded the staff _______ their timesheets before the end of the day.",
+    "a": "to submit",
+    "choices": ["submit", "submitting", "to submit", "submitted"],
+    "explain": "【考點：remind + O + to V】remind 人 to V（提醒某人去做某事）為固定受詞補語結構。故選 (C)。"
+  },
+  {
+    "id": "g_part_028",
+    "cat": "不定詞與分詞",
+    "sub_cat": "動名詞 (動詞 + V-ing)",
+    "q": "To avoid _______ errors, please re-read the customer invoice carefully before mailing it.",
+    "a": "making",
+    "choices": ["making", "to make", "make", "made"],
+    "explain": "【考點：及物動詞 + 動名詞】avoid（避免）後面固定接『動名詞 (V-ing)』作受詞。avoid making errors 意為『避免犯錯』。故選 (A)。"
+  },
+  {
+    "id": "g_part_029",
+    "cat": "不定詞與分詞",
+    "sub_cat": "分詞作形容詞 (過去分詞被動)",
+    "q": "Please return the _______ signed document to the legal department by Friday.",
+    "a": "signed",
+    "choices": ["sign", "signing", "signed", "signature"],
+    "explain": "【考點：分詞作形容詞】修飾名詞 document（文件）。文件是『被簽署』的，具有被動概念，故使用過去分詞 signed 作形容詞修飾 document。故選 (C)。"
+  },
+  {
+    "id": "g_part_030",
+    "cat": "不定詞與分詞",
+    "sub_cat": "分詞作形容詞 (現在分詞主動)",
+    "q": "The company needs to find new strategies to support its _______ business demands.",
+    "a": "growing",
+    "choices": ["growing", "grown", "grow", "growth"],
+    "explain": "【考點：分詞作形容詞】修飾名詞 demands（需求）。表示持續進行與主動狀態（成長中的需求），使用現在分詞 growing 作形容詞。故選 (A)。"
+  },
+  {
+    "id": "g_part_031",
+    "cat": "不定詞與分詞",
+    "sub_cat": "不定詞 (動詞 + to V)",
+    "q": "The airline promised _______ extra flights during the upcoming holiday peak season.",
+    "a": "to provide",
+    "choices": ["to provide", "providing", "provided", "provide"],
+    "explain": "【考點：及物動詞 + 不定詞】promise（承諾/答應）後面固定接『不定詞 (to + V)』作受詞。promise to provide 意為『承諾提供』。故選 (A)。"
+  },
+  {
+    "id": "g_part_032",
+    "cat": "不定詞與分詞",
+    "sub_cat": "動名詞 (動詞 + V-ing)",
+    "q": "We should consider _______ a professional consultant to handle the tax audit.",
+    "a": "hiring",
+    "choices": ["to hire", "hiring", "hire", "hired"],
+    "explain": "【考點：及物動詞 + 動名詞】consider（考慮）後面固定接『動名詞 (V-ing)』作受詞。consider hiring 意為『考慮聘用』。故選 (B)。"
+  },
+  {
+    "id": "g_part_033",
+    "cat": "不定詞與分詞",
+    "sub_cat": "不定詞 (SVO + to V)",
+    "q": "The new manager expects all team members _______ the safety guidelines strictly.",
+    "a": "to follow",
+    "choices": ["to follow", "following", "follow", "followed"],
+    "explain": "【考點：expect + O + to V】expect（期望/要求）句型為 expect + 受詞 + to V（期望某人做某事）。故選 (A)。"
+  },
+  {
+    "id": "g_part_034",
+    "cat": "不定詞與分詞",
+    "sub_cat": "情緒分詞 (-ing 表令人...)",
+    "q": "The quarterly sales figures were very _______ to the board of directors.",
+    "a": "encouraging",
+    "choices": ["encouraging", "encouraged", "encourage", "encouragement"],
+    "explain": "【考點：情緒分詞】主詞為『sales figures（銷售數字/物）』，表達該事物具備的特點（令人振奮的），故選現在分詞 encouraging。故選 (A)。"
+  },
+  {
+    "id": "g_part_035",
+    "cat": "不定詞與分詞",
+    "sub_cat": "介系詞 + 動名詞 (V-ing)",
+    "q": "After _______ the budget with the financial coordinator, Ms. Lee submitted the final expense form.",
+    "a": "discussing",
+    "choices": ["discuss", "discussing", "discussed", "to discuss"],
+    "explain": "【考點：介系詞後接動名詞】After 在此作介系詞，後面必須接『動名詞 (V-ing)』作介系詞受詞。故選 (B)。"
+  },
+  {
+    "id": "g_part_036",
+    "cat": "不定詞與分詞",
+    "sub_cat": "不定詞 (動詞 + to V)",
+    "q": "The engineering team offered _______ the technical issues at no extra cost.",
+    "a": "to fix",
+    "choices": ["to fix", "fixing", "fixed", "fix"],
+    "explain": "【考點：及物動詞 + 不定詞】offer（主動提出/提供）後面固定接『不定詞 (to + V)』。offer to fix 意為『主動提出要修復』。故選 (A)。"
+  },
+  {
+    "id": "g_part_037",
+    "cat": "不定詞與分詞",
+    "sub_cat": "形容詞後接不定詞 (be ready to V)",
+    "q": "The factory workers are ready _______ the assembly line as soon as raw materials arrive.",
+    "a": "to start",
+    "choices": ["to start", "starting", "started", "start"],
+    "explain": "【考點：be ready to V】be ready + to V（準備好去做某事）為常見固定搭配，後面接原形動詞。故選 (A)。"
+  },
+  {
+    "id": "g_part_038",
+    "cat": "不定詞與分詞",
+    "sub_cat": "分詞作形容詞 (過去分詞)",
+    "q": "All _______ products can be replaced free of charge within thirty days of purchase.",
+    "a": "damaged",
+    "choices": ["damaged", "damaging", "damage", "damages"],
+    "explain": "【考點：分詞作形容詞】修飾 products（產品）。產品是被損壞的（被動概念），因此使用過去分詞 damaged。damaged products 意為『受損產品』。故選 (A)。"
+  },
+  {
+    "id": "g_part_039",
+    "cat": "不定詞與分詞",
+    "sub_cat": "不定詞 (SVO + to V)",
+    "q": "The IT team allowed staff _______ their personal laptops to the company network.",
+    "a": "to connect",
+    "choices": ["to connect", "connecting", "connect", "connected"],
+    "explain": "【考點：allow + O + to V】allow（允許）句型為 allow + 受詞 + to V（允許某人做某事）。故選 (A)。"
+  },
+  {
+    "id": "g_part_040",
+    "cat": "不定詞與分詞",
+    "sub_cat": "動名詞 (介系詞片語 thank for + V-ing)",
+    "q": "Thank you for _______ us with your valuable feedback regarding our software update.",
+    "a": "providing",
+    "choices": ["providing", "to provide", "provide", "provided"],
+    "explain": "【考點：介系詞 + 動名詞】thank you for... 中 for 是介系詞，後面必須接『動名詞 (V-ing)』。providing 為正確答案。故選 (A)。"
   }
 ]
