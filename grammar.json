@@ -1885,7 +1885,7 @@
     "cat": "時態與主被動",
     "sub_cat": "現在完成式被動態 (has/have been + p.p.)",
     "q": "Several new features _______ to the software application since last month.",
-    "a": "added",
+    "a": "have been added",
     "choices": ["have been added", "added", "are adding", "will add"],
     "explain": "【考點：現在完成式被動態與 since】句尾有 since last month（自從上個月以來），需用現在完成式；且主詞 features（功能）與 add（新增）為被動關係（功能被新增），選 have been added。故選 (B)。"
   },
